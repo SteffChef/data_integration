@@ -1,0 +1,981 @@
+Animal ID,Animal Name
+0,Squirrelfish
+1,Groupers
+2,Sea turtles
+3,Trumpetfish
+4,Congers
+5,Barracudas
+6,Eagle rays
+7,Nurse sharks
+8,Saddleback fish
+9,Angelfish
+10,Parrotfish
+11,Boxfish
+12,Damselfish
+13,Porgies
+14,Soft corals
+15,Goatfish
+16,Cuttlefish
+17,Jackfish
+18,Pufferfish
+19,Snapper
+20,Scorpionfish
+21,Needlefish
+22,Tethys fish
+23,Sea slugs
+24,Chaetonotids
+25,Horseshoe crabs
+26,Requiem sharks
+27,Flatfish
+28,Stingrays
+29,Perch family
+30,Lobster
+31,Cod family
+32,Cancer crabs
+33,Spider crabs
+34,Sponges
+35,Luidia
+36,Eels
+37,Catsharks
+38,Sturgeons
+39,Cichlids
+40,Thresher sharks
+41,Surgeonfish
+42,Elapids
+43,Seals
+44,Wrasses
+45,Flounders
+46,Grunts
+47,Octopuses
+48,Sculpins
+49,King crabs
+50,Gobies
+51,Mussels
+52,Eelpouts
+53,Moon jellyfish
+54,Sand stars
+55,Sunfish
+56,Dreissenid mussels
+57,Drums
+58,Megalodon
+59,Catfish
+60,Squid
+61,Carpet sharks
+62,Lobsters
+63,Starfish
+64,Sand tiger sharks
+65,Soles
+66,Pinnae
+67,Sea cucumbers
+68,Sea anemones
+69,Weever fish
+70,Fanworms
+71,Cardinalfish
+72,Pike
+73,Hermit crabs
+74,Wolf fish
+75,Pipefish
+76,Butterflyfish
+77,Carps and minnows
+78,Moray eels
+79,Rockfish
+80,Heart urchins
+81,Squat lobsters
+82,Scallops
+83,Whale sharks
+84,Cods
+85,Skates
+86,Saber-toothed blennies
+87,Triggerfish
+88,Leatherjacket fish
+89,Eel blennies
+90,Swimming crabs
+91,Box crabs
+92,Toadfish
+93,Anglerfish
+94,Remoras
+95,Calycid fishes
+96,Rhinid fish
+97,Hammerhead sharks
+98,African tetras
+99,Clionid sponges
+100,Mullets
+101,Seahorse family
+102,Metridid fish
+103,Crawfish
+104,Dorid nudibranchs
+105,Bullhead sharks
+106,Pistol shrimp
+107,Snapping shrimp
+108,Sea sponges
+109,Blennies
+110,Limpets
+111,Redfishes
+112,Star corals
+113,Dendronotid nudibranchs
+114,Portuguese man o' war
+115,Fireworms
+116,Pencilfish
+117,Cockatoo cuttlefish
+118,Mantis shrimp
+119,Fire corals
+120,Sixgill sharks
+121,Glassfish
+122,Jawfish
+123,Sandperch
+124,Pencil fish
+125,Flatheads
+126,Tarpons
+127,Gorgonian corals
+128,Lizardfish
+129,Bonefish
+130,Mackerel
+131,Frogfishes
+132,Prawns
+133,Oweniid worms
+134,Brain corals
+135,Sea urchins
+136,Mud crabs
+137,Oceanic whitetip sharks
+138,Chimeras
+139,Coral trout
+140,Cassididae
+141,Moon snails
+142,Brittle stars
+143,Basslets
+144,Octopus
+145,Zoanthids
+146,Sea fans
+147,Cleaner shrimp
+148,Discosoma corals
+149,Cowries
+150,Serpulid worms
+151,Eledonid fish
+152,Cow sharks
+153,Surfperches
+154,Paddlefish
+155,Parachute fish
+156,Sweeper fish
+157,Stonefish
+158,Irciniid sponges
+159,Dottybacks
+160,Round stingrays
+161,Bobtail squid
+162,Round rays
+163,Dolphins
+164,Rabbitfish
+165,Organ-pipe corals
+166,Cockles
+167,Triplefin blennies
+168,Herring
+169,Frogfish
+170,Guitarfish
+171,Eelgrass family
+172,Flatworms
+173,Clingfish
+174,Staghorn corals
+175,Sticklebacks
+176,Numbfish
+177,Basket starfish
+178,Pricklebacks
+179,Cusk eels
+180,Antarctic rockcods
+181,Sunflower stars
+182,Firefly squids
+183,Longfin
+184,Lanternsharks
+185,Lumpfish
+186,Houndsharks
+187,Abalone
+188,Eared seals
+189,Rocklings
+190,Sand lances
+191,Crown-of-thorns starfish
+192,Salmon family
+193,Corallimorphs
+194,Batfish
+195,Pelicans
+196,Ghost pipefish
+197,Janolids
+198,Feather stars
+199,Dragonets
+200,Mushroom corals
+201,Manatees
+202,Razor clams
+203,Dromiid crabs
+204,Blenny
+205,Shrimps
+206,Basket stars
+207,Pandalid shrimp
+208,Coral reef fish
+209,Black corals
+210,Whelks
+211,Emydid turtles
+212,Ophidiasteridae
+213,Sea spiders
+214,Bamboo sharks
+215,Lizardfishes
+216,Dogfish
+217,Stargazers
+218,Blanket octopuses
+219,Tube-dwelling anemones
+220,Deepsea smelts
+221,Schizopids
+222,Snailfish
+223,Glaucostegid fishes
+224,Sea stars
+225,Clam shrimp
+226,Dysideid sponges
+227,Biemnid fish
+228,Sawfish
+229,Angel sharks
+230,Silversides
+231,Electric rays
+232,Chondrosidae
+233,Porcelain crabs
+234,Tripedaliid jellyfish
+235,Penaeid shrimp
+236,Terebellid worms
+237,Flying fish
+238,Stony corals
+239,Golfish.
+240,John dory
+241,Flying gurnards
+242,Upside-down jellyfish
+243,Sergestid shrimp
+244,Cepheid fish
+245,Land hermit crabs
+246,Oysters
+247,Stylasteridae
+248,Mitrocomids
+249,Carpiliid crabs
+250,Dendrophylliid corals
+251,Mackerel sharks
+252,Berycids
+253,Carpet anemones
+254,Seahorses
+255,Sea squirts
+256,Sea hares
+257,Mola fish
+258,Aegirids
+259,Cup corals
+260,Leptastrea fish
+261,Opah
+262,Sea pens
+263,Spirastrellid sponges
+264,Crambe fish
+265,Bitterlings
+266,Sleeper gobies
+267,Glass squids
+268,Tree dorids
+269,Plagusiid crabs
+270,Tropical anglerfish
+271,Samarid fish
+272,Dwarf sculpins
+273,Emperor fish
+274,Eel-tailed catfish
+275,Lanternfish
+276,Kelp
+277,Cormorants
+278,Myrrhine fish
+279,Bolinopsid fishes
+280,Hawkfish
+281,Carpet corals
+282,Nereid worms
+283,Firefish
+284,Surgeonfishes
+285,Starfishes
+286,Squillids
+287,Bubblers
+288,Corynid fish
+289,Ranafish
+290,Pacu
+291,Abylid fish
+292,Rorquals
+293,Bigeyes
+294,Lobophyllia corals
+295,Soleidae
+296,Glass sponges
+297,Synaptids
+298,Coral fish
+299,Clathrinid eels
+300,Bonelliid rays
+301,Characins
+302,Sarcophagidae
+303,Acorn barnacles
+304,Shark catfish
+305,Skeleton shrimp
+306,Polybiid eels
+307,Bullhead sculpins
+308,Pataecid fish
+309,Sea robins
+310,Antarctic cod
+311,Glycerid worms
+312,Snook
+313,Crabs
+314,Suckers
+315,Dugongs
+316,Silkfish
+317,Nautilus
+318,Halfbeaks
+319,Billfish
+320,Dogfish sharks
+321,Amphipods
+322,Frigatebirds
+323,Anchovies
+324,Iguanas
+325,Boobies and gannets
+326,Cycloteuthid squids
+327,Pandeid shrimps
+328,Asteropseid fish
+329,Bluebottle jellyfish
+330,Wrasse
+331,Sea anemone fish
+332,Rocketfishes
+333,Porpoises
+334,Syconidae
+335,Sand stargazers
+336,Codium
+337,Chalinid sponges
+338,Mycalid sponges
+339,Argonauts
+340,Boxer crabs
+341,Zebra sharks
+342,Mushroom jellyfish
+343,Ianthellid sponges
+344,Green algae
+345,Gulls
+346,Ellisellid corals
+347,Rhizangiid fishes
+348,Thornyheads
+349,Heteractis anemones
+350,Ghost crabs
+351,Moonyfish
+352,Lates
+353,Oplophid shrimp
+354,Tilefish
+355,Scorpionfishes
+356,Venus clams
+357,Flatfishes
+358,Funnel-web spiders
+359,Callanthias
+360,Darwin's fishes
+361,Hakes
+362,Bichir
+363,Tigerfish
+364,Freshwater mussels
+365,Icefish
+366,Gracilaria
+367,Pillow sponges
+368,Feather duster worms
+369,Tonguefish
+370,Chondrichthyes
+371,Ribbonfish
+372,Lactariid fish
+373,Coelacanths
+374,Penguins
+375,Bightfish
+376,Bopyrid isopods
+377,Box jellyfish
+378,Diphyid fish
+379,Goneplacid crabs
+380,Sicyoniid shrimp
+381,Sleeper sharks
+382,Erythroponid fish
+383,Sea toadfish
+384,Rhopalonematidae
+385,Desmacidids
+386,Valonia algae
+387,Boxfishes
+388,Banded fusiliers
+389,Roly-polies
+390,Herons and bitterns
+391,Keyhole limpets
+392,Ghost shrimp
+393,Zoroaster fish
+394,Cobia
+395,Plerogyrid fishes
+396,Pomfrets
+397,Prochilodontids
+398,Piranha
+399,Colossendeid amphipods
+400,Bonytongues
+401,Carpenterfish
+402,Sargassum
+403,Leatherback turtles
+404,Swamp eels
+405,Spurge family
+406,Kurtus fish
+407,Thorids
+408,Eel
+409,Lampeye fish
+410,Sailfin catfish
+411,Crocodiles
+412,Cyttid fish
+413,Top snails
+414,Sand dollars
+415,Cone snails
+416,Atyid shrimp
+417,Sea urchin
+418,Spongicolid fish
+419,Snipefish
+420,Smelts
+421,Xenia corals
+422,Spoonfishes
+423,Placosponges
+424,Eucalanid copepods
+425,Lubbock's fish
+426,Oncaeid copepods
+427,Aegisthid blennies
+428,Spiny eels
+429,Prawn gobies
+430,Diatoms
+431,Arrow worms
+432,Poachers
+433,Sea Sponges
+434,Subergorgiidae
+435,Gold coral
+436,Feather corals
+437,Sea catfish
+438,Olindiid fish
+439,Akeridae
+440,Spiny sharks
+441,False hammerhead sharks
+442,Dumbo octopus
+443,Glaucid fish
+444,Suckermouth catfish
+445,Bell jellyfish
+446,Moorish idols
+447,Hydractinia
+448,Pigfish
+449,Stylid fish
+450,Calanoid copepods
+451,Krill
+452,Scolecitrichids
+453,Pea crabs
+454,Calliopiid snails
+455,Copepods
+456,Ghost shrimps
+457,Isopods
+458,Pillbox crabs
+459,Flamingo fish
+460,Beroe jellyfish
+461,Chaetiliid eels
+462,Eunicid worms
+463,Sea mice
+464,Horseshoe worms
+465,Desmacellid sponges
+466,Waterweed
+467,Rattlebox family
+468,Drummer fish
+469,Lung snails
+470,Eubranchid eels
+471,Blind catfishes
+472,Sandfish
+473,Freshwater sponges
+474,African knifefish
+475,Snake mackerels
+476,Dartfish
+477,Clam
+478,River stingrays
+479,Arapaima
+480,Whiting
+481,Serrated eels
+482,Petalidiid fish
+483,Pontellid copepods
+484,Seagrasses
+485,Ovalipids
+486,Brown algae
+487,Liver catfishes
+488,Livebearers
+489,Velvetfish
+490,Hippopotamuses
+491,Erythrinids
+492,Loaches
+493,Grunters
+494,Giant silversides
+495,Archerfish
+496,Argentines
+497,Ladyfish
+498,Pencil catfish
+499,Atoll fish
+500,Lampridids
+501,Land crabs
+502,Baleen whales
+503,Cockatoo fish
+504,Acanthephyrid shrimp
+505,Marginellids
+506,Sea worms
+507,Pleurobranchs
+508,Iphimediid fishes
+509,Manta ray
+510,Snappers
+511,Clownfish
+512,Boxfish / pufferfish
+513,Sea cucumber
+514,Crab
+515,Nudibranch
+516,Trumpetfish / pipefish
+517,Rays
+518,Coral
+519,Sea anemone
+520,Weedy sea dragon
+521,Wobbegong sharks
+522,Grey nurse sharks
+523,Port jackson shark
+524,Barracuda
+525,Grouper
+526,Bannerfish
+527,Hawksbill turtle
+528,Moray eel
+529,Brain coral
+530,Jellyfish
+531,Seahorse
+532,Whitetip reef shark
+533,Sea turtle
+534,Blue groper
+535,Red indian fish
+536,Eastern blue devil fish
+537,Fish
+538,Eagle ray
+539,Sting ray
+540,Crayfish
+541,Lionfish
+542,Sea snake
+543,Giant cuttlefish
+544,Shrimp
+545,Leaffish
+546,Napoleon fish
+547,Blacktip reef shark
+548,Grey sharks
+549,Silvertip sharks
+550,Nudibranchs
+551,Salpe
+552,Mobula rays
+553,Turtle
+554,Reef fish ( scorpionfish
+555,Puffer fish
+556,Clown fish
+557,Sweetlips
+558,Snaper
+559,Lionfish etc)
+560,Comet fish
+561,Baracuda
+562,Tiger shark
+563,Lemon shark
+564,Reef fish
+565,Bream
+566,Old wives
+567,Port jackson sharks
+568,Gray reef shark
+569,Cod
+570,Seal
+571,Blue-ringed octopus
+572,Trout
+573,Pelagic fish
+574,Cownose ray
+575,Electric ray
+576,Common dolphin
+577,Freshwater fish
+578,Honeycomb moray
+579,Sharks
+580,Sunfish (mola mola)
+581,Sea lion
+582,Tuna
+583,Giant moray
+584,Garden eels
+585,Ribbon eel
+586,Whale shark
+587,Gorgonian fan
+588,Bottlenose dolphin
+589,Leopard shark
+590,Loggerhead turtle
+591,Mobula
+592,Guitar shark
+593,Hammerhead shark
+594,Galapagos sharks
+595,Humpback whale
+596,Minke whale
+597,Parrot fish
+598,Angel shark
+599,Butterfly ray
+600,Green turtle
+601,Rainbow wrasse
+602,Perch
+603,Turtles
+604,Yellow sponges
+605,Swordfish
+606,Goldsinny wrasse
+607,Common cuttlefish
+608,Stingray
+609,Carp
+610,Cuttle fish
+611,Anemone fish
+612,Ornate ghost pipefish
+613,Yellow lipped seakraite
+614,Green sea turtle
+615,Sharks (white tip reef shark
+616,Nurse shark
+617,Cat sharks etc)
+618,Reef manta
+619,Leatherback sea turtle
+620,Ornate wrasse
+621,Humphead parrotfish
+622,Jenkins ray
+623,Common stingray
+624,Seabream
+625,Amberjack
+626,Kingfish
+627,Ray
+628,Roncadors (grunts)
+629,Grey nurse shark
+630,Common octopus
+631,Flying gurnard
+632,Filefishes
+633,Black tip reef shark
+634,Bull ray
+635,Yellowtail
+636,Old wive
+637,Green sea turtles
+638,Whitemouth moray
+639,Reef sharks
+640,Muray
+641,Grey reef shark
+642,Whaleshark
+643,Sea slug
+644,Green moray eel
+645,Bull shark
+646,Bluegill
+647,Bass
+648,Crappie
+649,Jelly fish
+650,Sturgeon
+651,Amber jack
+652,Manta
+653,Damsel fish
+654,Blue shark
+655,Mako shark
+656,Anemones
+657,Hermit crab
+658,Fusilier
+659,Sea otter
+660,Sea lions
+661,Harbor seal
+662,Kelp forest
+663,Seastars
+664,Rock fish
+665,Sand tiger shark
+666,Fur seal
+667,Pygmy seahorses
+668,Blue spotted stingray
+669,Pollack
+670,Large mouth bass
+671,Goliath grouper
+672,Caribbean reef shark
+673,Snake eel
+674,Striped bass
+675,Garibaldi
+676,Sheepshead
+677,Calico bass
+678,Giant black sea bass (wreck fish)
+679,Blue banded gobi
+680,Sea hare
+681,White sea bass
+682,Bamboo shark
+683,Wobbygong shark
+684,Kuhl’s stingray
+685,Feathertail ray
+686,Soldierfish
+687,Emperors
+688,Nudibranchs!
+689,Mobula ray
+690,Rudd
+691,Hawksbill sea turtle
+692,Green moray
+693,White spotted eagle ray
+694,Moorish idol
+695,Thresher shark
+696,Oceanic manta
+697,Yellowfins tuna
+698,Trevally
+699,Conger eel
+700,Blue-fin damselfish
+701,Spider crab
+702,Reef shark
+703,Blue gill
+704,Sea fan
+705,Zebra (leopard) shark
+706,Bluespotted stingray
+707,Sergeant major
+708,Red snapper
+709,Bluestripe snapper (invasive)
+710,Sardines
+711,Small mouth bass
+712,Walleye
+713,Turtles (green and hawksbill)
+714,Pipehorse
+715,Horse shoe crab
+716,Great white shark
+717,Sergent mayor
+718,Grey angelfish
+719,Rock beauty
+720,Foureye butterflyfish
+721,Peacock grouper (invasive)
+722,Angel fish
+723,Hawksbill turtles
+724,Pork fish
+725,Golden trevally
+726,Spadefish
+727,Colourful wrasse species
+728,Trunkfish
+729,Seaslug
+730,Southern stingray
+731,Largemouth bass
+732,Smallmouth bass
+733,Striper
+734,White bass
+735,Long-nose gar
+736,Morey eel
+737,Hogfish
+738,Toad fish
+739,Snook fish
+740,Toadfishes
+741,Tge biggest brain corals
+742,Elkhorns
+743,Etc
+744,Stripes
+745,Wolf eel
+746,Giant pacific octopus
+747,Hammerheads
+748,Wobbegong shark
+749,Black coral
+750,Tench
+751,Freshwater jellyfish
+752,Sailfin sculpin
+753,Grunt sculpin
+754,Corals
+755,Dentex
+756,Stripped bass
+757,Mussles
+758,Kelp forests
+759,Sealion
+760,Thornback ray
+761,Yellow goat fish
+762,Spotted goatfish
+763,Bluehead
+764,Yellowhead wrasse
+765,Blue chromis
+766,French grunt
+767,Souther stingray
+768,Remora
+769,Spinner dolphin
+770,Hawaiian endemic (native) species
+771,Hawaiian monk seal
+772,Spotted moray eel
+773,Drum fish
+774,Jack species
+775,Squat lobster
+776,Marbled electric ray
+777,Giant clam
+778,Anthias
+779,Salmon
+780,Rainbow trout
+781,Mola mola
+782,Basket star
+783,Eaglerays
+784,Bumper head parrarot fish
+785,Devil ray
+786,Hecht
+787,Barsch
+788,Krebs
+789,Schleie
+790,Egli
+791,Wide range of reef fish
+792,Angelshark
+793,Bull rays
+794,Atlantic torpedo ray
+795,Atlantic ray
+796,Sole fish
+797,Spotted eel
+798,Pez angel
+799,Queen angelfish
+800,Blue angelfish
+801,Whalesharks
+802,Stone crab
+803,Fire worm
+804,Redfish
+805,Sea snakes
+806,Kuhls stingray
+807,Flatworm
+808,Indian walkman
+809,Pygmy pipehorse
+810,Guitar fish
+811,Juvenile fish (macro)
+812,Flounder
+813,Harlequin shrimp
+814,Moraine eel
+815,Conger eal
+816,Manta rays
+817,Rhinophias
+818,Ghostpipefish
+819,Leaf fish
+820,Ghostpipe fish
+821,Astroides calycularis
+822,Scrapie
+823,Eagle stripes
+824,Sole
+825,Ghost pipe fish
+826,Slipper lobster
+827,Peacock flounder
+828,Sargeant majors
+829,Peacock mantis shrimp
+830,Pygmy sea hose
+831,Macro
+832,Goby
+833,Red coral
+834,Gorgonians
+835,Brittle star
+836,Ballan wrasse
+837,Forkbeard
+838,Green turtles
+839,Coral reef
+840,Zurich fish
+841,Aborre
+842,Spotted eagle ray
+843,Burbot
+844,Mandarinfish
+845,Crustaceans
+846,Cat fish
+847,Snoek
+848,Baars
+849,Salema
+850,Morena
+851,Mantas
+852,Sharks (grey reef/oceanic white tip/silky/hammerhead/whale/tiger/sandbar) nudibranches
+853,Hump back wahles
+854,Octos
+855,Mere
+856,Black seabass
+857,Sea moth
+858,Pygmy seahorse
+859,Shovel nose ray
+860,Blacktip shark
+861,Bowmouth
+862,Leopard ray
+863,Oceanic blacktip shark
+864,Sandbar shark
+865,Silvertip shark
+866,Black canary mongrel
+867,Roncadores
+868,Old red
+869,Minnow
+870,Spearing mantis shrimp
+871,Dusky shark
+872,King mackerel
+873,Zebra shark
+874,Giant manta ray
+875,Arrow crab
+876,Scorfano
+877,Croaker
+878,Flamingo tong
+879,Trumpet fish
+880,Soft coral
+881,Box/pufferfish
+882,Manatee (dugong)
+883,Acropora
+884,Oceanic whitetip shark
+885,Silky shark
+886,Mobular rays
+887,Manatee
+888,Seagrass
+889,Sheep nudi
+890,Devil sea walker
+891,Crinoid shrimp
+892,Decorator crab
+893,Flamboyant cuttlefish
+894,Crown of thorns seastar
+895,Table coral
+896,Staghorn coral
+897,Cuttlefish / sepia
+898,White eyed moray eel
+899,Sting rays
+900,Rigid shrimpfish
+901,Crocodile fish
+902,Damselfishes
+903,Spiny lobster
+904,Filefish
+905,Porcupinefish
+906,Paperfish
+907,Damsel
+908,Various bream
+909,Seabass
+910,Mullet
+911,Spanish slipper lobster
+912,Black durgon
+913,Spotted drum
+914,Elkhorn corals
+915,Cowfish
+916,Tarpon
+917,Tube sponge
+918,Southern stingrays
+919,Chubs
+920,Yellowhead jawfish
+921,Brittlestars
+922,Tablecloth
+923,Scorpora
+924,Hamlet
+925,Sea bass
+926,Gold welts
+927,Conchs
+928,Skorpion
+929,Eals
+930,Langustas
+931,Crabs - harbour
+932,Edible
+933,Velvet swimming
+934,Tompot blenny
+935,Jewel anemone
+936,Snakelocks anemone
+937,Fairy basslet
+938,Hard coral
+939,File fish
+940,Speckled eagle ray
+941,Whitetip reef sharks
+942,Blacktip reef sharks
+943,Ragged tooth sharks
+944,Snoekbaars
+945,Paling
+946,Kreeft
+947,Porcupine fish
+948,White tip sharks
+949,Freshwater crayfish
+950,Snails
+951,Trunk fish
+952,Barrel sponge
+953,Boxer shrimp
+954,Mimic octopus
+955,Wonderpus
+956,Tree coral
+957,Cardinal fish
+958,Bluering octopus
+959,Blue ringed octopus
+960,Banded snake eel
+961,Freshwater goby
+962,Black bus
+963,Seagrass...
+964,Dotto
+965,Marble ray
+966,Cormorant
+967,Cray fish
+968,Peacock wrasse
+969,Painted comber
+970,Morey eels
+971,Conches
+972,Tautog
+973,American eel
+974,Tripplefins
+975,Tooth
+976,Sea raven
+977,Serpent eel
+978,Monk seals
+979,Blue spotted ray

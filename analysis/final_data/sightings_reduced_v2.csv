@@ -1,0 +1,8159 @@
+ID,Animal Name,Animal ID
+4,Manta Ray,475
+6,Frogfish,127
+6,Parrotfish,10
+6,Scorpionfish,20
+6,Butterflyfish,73
+6,Snaper,476
+6,Wrasse,44
+14,Cowfish,477
+14,Surgeonfish,41
+14,Boxfish Pufferfish,478
+14,Goatfish,15
+14,Tigerfish,84
+14,Butterflyfish,73
+14,Parrotfish,10
+14,Sea Urchin,131
+14,Sea Cucumber,64
+14,Octopus,47
+14,Squid,58
+14,Crab,299
+19,Sea Urchin,131
+19,Nudibranch,479
+26,Frogfish,127
+26,Jackfish,17
+26,Trumpetfish Pipefish,480
+26,Rays,481
+26,Eel,36
+26,Octopus,47
+26,Coral,482
+26,Sea Anemone,65
+27,Weedy Sea Dragon,483
+27,Wobbegong Shark,484
+27,Grey Nurse Shark,485
+27,Port Jackson Shark,486
+29,Baracuda,5
+29,Cowfish,477
+29,Grouper,1
+29,Parrotfish,10
+29,Angelfish,9
+29,Bannerfish,487
+29,Tigerfish,84
+29,Butterflyfish,73
+29,Pipefish,72
+29,Hawksbill Turtle,488
+29,Moray Eel,75
+29,Brain Coral,130
+29,Coral,482
+29,Sea Anemone,65
+29,Jellyfish,489
+40,Seahorse,243
+40,Whitetip Reef Shark,490
+40,Sea Turtle,2
+40,Octopus,47
+41,Angelfish,9
+41,Sea Turtle,2
+41,Octopus,47
+44,Weedy Sea Dragon,483
+44,Blue Groper,491
+44,Red Indian Fish,492
+44,Eastern Blue Devil Fish,493
+48,Fish,494
+49,Eagle Ray,6
+49,Stingray,28
+49,Moray Eel,75
+49,Crayfish,495
+50,Seahorse,243
+50,Stingray,28
+50,Octopus,47
+50,Crab,299
+52,Grouper,1
+52,Butterflyfish,73
+52,Sea Turtle,2
+52,Wrasse,44
+60,Baracuda,5
+60,Stonefish,152
+60,Frogfish,127
+60,Cowfish,477
+60,Seahorse,243
+60,Scorpionfish,20
+60,Lionfish,496
+60,Trumpetfish Pipefish,480
+60,Angelfish,9
+60,Sea Snake,497
+60,Sea Cucumber,64
+60,Giant Cuttlefish,498
+60,Shrimp,197
+60,Nudibranch,479
+60,Crab,299
+60,Sea Anemone,65
+62,Parrotfish,10
+62,Whitetip Reef Shark,490
+62,Sea Turtle,2
+62,Eel,36
+62,Nudibranch,479
+64,Seahorse,243
+65,Leaffish,499
+65,Jackfish,17
+65,Baracuda,5
+65,Napoleon Fish,500
+65,Whitetip Reef Shark,490
+65,Blacktip Reef Shark,501
+65,Grey Sharks,502
+65,Silvertip Shark,503
+65,Eagle Ray,6
+65,Nudibranch,479
+65,Salpe,504
+65,Octopus,47
+65,Mobula Ray,505
+77,Turtle,506
+77,Giant Cuttlefish,498
+84,Weedy Sea Dragon,483
+84,Giant Cuttlefish,498
+84,Blue Groper,491
+84,Wobbegong Shark,484
+86,Frogfish,127
+86,Octopus,47
+86,Reef Fish Scorpionfish,507
+86,Boxfish,11
+86,Pufferfish,18
+86,Surgeonfish,41
+86,Angelfish,9
+86,Bannerfish,487
+86,Tigerfish,84
+86,Parrotfish,10
+86,Trumpetfish,3
+86,Pipefish,72
+86,Cowfish,477
+86,Sweetlips,508
+86,Snaper,476
+86,Grouper,1
+86,Lionfish Etc,509
+86,Cuttlefish,16
+86,Comet Fish,510
+86,Shrimp,197
+86,Nudibranch,479
+88,Stingray,28
+88,Sea Turtle,2
+88,Baracuda,5
+101,Tiger Shark,511
+101,Lemon Shark,512
+108,Parrotfish,10
+108,Boxfish Pufferfish,478
+108,Rays,481
+108,Starfish,60
+108,Nudibranch,479
+108,Reef Fish,513
+109,Octopus,47
+110,Baracuda,5
+110,Seahorse,243
+110,Octopus,47
+110,Squid,58
+112,Weedy Sea Dragon,483
+112,Giant Cuttlefish,498
+112,Blue Groper,491
+113,Bream,514
+113,Moray Eel,75
+113,Batfish,57
+113,Cuttlefish,16
+113,Wobbegong Shark,484
+113,Old Wive,515
+114,Giant Cuttlefish,498
+114,Blue Groper,491
+114,Port Jackson Shark,486
+114,Wobbegong Shark,484
+115,Wobbegong Shark,484
+117,Whitetip Reef Shark,490
+117,Grey Reef Shark,516
+117,Cod,81
+119,Baracuda,5
+119,Jackfish,17
+122,Seahorse,243
+122,Stingray,28
+122,Eals,43
+122,Octopus,47
+122,Nudibranch,479
+122,Octopus,47
+123,Stingray,28
+123,Moray Eel,75
+123,Octopus,47
+123,Damselfish,12
+124,Trout,517
+125,Pelagic Fish,518
+125,Goatfish,15
+125,Grouper,1
+125,Frogfish,127
+125,Fish,494
+125,Rays,481
+125,Stingray,28
+125,Cownose Ray,519
+125,Electric Ray,220
+125,Common Dolphin,520
+125,Sea Urchin,131
+125,Starfish,60
+125,Moray Eel,75
+125,Nudibranch,479
+125,Shrimp,197
+125,Giant Cuttlefish,498
+125,Crayfish,495
+125,Octopus,47
+125,Squid,58
+125,Coral,482
+130,Stonefish,152
+130,Scorpionfish,20
+130,Sea Turtle,2
+130,Giant Cuttlefish,498
+138,Cowfish,477
+138,Butterflyfish,73
+321,Freshwater Fish,521
+369,Eals,43
+369,Lobster,30
+369,Nudibranch,479
+369,Crab,299
+371,Eals,43
+371,Octopus,47
+371,Nudibranch,479
+374,Eals,43
+374,Lobster,30
+374,Octopus,47
+374,Crab,299
+399,Tigerfish,84
+399,Baracuda,5
+399,Frogfish,127
+399,Butterflyfish,73
+399,Parrotfish,10
+399,Scorpionfish,20
+399,Angelfish,9
+399,Eagle Ray,6
+399,Sea Urchin,131
+399,Eel,36
+399,Lobster,30
+399,Crab,299
+399,Shrimp,197
+588,Turtle,506
+632,Grouper,1
+632,Scorpionfish,20
+632,Lionfish,496
+632,Honeycomb Moray,522
+632,Octopus,47
+632,Nudibranch,479
+1939,Freshwater Fish,521
+1940,Freshwater Fish,521
+1941,Freshwater Fish,521
+1942,Eel,36
+1942,Coral,482
+1942,Reef Fish,513
+1943,Starfish,60
+1943,Lobster,30
+1943,Octopus,47
+1943,Nudibranch,479
+1943,Reef Fish,513
+1944,Fish,494
+1944,Sharks,523
+1944,Nudibranch,479
+1945,Pelagic Fish,518
+1945,Sharks,523
+1945,Turtle,506
+1945,Coral,482
+1945,Reef Fish,513
+1946,Sunfish Mola Mola,524
+1946,Fish,494
+1946,Sealion,525
+1947,Pelagic Fish,518
+1947,Sharks,523
+1947,Lobster,30
+1947,Reef Fish,513
+1948,Fish,494
+1948,Rays,481
+1948,Sealion,525
+1948,Coral,482
+1949,Fish,494
+1949,Sharks,523
+1949,Turtle,506
+1950,Freshwater Fish,521
+1951,Freshwater Fish,521
+1952,Seahorse,243
+1952,Fish,494
+1952,Nudibranch,479
+1957,Tuna,526
+1957,Scorpionfish,20
+1957,Lionfish,496
+1957,Baracuda,5
+1957,Eagle Ray,6
+1957,Stingray,28
+1957,Whitetip Reef Shark,490
+1957,Blacktip Reef Shark,501
+1957,Turtle,506
+1957,Moray Eel,75
+1957,Giant Moray,527
+1957,Garden Eels,528
+1957,Honeycomb Moray,522
+1957,Ribbon Eel,529
+1957,Nudibranch,479
+1958,Scorpionfish,20
+1958,Stonefish,152
+1958,Lionfish,496
+1958,Tigerfish,84
+1958,Sea Cucumber,64
+1958,Octopus,47
+1958,Squid,58
+1959,Tigerfish,84
+1959,Baracuda,5
+1959,Stonefish,152
+1959,Cowfish,477
+1959,Grouper,1
+1959,Parrotfish,10
+1959,Boxfish Pufferfish,478
+1959,Angelfish,9
+1959,Batfish,57
+1959,Whaleshark,80
+1959,Sea Turtle,2
+1959,Moray Eel,75
+1959,Brain Coral,130
+1959,Coral,482
+1961,Baracuda,5
+1961,Grouper,1
+1961,Jackfish,17
+1961,Scorpionfish,20
+1961,Lionfish,496
+1961,Angelfish,9
+1961,Tigerfish,84
+1961,Sea Urchin,131
+1961,Crab,299
+1961,Shrimp,197
+1976,Lobster,30
+1979,Whaleshark,80
+1981,Pelagic Fish,518
+1981,Eel,36
+1981,Coral,482
+1981,Reef Fish,513
+1990,Crayfish,495
+1996,Moray Eel,75
+1996,Octopus,47
+2001,Moray Eel,75
+2001,Octopus,47
+2002,Turtle,506
+2002,Octopus,47
+2003,Grouper,1
+2003,Nudibranch,479
+2007,Baracuda,5
+2007,Jackfish,17
+2007,Moray Eel,75
+2007,Lobster,30
+2023,Reef Fish,513
+2030,Lionfish,496
+2030,Dolphins,158
+2030,Sea Turtle,2
+2033,Whitetip Reef Shark,490
+2033,Turtle,506
+2036,Stonefish,152
+2036,Jackfish,17
+2036,Parrotfish,10
+2036,Surgeonfish,41
+2036,Tigerfish,84
+2036,Butterflyfish,73
+2036,Pipefish,72
+2036,Reef Fish,513
+2038,Grouper,1
+2038,Scorpionfish,20
+2038,Lobster,30
+2038,Nudibranch,479
+2045,Lionfish,496
+2045,Whitetip Reef Shark,490
+2045,Blacktip Reef Shark,501
+2045,Hawksbill Turtle,488
+2045,Sea Turtle,2
+2057,Baracuda,5
+2057,Sea Turtle,2
+2057,Coral,482
+2058,Scorpionfish,20
+2058,Garden Eels,528
+2058,Eel,36
+2058,Moray Eel,75
+2058,Gorgonian Fan,530
+2058,Coral,482
+2059,Tuna,526
+2059,Baracuda,5
+2059,Grouper,1
+2059,Nudibranch,479
+2059,Gorgonian Fan,530
+2059,Coral,482
+2059,Sea Anemone,65
+2060,Baracuda,5
+2060,Grouper,1
+2060,Sea Urchin,131
+2060,Nudibranch,479
+2060,Octopus,47
+2060,Shrimp,197
+2060,Sea Anemone,65
+2062,Lionfish,496
+2062,Stonefish,152
+2062,Butterflyfish,73
+2062,Angelfish,9
+2062,Eagle Ray,6
+2062,Hawksbill Turtle,488
+2062,Giant Moray,527
+2062,Nudibranch,479
+2062,Octopus,47
+2062,Giant Cuttlefish,498
+2064,Stonefish,152
+2064,Jackfish,17
+2064,Cownose Ray,519
+2064,Electric Ray,220
+2064,Whitetip Reef Shark,490
+2064,Eagle Ray,6
+2064,Sea Turtle,2
+2064,Moray Eel,75
+2064,Reef Fish,513
+2073,Parrotfish,10
+2073,Surgeonfish,41
+2073,Trumpetfish Pipefish,480
+2073,Butterflyfish,73
+2079,Baracuda,5
+2079,Boxfish Pufferfish,478
+2079,Manta Ray,475
+2079,Sea Anemone,65
+2080,Baracuda,5
+2080,Parrotfish,10
+2080,Boxfish Pufferfish,478
+2080,Turtle,506
+2080,Sea Anemone,65
+2081,Manta Ray,475
+2087,Baracuda,5
+2087,Manta Ray,475
+2087,Garden Eels,528
+2087,Reef Fish,513
+2090,Baracuda,5
+2090,Angelfish,9
+2090,Turtle,506
+2090,Moray Eel,75
+2090,Brain Coral,130
+2090,Coral,482
+2095,Electric Ray,220
+2095,Eel,36
+2095,Moray Eel,75
+2095,Octopus,47
+2105,Baracuda,5
+2106,Grouper,1
+2106,Lobster,30
+2107,Grouper,1
+2107,Nudibranch,479
+2108,Grouper,1
+2108,Starfish,60
+2108,Sea Urchin,131
+2108,Sea Cucumber,64
+2108,Lobster,30
+2109,Grouper,1
+2109,Moray Eel,75
+2111,Lobster,30
+2111,Octopus,47
+2114,Seahorse,243
+2114,Pipefish,72
+2114,Octopus,47
+2115,Grouper,1
+2115,Jackfish,17
+2115,Gorgonian Fan,530
+2115,Sea Anemone,65
+2127,Tuna,526
+2127,Grouper,1
+2127,Jackfish,17
+2127,Lobster,30
+2127,Nudibranch,479
+2127,Crab,299
+2128,Grouper,1
+2128,Moray Eel,75
+2128,Lobster,30
+2128,Octopus,47
+2128,Nudibranch,479
+2128,Crab,299
+2132,Lionfish,496
+2132,Starfish,60
+2133,Lionfish,496
+2133,Pipefish,72
+2133,Nudibranch,479
+2136,Turtle,506
+2136,Moray Eel,75
+2137,Baracuda,5
+2137,Trumpetfish Pipefish,480
+2137,Rays,481
+2138,Baracuda,5
+2138,Rays,481
+2138,Moray Eel,75
+2139,Lionfish,496
+2139,Scorpionfish,20
+2139,Sea Turtle,2
+2139,Moray Eel,75
+2139,Garden Eels,528
+2139,Nudibranch,479
+2139,Sea Anemone,65
+2141,Grouper,1
+2141,Jackfish,17
+2141,Common Dolphin,520
+2141,Jellyfish,489
+2152,Rays,481
+2154,Nudibranch,479
+2155,Pelagic Fish,518
+2155,Reef Fish,513
+2157,Rays,481
+2159,Pelagic Fish,518
+2159,Eel,36
+2159,Reef Fish,513
+2161,Pipefish,72
+2161,Seahorse,243
+2161,Rays,481
+2161,Eel,36
+2161,Sea Urchin,131
+2161,Crab,299
+2161,Nudibranch,479
+2162,Seahorse,243
+2162,Eel,36
+2162,Crayfish,495
+2162,Octopus,47
+2162,Nudibranch,479
+2165,Cowfish,477
+2165,Angelfish,9
+2165,Turtle,506
+2165,Sea Anemone,65
+2166,Scorpionfish,20
+2166,Starfish,60
+2166,Eel,36
+2166,Lobster,30
+2166,Octopus,47
+2166,Sea Anemone,65
+2166,Reef Fish,513
+2167,Eagle Ray,6
+2167,Dolphins,158
+2167,Moray Eel,75
+2167,Octopus,47
+2167,Nudibranch,479
+2167,Crayfish,495
+2167,Reef Fish,513
+2167,Sea Anemone,65
+2168,Seahorse,243
+2168,Eagle Ray,6
+2168,Stingray,28
+2168,Starfish,60
+2168,Nudibranch,479
+2172,Parrotfish,10
+2172,Surgeonfish,41
+2172,Sweetlips,508
+2172,Sea Turtle,2
+2172,Brain Coral,130
+2172,Coral,482
+2173,Sharks,523
+2173,Rays,481
+2173,Crayfish,495
+2173,Reef Fish,513
+2174,Rays,481
+2174,Crayfish,495
+2174,Reef Fish,513
+2175,Rays,481
+2175,Starfish,60
+2175,Crayfish,495
+2175,Nudibranch,479
+2175,Reef Fish,513
+2175,Sea Anemone,65
+2181,Baracuda,5
+2183,Sea Urchin,131
+2183,Sea Cucumber,64
+2183,Crab,299
+2184,Coral,482
+2184,Reef Fish,513
+2184,Sea Anemone,65
+2185,Coral,482
+2185,Reef Fish,513
+2188,Sharks,523
+2188,Rays,481
+2188,Crayfish,495
+2188,Reef Fish,513
+2189,Sharks,523
+2189,Rays,481
+2189,Reef Fish,513
+2202,Eals,43
+2202,Crab,299
+2202,Clam,446
+2202,Sea Anemone,65
+2203,Rays,481
+2203,Turtle,506
+2206,Tigerfish,84
+2206,Octopus,47
+2206,Nudibranch,479
+2207,Trumpetfish Pipefish,480
+2207,Angelfish,9
+2207,Tigerfish,84
+2207,Butterflyfish,73
+2207,Cowfish,477
+2207,Pelagic Fish,518
+2207,Boxfish Pufferfish,478
+2207,Scorpionfish,20
+2207,Lionfish,496
+2207,Whitetip Reef Shark,490
+2207,Blacktip Reef Shark,501
+2207,Eagle Ray,6
+2207,Stingray,28
+2207,Sea Turtle,2
+2207,Moray Eel,75
+2207,Octopus,47
+2208,Lionfish,496
+2208,Trumpetfish Pipefish,480
+2208,Pelagic Fish,518
+2208,Butterflyfish,73
+2208,Angelfish,9
+2208,Scorpionfish,20
+2208,Eagle Ray,6
+2208,Stingray,28
+2208,Sea Turtle,2
+2208,Moray Eel,75
+2208,Garden Eels,528
+2208,Shrimp,197
+2208,Nudibranch,479
+2208,Clam,446
+2208,Octopus,47
+2208,Crab,299
+2208,Coral,482
+2214,Napoleon Fish,500
+2214,Grouper,1
+2214,Tuna,526
+2214,Baracuda,5
+2214,Whitetip Reef Shark,490
+2214,Blacktip Reef Shark,501
+2214,Sea Turtle,2
+2214,Moray Eel,75
+2214,Crab,299
+2214,Shrimp,197
+2214,Reef Fish,513
+2217,Parrotfish,10
+2217,Angelfish,9
+2217,Butterflyfish,73
+2217,Baracuda,5
+2217,Napoleon Fish,500
+2217,Cowfish,477
+2217,Pipefish,72
+2217,Blacktip Reef Shark,501
+2217,Eagle Ray,6
+2217,Stingray,28
+2217,Moray Eel,75
+2217,Octopus,47
+2217,Crab,299
+2217,Clam,446
+2217,Coral,482
+2217,Sea Anemone,65
+2218,Seahorse,243
+2218,Angelfish,9
+2218,Parrotfish,10
+2218,Whitetip Reef Shark,490
+2218,Blacktip Reef Shark,501
+2218,Eagle Ray,6
+2218,Sea Turtle,2
+2218,Nudibranch,479
+2218,Crab,299
+2218,Shrimp,197
+2218,Gorgonian Fan,530
+2218,Coral,482
+2219,Scorpionfish,20
+2219,Stingray,28
+2219,Moray Eel,75
+2222,Stonefish,152
+2222,Frogfish,127
+2222,Dolphins,158
+2223,Lionfish,496
+2223,Leopard Shark,531
+2223,Turtle,506
+2223,Hawksbill Turtle,488
+2223,Loggerhead Turtle,532
+2223,Eel,36
+2227,Nudibranch,479
+2228,Starfish,60
+2228,Sea Urchin,131
+2228,Sea Cucumber,64
+2228,Crab,299
+2228,Reef Fish,513
+2228,Sea Anemone,65
+2229,Lobster,30
+2229,Crab,299
+2230,Lobster,30
+2230,Nudibranch,479
+2230,Crab,299
+2232,Parrotfish,10
+2232,Scorpionfish,20
+2232,Honeycomb Moray,522
+2232,Moray Eel,75
+2232,Nudibranch,479
+2232,Coral,482
+2233,Sea Turtle,2
+2234,Nurse Shark,7
+2234,Stingray,28
+2234,Coral,482
+2235,Jackfish,17
+2235,Honeycomb Moray,522
+2235,Sea Anemone,65
+2236,Baracuda,5
+2236,Frogfish,127
+2236,Jackfish,17
+2236,Moray Eel,75
+2236,Coral,482
+2237,Frogfish,127
+2237,Blacktip Reef Shark,501
+2237,Nurse Shark,7
+2237,Manta Ray,475
+2237,Stingray,28
+2237,Honeycomb Moray,522
+2238,Parrotfish,10
+2238,Angelfish,9
+2238,Moray Eel,75
+2239,Surgeonfish,41
+2239,Stingray,28
+2239,Sea Turtle,2
+2239,Moray Eel,75
+2240,Baracuda,5
+2240,Jackfish,17
+2240,Parrotfish,10
+2240,Lobster,30
+2243,Manta Ray,475
+2243,Hawksbill Turtle,488
+2249,Scorpionfish,20
+2249,Stonefish,152
+2249,Napoleon Fish,500
+2249,Grouper,1
+2249,Baracuda,5
+2249,Jackfish,17
+2249,Sea Snake,497
+2249,Octopus,47
+2251,Napoleon Fish,500
+2251,Grouper,1
+2251,Whaleshark,80
+2251,Mobula,533
+2251,Turtle,506
+2251,Coral,482
+2252,Tuna,526
+2252,Napoleon Fish,500
+2252,Jackfish,17
+2252,Blacktip Reef Shark,501
+2252,Eagle Ray,6
+2252,Stingray,28
+2252,Grey Sharks,502
+2252,Silvertip Shark,503
+2252,Moray Eel,75
+2252,Nudibranch,479
+2252,Coral,482
+2252,Brain Coral,130
+2253,Baracuda,5
+2253,Mobula,533
+2253,Rays,481
+2254,Rays,481
+2254,Turtle,506
+2254,Moray Eel,75
+2254,Giant Cuttlefish,498
+2255,Frogfish,127
+2255,Rays,481
+2255,Octopus,47
+2255,Nudibranch,479
+2256,Boxfish Pufferfish,478
+2256,Rays,481
+2257,Boxfish Pufferfish,478
+2257,Honeycomb Moray,522
+2257,Nudibranch,479
+2258,Sharks,523
+2258,Moray Eel,75
+2258,Gorgonian Fan,530
+2259,Tuna,526
+2259,Eagle Ray,6
+2259,Sharks,523
+2260,Baracuda,5
+2260,Rays,481
+2260,Gorgonian Fan,530
+2260,Reef Fish,513
+2261,Scorpionfish,20
+2261,Pelagic Fish,518
+2261,Stingray,28
+2261,Moray Eel,75
+2261,Nudibranch,479
+2262,Lionfish,496
+2262,Nudibranch,479
+2262,Sea Anemone,65
+2263,Cowfish,477
+2263,Parrotfish,10
+2263,Sea Cucumber,64
+2263,Nudibranch,479
+2263,Sea Anemone,65
+2267,Nudibranch,479
+2269,Octopus,47
+2269,Nudibranch,479
+2270,Baracuda,5
+2270,Grouper,1
+2270,Jackfish,17
+2270,Parrotfish,10
+2270,Tigerfish,84
+2270,Sea Turtle,2
+2271,Butterflyfish,73
+2271,Trumpetfish Pipefish,480
+2271,Angelfish,9
+2271,Parrotfish,10
+2271,Boxfish Pufferfish,478
+2271,Lionfish,496
+2271,Goatfish,15
+2271,Squid,58
+2271,Octopus,47
+2272,Lionfish,496
+2272,Angelfish,9
+2272,Butterflyfish,73
+2272,Scorpionfish,20
+2272,Eagle Ray,6
+2272,Stingray,28
+2272,Turtle,506
+2272,Hawksbill Turtle,488
+2272,Sea Turtle,2
+2272,Moray Eel,75
+2272,Brain Coral,130
+2272,Coral,482
+2274,Grouper,1
+2274,Moray Eel,75
+2274,Lobster,30
+2274,Nudibranch,479
+2275,Baracuda,5
+2275,Grouper,1
+2275,Scorpionfish,20
+2275,Moray Eel,75
+2275,Clam,446
+2276,Baracuda,5
+2276,Grouper,1
+2276,Lobster,30
+2276,Octopus,47
+2276,Nudibranch,479
+2277,Baracuda,5
+2277,Grouper,1
+2277,Lobster,30
+2277,Octopus,47
+2277,Nudibranch,479
+2278,Baracuda,5
+2278,Grouper,1
+2278,Moray Eel,75
+2278,Octopus,47
+2278,Nudibranch,479
+2279,Baracuda,5
+2279,Grouper,1
+2279,Moray Eel,75
+2279,Nudibranch,479
+2280,Tuna,526
+2280,Stonefish,152
+2280,Scorpionfish,20
+2280,Eel,36
+2280,Nudibranch,479
+2281,Scorpionfish,20
+2281,Eel,36
+2281,Nudibranch,479
+2282,Baracuda,5
+2282,Grouper,1
+2282,Moray Eel,75
+2282,Octopus,47
+2282,Nudibranch,479
+2283,Baracuda,5
+2283,Grouper,1
+2283,Moray Eel,75
+2283,Octopus,47
+2283,Nudibranch,479
+2284,Baracuda,5
+2284,Grouper,1
+2284,Scorpionfish,20
+2284,Octopus,47
+2284,Lobster,30
+2284,Nudibranch,479
+2284,Coral,482
+2285,Grouper,1
+2285,Scorpionfish,20
+2285,Lobster,30
+2285,Octopus,47
+2285,Nudibranch,479
+2286,Baracuda,5
+2286,Grouper,1
+2286,Scorpionfish,20
+2286,Moray Eel,75
+2286,Octopus,47
+2287,Scorpionfish,20
+2287,Grouper,1
+2287,Baracuda,5
+2287,Moray Eel,75
+2287,Nudibranch,479
+2287,Lobster,30
+2287,Coral,482
+2288,Grouper,1
+2288,Moray Eel,75
+2288,Lobster,30
+2288,Nudibranch,479
+2289,Grouper,1
+2289,Scorpionfish,20
+2289,Moray Eel,75
+2289,Lobster,30
+2289,Gorgonian Fan,530
+2290,Stonefish,152
+2290,Grouper,1
+2290,Scorpionfish,20
+2290,Rays,481
+2290,Nudibranch,479
+2291,Scorpionfish,20
+2291,Rays,481
+2291,Octopus,47
+2291,Nudibranch,479
+2293,Lionfish,496
+2293,Seahorse,243
+2293,Frogfish,127
+2293,Moray Eel,75
+2293,Shrimp,197
+2293,Nudibranch,479
+2293,Reef Fish,513
+2294,Angelfish,9
+2294,Sharks,523
+2294,Sea Turtle,2
+2294,Lobster,30
+2296,Tigerfish,84
+2296,Parrotfish,10
+2296,Lionfish,496
+2296,Cowfish,477
+2296,Sharks,523
+2296,Sea Turtle,2
+2296,Eel,36
+2305,Manta Ray,475
+2314,Baracuda,5
+2314,Grouper,1
+2314,Moray Eel,75
+2314,Nudibranch,479
+2314,Clam,446
+2315,Grouper,1
+2315,Baracuda,5
+2315,Moray Eel,75
+2315,Crab,299
+2315,Octopus,47
+2315,Lobster,30
+2315,Nudibranch,479
+2316,Baracuda,5
+2316,Grouper,1
+2316,Eel,36
+2316,Moray Eel,75
+2316,Lobster,30
+2316,Nudibranch,479
+2317,Scorpionfish,20
+2317,Jackfish,17
+2317,Grouper,1
+2317,Pelagic Fish,518
+2317,Eel,36
+2317,Lobster,30
+2317,Reef Fish,513
+2318,Frogfish,127
+2318,Seahorse,243
+2318,Moray Eel,75
+2318,Nudibranch,479
+2318,Crab,299
+2323,Baracuda,5
+2325,Rays,481
+2325,Sea Turtle,2
+2326,Grouper,1
+2326,Moray Eel,75
+2326,Nudibranch,479
+2327,Lionfish,496
+2327,Guitar Shark,534
+2327,Manta Ray,475
+2327,Leopard Shark,531
+2327,Stingray,28
+2327,Rays,481
+2327,Sea Turtle,2
+2327,Moray Eel,75
+2327,Octopus,47
+2328,Grouper,1
+2328,Shrimp,197
+2335,Hammerhead Shark,93
+2335,Manta Ray,475
+2335,Galapagos Sharks,535
+2335,Sealion,525
+2335,Sea Turtle,2
+2343,Stonefish,152
+2343,Whitetip Reef Shark,490
+2343,Eagle Ray,6
+2343,Mobula,533
+2343,Turtle,506
+2348,Parrotfish,10
+2348,Humpback Whale,536
+2348,Minke Whale,537
+2348,Hawksbill Turtle,488
+2348,Sea Turtle,2
+2349,Baracuda,5
+2349,Grouper,1
+2349,Jackfish,17
+2349,Parrotfish,10
+2349,Sharks,523
+2349,Turtle,506
+2350,Parrotfish,10
+2350,Boxfish Pufferfish,478
+2350,Turtle,506
+2355,Grouper,1
+2355,Angelfish,9
+2358,Parrotfish,10
+2358,Stingray,28
+2364,Eel,36
+2369,Cowfish,477
+2369,Scorpionfish,20
+2369,Lionfish,496
+2369,Hawksbill Turtle,488
+2369,Nudibranch,479
+2369,Gorgonian Fan,530
+2371,Goatfish,15
+2371,Angelfish,9
+2371,Butterflyfish,73
+2371,Parrotfish,10
+2371,Frogfish,127
+2371,Moray Eel,75
+2371,Octopus,47
+2372,Scorpionfish,20
+2372,Boxfish Pufferfish,478
+2372,Frogfish,127
+2372,Crab,299
+2372,Lobster,30
+2372,Shrimp,197
+2372,Sea Anemone,65
+2377,Tigerfish,84
+2377,Cowfish,477
+2377,Seahorse,243
+2377,Parrotfish,10
+2377,Pipefish,72
+2377,Napoleon Fish,500
+2377,Whaleshark,80
+2377,Leopard Shark,531
+2377,Whitetip Reef Shark,490
+2377,Nurse Shark,7
+2377,Sea Turtle,2
+2377,Minke Whale,537
+2377,Hawksbill Turtle,488
+2377,Loggerhead Turtle,532
+2377,Clam,446
+2378,Parrotfish,10
+2378,Scorpionfish,20
+2378,Lionfish,496
+2378,Angelfish,9
+2378,Tuna,526
+2378,Baracuda,5
+2378,Cowfish,477
+2378,Pelagic Fish,518
+2378,Nurse Shark,7
+2378,Whaleshark,80
+2378,Leopard Shark,531
+2378,Manta Ray,475
+2378,Sharks,523
+2378,Minke Whale,537
+2378,Sea Turtle,2
+2378,Moray Eel,75
+2378,Clam,446
+2379,Scorpionfish,20
+2379,Lionfish,496
+2379,Manta Ray,475
+2379,Silvertip Shark,503
+2379,Blacktip Reef Shark,501
+2379,Whaleshark,80
+2379,Whitetip Reef Shark,490
+2379,Sea Turtle,2
+2379,Minke Whale,537
+2379,Dolphins,158
+2379,Hawksbill Turtle,488
+2379,Nudibranch,479
+2380,Parrotfish,10
+2380,Angelfish,9
+2380,Tigerfish,84
+2380,Guitar Shark,534
+2380,Eagle Ray,6
+2380,Manta Ray,475
+2380,Whaleshark,80
+2380,Leopard Shark,531
+2380,Nurse Shark,7
+2380,Loggerhead Turtle,532
+2380,Minke Whale,537
+2380,Dolphins,158
+2380,Hawksbill Turtle,488
+2380,Sea Turtle,2
+2380,Moray Eel,75
+2380,Nudibranch,479
+2381,Cowfish,477
+2381,Tigerfish,84
+2381,Parrotfish,10
+2381,Angelfish,9
+2381,Tuna,526
+2381,Baracuda,5
+2381,Napoleon Fish,500
+2381,Nurse Shark,7
+2381,Leopard Shark,531
+2381,Eagle Ray,6
+2381,Manta Ray,475
+2381,Silvertip Shark,503
+2381,Sea Turtle,2
+2381,Minke Whale,537
+2382,Lionfish,496
+2382,Angelfish,9
+2382,Tigerfish,84
+2382,Napoleon Fish,500
+2382,Cowfish,477
+2382,Butterflyfish,73
+2382,Scorpionfish,20
+2382,Whitetip Reef Shark,490
+2382,Eagle Ray,6
+2382,Cownose Ray,519
+2382,Hawksbill Turtle,488
+2382,Sea Turtle,2
+2382,Moray Eel,75
+2382,Crayfish,495
+2382,Crab,299
+2382,Clam,446
+2383,Cowfish,477
+2383,Parrotfish,10
+2383,Boxfish Pufferfish,478
+2383,Batfish,57
+2383,Tigerfish,84
+2383,Baracuda,5
+2383,Hammerhead Shark,93
+2383,Whaleshark,80
+2383,Leopard Shark,531
+2383,Eagle Ray,6
+2383,Manta Ray,475
+2383,Sea Turtle,2
+2383,Moray Eel,75
+2384,Parrotfish,10
+2384,Angelfish,9
+2384,Batfish,57
+2384,Tigerfish,84
+2384,Baracuda,5
+2384,Napoleon Fish,500
+2384,Cowfish,477
+2384,Leopard Shark,531
+2384,Cownose Ray,519
+2384,Whitetip Reef Shark,490
+2384,Blacktip Reef Shark,501
+2384,Nurse Shark,7
+2384,Guitar Shark,534
+2384,Sea Turtle,2
+2384,Minke Whale,537
+2384,Honeycomb Moray,522
+2384,Moray Eel,75
+2384,Crayfish,495
+2385,Trumpetfish Pipefish,480
+2385,Angelfish,9
+2385,Cowfish,477
+2385,Grouper,1
+2385,Butterflyfish,73
+2385,Tigerfish,84
+2385,Boxfish Pufferfish,478
+2385,Whitetip Reef Shark,490
+2385,Cownose Ray,519
+2385,Octopus,47
+2385,Crayfish,495
+2386,Lionfish,496
+2386,Tigerfish,84
+2386,Pipefish,72
+2386,Baracuda,5
+2386,Stonefish,152
+2386,Napoleon Fish,500
+2386,Seahorse,243
+2386,Parrotfish,10
+2386,Scorpionfish,20
+2386,Silvertip Shark,503
+2386,Eagle Ray,6
+2386,Manta Ray,475
+2386,Whitetip Reef Shark,490
+2387,Parrotfish,10
+2387,Lionfish,496
+2387,Pipefish,72
+2387,Baracuda,5
+2387,Napoleon Fish,500
+2387,Seahorse,243
+2387,Cownose Ray,519
+2387,Whitetip Reef Shark,490
+2387,Nurse Shark,7
+2387,Leopard Shark,531
+2387,Guitar Shark,534
+2387,Minke Whale,537
+2387,Sea Turtle,2
+2387,Moray Eel,75
+2387,Garden Eels,528
+2387,Ribbon Eel,529
+2387,Giant Cuttlefish,498
+2387,Nudibranch,479
+2389,Parrotfish,10
+2389,Napoleon Fish,500
+2389,Cowfish,477
+2389,Scorpionfish,20
+2389,Angelfish,9
+2389,Tigerfish,84
+2389,Pipefish,72
+2389,Blacktip Reef Shark,501
+2389,Guitar Shark,534
+2389,Whitetip Reef Shark,490
+2389,Sea Turtle,2
+2389,Sealion,525
+2389,Giant Cuttlefish,498
+2390,Parrotfish,10
+2390,Baracuda,5
+2390,Napoleon Fish,500
+2390,Scorpionfish,20
+2390,Lionfish,496
+2390,Angelfish,9
+2390,Pipefish,72
+2390,Eagle Ray,6
+2390,Manta Ray,475
+2390,Whitetip Reef Shark,490
+2390,Blacktip Reef Shark,501
+2390,Dolphins,158
+2390,Hawksbill Turtle,488
+2390,Sea Turtle,2
+2390,Garden Eels,528
+2390,Giant Cuttlefish,498
+2391,Parrotfish,10
+2391,Trumpetfish Pipefish,480
+2391,Angelfish,9
+2391,Tigerfish,84
+2391,Pipefish,72
+2391,Cownose Ray,519
+2391,Whitetip Reef Shark,490
+2391,Sea Turtle,2
+2391,Hawksbill Turtle,488
+2391,Moray Eel,75
+2391,Shrimp,197
+2391,Crab,299
+2391,Crayfish,495
+2391,Nudibranch,479
+2391,Giant Cuttlefish,498
+2392,Trumpetfish Pipefish,480
+2392,Baracuda,5
+2392,Stonefish,152
+2392,Seahorse,243
+2392,Napoleon Fish,500
+2392,Pipefish,72
+2392,Parrotfish,10
+2392,Scorpionfish,20
+2392,Lionfish,496
+2392,Cownose Ray,519
+2392,Blacktip Reef Shark,501
+2392,Eagle Ray,6
+2392,Manta Ray,475
+2392,Whitetip Reef Shark,490
+2392,Silvertip Shark,503
+2392,Sea Turtle,2
+2392,Minke Whale,537
+2392,Hawksbill Turtle,488
+2392,Gorgonian Fan,530
+2393,Lionfish,496
+2393,Moray Eel,75
+2393,Octopus,47
+2393,Squid,58
+2393,Nudibranch,479
+2394,Jackfish,17
+2394,Lionfish,496
+2394,Trumpetfish Pipefish,480
+2394,Moray Eel,75
+2394,Octopus,47
+2394,Nudibranch,479
+2395,Lionfish,496
+2395,Trumpetfish Pipefish,480
+2395,Moray Eel,75
+2395,Nudibranch,479
+2396,Baracuda,5
+2396,Lionfish,496
+2396,Trumpetfish Pipefish,480
+2396,Sea Turtle,2
+2396,Octopus,47
+2397,Trumpetfish Pipefish,480
+2397,Turtle,506
+2397,Octopus,47
+2397,Squid,58
+2399,Tuna,526
+2399,Baracuda,5
+2399,Eagle Ray,6
+2399,Electric Ray,220
+2399,Nudibranch,479
+2399,Sea Anemone,65
+2401,Seahorse,243
+2401,Trumpetfish Pipefish,480
+2401,Stingray,28
+2401,Octopus,47
+2401,Giant Cuttlefish,498
+2407,Angelfish,9
+2407,Sea Turtle,2
+2411,Baracuda,5
+2411,Angelfish,9
+2411,Turtle,506
+2411,Hawksbill Turtle,488
+2411,Sea Turtle,2
+2412,Baracuda,5
+2412,Frogfish,127
+2412,Seahorse,243
+2412,Angelfish,9
+2413,Lionfish,496
+2413,Trumpetfish Pipefish,480
+2413,Moray Eel,75
+2413,Octopus,47
+2413,Squid,58
+2414,Grouper,1
+2414,Turtle,506
+2414,Moray Eel,75
+2415,Grouper,1
+2415,Baracuda,5
+2415,Sharks,523
+2415,Eagle Ray,6
+2415,Sea Turtle,2
+2415,Moray Eel,75
+2415,Reef Fish,513
+2416,Pipefish,72
+2416,Stingray,28
+2416,Sea Urchin,131
+2418,Hawksbill Turtle,488
+2418,Sea Turtle,2
+2421,Grouper,1
+2421,Lionfish,496
+2421,Moray Eel,75
+2421,Octopus,47
+2423,Fish,494
+2423,Sealion,525
+2423,Nudibranch,479
+2426,Goatfish,15
+2426,Baracuda,5
+2426,Sunfish Mola Mola,524
+2426,Manta Ray,475
+2426,Eagle Ray,6
+2426,Octopus,47
+2432,Scorpionfish,20
+2432,Angelfish,9
+2432,Lionfish,496
+2432,Stingray,28
+2432,Hawksbill Turtle,488
+2432,Starfish,60
+2432,Nudibranch,479
+2432,Lobster,30
+2432,Shrimp,197
+2432,Clam,446
+2433,Scorpionfish,20
+2433,Lionfish,496
+2433,Snapper,19
+2433,Parrotfish,10
+2433,Baracuda,5
+2433,Giant Moray,527
+2433,Sea Anemone,65
+2447,Seahorse,243
+2447,Rays,481
+2447,Dolphins,158
+2447,Eel,36
+2447,Reef Fish,513
+2451,Trumpetfish Pipefish,480
+2451,Rays,481
+2451,Angelshark,218
+2451,Butterfly Ray,538
+2453,Baracuda,5
+2453,Grouper,1
+2453,Trumpetfish Pipefish,480
+2453,Rays,481
+2459,Green Turtle,539
+2468,Grouper,1
+2468,Loggerhead Turtle,532
+2468,Octopus,47
+2468,Rainbow Wrasse,540
+2472,Perch,541
+2472,Pike,69
+2475,Green Turtle,539
+2478,Scorpionfish,20
+2478,Trumpetfish Pipefish,480
+2478,Stingray,28
+2478,Starfish,60
+2478,Octopus,47
+2494,Crayfish,495
+2495,Turtle,506
+2513,Stingray,28
+2514,Grouper,1
+2514,Lionfish,496
+2514,Yellow Sponges,542
+2515,Shrimp,197
+2516,Tuna,526
+2516,Grouper,1
+2516,Swordfish,543
+2518,Grouper,1
+2518,Lionfish,496
+2518,Snapper,19
+2518,Octopus,47
+2529,Starfish,60
+2529,Jellyfish,489
+2529,Cod,81
+2530,Starfish,60
+2530,Crab,299
+2530,Jellyfish,489
+2530,Cod,81
+2530,Goldsinny Wrasse,544
+2531,Baracuda,5
+2531,Stingray,28
+2531,Moray Eel,75
+2531,Squid,58
+2531,Octopus,47
+2531,Reef Fish,513
+2531,Cuttlefish,16
+2532,Baracuda,5
+2532,Grouper,1
+2532,Starfish,60
+2532,Octopus,47
+2532,Eel,36
+2533,Grouper,1
+2533,Starfish,60
+2533,Crab,299
+2533,Reef Fish,513
+2535,Baracuda,5
+2538,Baracuda,5
+2538,Tigerfish,84
+2538,Stingray,28
+2539,Baracuda,5
+2539,Grouper,1
+2539,Batfish,57
+2539,Whaleshark,80
+2540,Grouper,1
+2540,Butterflyfish,73
+2540,Snapper,19
+2541,Grouper,1
+2541,Tigerfish,84
+2541,Butterflyfish,73
+2541,Parrotfish,10
+2560,Perch,541
+2560,Carp,545
+2560,Pike,69
+2566,Stonefish,152
+2566,Angelfish,9
+2566,Batfish,57
+2566,Bannerfish,487
+2566,Scorpionfish,20
+2566,Lionfish,496
+2566,Giant Moray,527
+2566,Cuttlefish,16
+2566,Anemone Fish,546
+2567,Leopard Shark,531
+2567,Garden Eels,528
+2567,Reef Fish Scorpionfish,507
+2567,Boxfish,11
+2567,Pufferfish,18
+2567,Surgeonfish,41
+2567,Angelfish,9
+2567,Bannerfish,487
+2567,Tigerfish,84
+2567,Parrotfish,10
+2567,Trumpetfish,3
+2567,Pipefish,72
+2567,Cowfish,477
+2567,Sweetlips,508
+2567,Snaper,476
+2567,Grouper,1
+2567,Lionfish Etc,509
+2569,Lionfish,496
+2569,Giant Moray,527
+2569,Anemone Fish,546
+2569,Cuttlefish,16
+2569,Reef Fish Scorpionfish,507
+2569,Boxfish,11
+2569,Pufferfish,18
+2569,Surgeonfish,41
+2569,Angelfish,9
+2569,Bannerfish,487
+2569,Tigerfish,84
+2569,Parrotfish,10
+2569,Trumpetfish,3
+2569,Pipefish,72
+2569,Cowfish,477
+2569,Sweetlips,508
+2569,Snaper,476
+2569,Grouper,1
+2569,Lionfish Etc,509
+2570,Baracuda,5
+2570,Grouper,1
+2570,Sweetlips,508
+2570,Snapper,19
+2570,Rainbow Wrasse,540
+2570,Ghost Pipefish,547
+2570,Reef Fish Scorpionfish,507
+2570,Boxfish,11
+2570,Pufferfish,18
+2570,Surgeonfish,41
+2570,Angelfish,9
+2570,Bannerfish,487
+2570,Tigerfish,84
+2570,Parrotfish,10
+2570,Trumpetfish,3
+2570,Pipefish,72
+2570,Cowfish,477
+2570,Sweetlips,508
+2570,Snaper,476
+2570,Grouper,1
+2570,Lionfish Etc,509
+2570,Ornate Ghost Pipefish,548
+2577,Baracuda,5
+2577,Snapper,19
+2577,Grouper,1
+2577,Jackfish,17
+2577,Lionfish,496
+2577,Lemon Shark,512
+2577,Hawksbill Turtle,488
+2577,Octopus,47
+2577,Gorgonian Fan,530
+2577,Coral,482
+2577,Yellow Lipped Seakraite,549
+2577,Green Sea Turtle,550
+2577,Reef Fish Scorpionfish,507
+2577,Boxfish,11
+2577,Pufferfish,18
+2577,Surgeonfish,41
+2577,Angelfish,9
+2577,Bannerfish,487
+2577,Tigerfish,84
+2577,Parrotfish,10
+2577,Trumpetfish,3
+2577,Pipefish,72
+2577,Cowfish,477
+2577,Sweetlips,508
+2577,Snaper,476
+2577,Grouper,1
+2577,Lionfish Etc,509
+2577,Ornate Ghost Pipefish,548
+2580,Seahorse,243
+2580,Sunfish Mola Mola,524
+2580,Baracuda,5
+2580,Rays,481
+2580,Squid,58
+2581,Lionfish,496
+2581,Baracuda,5
+2581,Sea Turtle,2
+2581,Sea Snake,497
+2581,Moray Eel,75
+2581,Shrimp,197
+2581,Nudibranch,479
+2581,Coral,482
+2581,Pufferfish,18
+2582,Rays,481
+2582,Sea Turtle,2
+2582,Sharks White Tip Reef Shark,551
+2582,Nurse Shark,7
+2582,Cat Sharks Etc,552
+2582,Reef Fish Scorpionfish,507
+2582,Boxfish,11
+2582,Pufferfish,18
+2582,Surgeonfish,41
+2582,Angelfish,9
+2582,Bannerfish,487
+2582,Tigerfish,84
+2582,Parrotfish,10
+2582,Trumpetfish,3
+2582,Pipefish,72
+2582,Cowfish,477
+2582,Sweetlips,508
+2582,Snaper,476
+2582,Grouper,1
+2582,Lionfish Etc,509
+2583,Humpback Whale,536
+2583,Eals,43
+2584,Pipefish,72
+2584,Weedy Sea Dragon,483
+2584,Giant Cuttlefish,498
+2584,Nudibranch,479
+2584,Grey Nurse Shark,485
+2584,Octopus,47
+2584,Wobbegong Shark,484
+2584,Port Jackson Shark,486
+2585,Baracuda,5
+2585,Guitar Shark,534
+2585,Mobula,533
+2585,Blacktip Reef Shark,501
+2585,Rays,481
+2585,Dolphins,158
+2585,Giant Moray,527
+2585,Eagle Ray,6
+2585,Reef Manta,553
+2585,Sharks White Tip Reef Shark,551
+2585,Nurse Shark,7
+2585,Cat Sharks Etc,552
+2585,Turtle,506
+2585,Reef Fish Scorpionfish,507
+2585,Boxfish,11
+2585,Pufferfish,18
+2585,Surgeonfish,41
+2585,Angelfish,9
+2585,Bannerfish,487
+2585,Tigerfish,84
+2585,Parrotfish,10
+2585,Trumpetfish,3
+2585,Pipefish,72
+2585,Cowfish,477
+2585,Sweetlips,508
+2585,Snaper,476
+2585,Grouper,1
+2585,Lionfish Etc,509
+2586,Octopus,47
+2586,Nudibranch,479
+2586,Giant Cuttlefish,498
+2586,Wobbegong Shark,484
+2586,Port Jackson Shark,486
+2587,Baracuda,5
+2587,Rays,481
+2587,Reef Fish Scorpionfish,507
+2587,Boxfish,11
+2587,Pufferfish,18
+2587,Surgeonfish,41
+2587,Angelfish,9
+2587,Bannerfish,487
+2587,Tigerfish,84
+2587,Parrotfish,10
+2587,Trumpetfish,3
+2587,Pipefish,72
+2587,Cowfish,477
+2587,Sweetlips,508
+2587,Snaper,476
+2587,Grouper,1
+2587,Lionfish Etc,509
+2588,Mobula,533
+2588,Rays,481
+2588,Sea Turtle,2
+2588,Sharks White Tip Reef Shark,551
+2588,Nurse Shark,7
+2588,Cat Sharks Etc,552
+2588,Reef Fish Scorpionfish,507
+2588,Boxfish,11
+2588,Pufferfish,18
+2588,Surgeonfish,41
+2588,Angelfish,9
+2588,Bannerfish,487
+2588,Tigerfish,84
+2588,Parrotfish,10
+2588,Trumpetfish,3
+2588,Pipefish,72
+2588,Cowfish,477
+2588,Sweetlips,508
+2588,Snaper,476
+2588,Grouper,1
+2588,Lionfish Etc,509
+2589,Seahorse,243
+2589,Stingray,28
+2589,Squid,58
+2589,Giant Cuttlefish,498
+2589,Octopus,47
+2589,Wobbegong Shark,484
+2589,Grey Nurse Shark,485
+2589,Angelshark,218
+2597,Grouper,1
+2597,Parrotfish,10
+2597,Stingray,28
+2598,Leatherback Turtles,380
+2598,Octopus,47
+2598,Ornate Wrasse,554
+2598,Rainbow Wrasse,540
+2598,Stingray,28
+2601,Sea Turtle,2
+2601,Reef Fish,513
+2602,Nudibranch,479
+2602,Humphead Parrotfish,555
+2602,Jenkins Ray,556
+2602,Reef Fish Scorpionfish,507
+2602,Boxfish,11
+2602,Pufferfish,18
+2602,Surgeonfish,41
+2602,Angelfish,9
+2602,Bannerfish,487
+2602,Tigerfish,84
+2602,Parrotfish,10
+2602,Trumpetfish,3
+2602,Pipefish,72
+2602,Cowfish,477
+2602,Sweetlips,508
+2602,Snaper,476
+2602,Grouper,1
+2602,Lionfish Etc,509
+2602,Round Stingrays,155
+2603,Tigerfish,84
+2603,Sweetlips,508
+2603,Giant Moray,527
+2603,Octopus,47
+2603,Coral,482
+2603,Mantis Shrimp,114
+2603,Stingray,28
+2603,Reef Fish Scorpionfish,507
+2603,Boxfish,11
+2603,Pufferfish,18
+2603,Surgeonfish,41
+2603,Angelfish,9
+2603,Bannerfish,487
+2603,Tigerfish,84
+2603,Parrotfish,10
+2603,Trumpetfish,3
+2603,Pipefish,72
+2603,Cowfish,477
+2603,Sweetlips,508
+2603,Snaper,476
+2603,Grouper,1
+2603,Lionfish Etc,509
+2603,Ornate Ghost Pipefish,548
+2605,Grouper,1
+2605,Starfish,60
+2605,Gorgonian Fan,530
+2605,Coral,482
+2605,Seabream,557
+2605,Lobster,30
+2608,Grouper,1
+2608,Parrotfish,10
+2608,Moray Eel,75
+2608,Octopus,47
+2608,Reef Fish Scorpionfish,507
+2608,Boxfish,11
+2608,Pufferfish,18
+2608,Surgeonfish,41
+2608,Angelfish,9
+2608,Bannerfish,487
+2608,Tigerfish,84
+2608,Parrotfish,10
+2608,Trumpetfish,3
+2608,Pipefish,72
+2608,Cowfish,477
+2608,Sweetlips,508
+2608,Snaper,476
+2608,Grouper,1
+2608,Lionfish Etc,509
+2608,Amberjack,558
+2609,Snapper,19
+2609,Crayfish,495
+2609,Eel,36
+2609,Kingfish,559
+2609,Stingray,28
+2610,Pelagic Fish,518
+2610,Moray Eel,75
+2610,Crayfish,495
+2610,Sponges,34
+2610,Stingray,28
+2614,Pelagic Fish,518
+2614,Reef Fish,513
+2615,Pelagic Fish,518
+2615,Snapper,19
+2615,Perch,541
+2615,Moray Eel,75
+2615,Crayfish,495
+2615,Kingfish,559
+2616,Pelagic Fish,518
+2616,Snapper,19
+2616,Moray Eel,75
+2616,Crayfish,495
+2616,Nudibranch,479
+2616,Sponges,34
+2616,Kingfish,559
+2617,Scorpionfish,20
+2617,Fish,494
+2617,Rays,481
+2618,Reef Fish Scorpionfish,507
+2618,Boxfish,11
+2618,Pufferfish,18
+2618,Surgeonfish,41
+2618,Angelfish,9
+2618,Bannerfish,487
+2618,Tigerfish,84
+2618,Parrotfish,10
+2618,Trumpetfish,3
+2618,Pipefish,72
+2618,Cowfish,477
+2618,Sweetlips,508
+2618,Snaper,476
+2618,Grouper,1
+2618,Lionfish Etc,509
+2619,Seahorse,243
+2619,Stingray,28
+2619,Ray,560
+2619,Roncadors Grunts,561
+2620,Nudibranch,479
+2620,Crab,299
+2620,Sea Anemone,65
+2620,Lobster,30
+2621,Tigerfish,84
+2621,Pelagic Fish,518
+2621,Crayfish,495
+2621,Nudibranch,479
+2621,Sponges,34
+2621,Stingray,28
+2622,Pelagic Fish,518
+2622,Snapper,19
+2622,Goatfish,15
+2622,Garden Eels,528
+2622,Moray Eel,75
+2622,Crayfish,495
+2622,Yellow Sponges,542
+2622,Octopus,47
+2622,Stingray,28
+2625,Pelagic Fish,518
+2625,Moray Eel,75
+2625,Crayfish,495
+2625,Sea Anemone,65
+2629,Angelfish,9
+2629,Whitetip Reef Shark,490
+2629,Leopard Shark,531
+2629,Sea Turtle,2
+2629,Grey Nurse Shark,485
+2630,Scorpionfish,20
+2630,Batfish,57
+2630,Sea Snake,497
+2630,Octopus,47
+2630,Nudibranch,479
+2630,Sea Anemone,65
+2630,Anemone Fish,546
+2630,Mantis Shrimp,114
+2630,Reef Fish Scorpionfish,507
+2630,Boxfish,11
+2630,Pufferfish,18
+2630,Surgeonfish,41
+2630,Angelfish,9
+2630,Bannerfish,487
+2630,Tigerfish,84
+2630,Parrotfish,10
+2630,Trumpetfish,3
+2630,Pipefish,72
+2630,Cowfish,477
+2630,Sweetlips,508
+2630,Snaper,476
+2630,Grouper,1
+2630,Lionfish Etc,509
+2630,Octopus,47
+2633,Grouper,1
+2633,Lionfish,496
+2633,Turtle,506
+2635,Eagle Ray,6
+2635,Hawksbill Turtle,488
+2638,Reef Fish,513
+2639,Hawksbill Turtle,488
+2639,Reef Fish,513
+2640,Hawksbill Turtle,488
+2640,Eagle Ray,6
+2653,Moray Eel,75
+2653,Nudibranch,479
+2655,Bream,514
+2655,Octopus,47
+2655,Pufferfish,18
+2655,Flying Gurnard,230
+2655,Filefishes,562
+2655,Tigerfish,84
+2656,Shrimp,197
+2656,Round Stingrays,155
+2657,Baracuda,5
+2658,Blacktip Reef Sharks,563
+2658,Green Turtle,539
+2658,Hawksbill Turtle,488
+2660,Baracuda,5
+2660,Grouper,1
+2660,Seahorse,243
+2660,Scorpionfish,20
+2660,Moray Eel,75
+2660,Nudibranch,479
+2662,Jackfish,17
+2662,Trumpetfish Pipefish,480
+2662,Tigerfish,84
+2662,Tuna,526
+2662,Baracuda,5
+2662,Sunfish Mola Mola,524
+2662,Grouper,1
+2662,Seahorse,243
+2662,Pelagic Fish,518
+2662,Scorpionfish,20
+2662,Electric Ray,220
+2662,Sea Cucumber,64
+2662,Moray Eel,75
+2662,Eel,36
+2662,Starfish,60
+2662,Lobster,30
+2662,Shrimp,197
+2662,Giant Cuttlefish,498
+2662,Crab,299
+2662,Clam,446
+2662,Octopus,47
+2662,Squid,58
+2662,Nudibranch,479
+2662,Sea Anemone,65
+2663,Baracuda,5
+2663,Grouper,1
+2663,Scorpionfish,20
+2663,Moray Eel,75
+2663,Starfish,60
+2663,Sea Cucumber,64
+2663,Crab,299
+2663,Shrimp,197
+2663,Lobster,30
+2663,Squid,58
+2663,Nudibranch,479
+2663,Octopus,47
+2663,Jellyfish,489
+2666,Seahorse,243
+2666,Scorpionfish,20
+2666,Fish,494
+2666,Rays,481
+2667,Butterflyfish,73
+2667,Batfish,57
+2667,Cuttlefish,16
+2667,Wobbegong Shark,484
+2668,Giant Cuttlefish,498
+2668,Wobbegong Shark,484
+2668,Blue Groper,491
+2668,Bull Ray,564
+2668,Port Jackson Shark,486
+2669,Giant Cuttlefish,498
+2669,Port Jackson Shark,486
+2669,Wobbegong Shark,484
+2669,Yellowtail,565
+2669,Old Wive,515
+2670,Weedy Sea Dragon,483
+2670,Eagle Ray,6
+2670,Giant Cuttlefish,498
+2670,Nudibranch,479
+2670,Wobbegong Shark,484
+2670,Stingray,28
+2670,Batfish,57
+2670,Blue Groper,491
+2670,Grey Nurse Shark,485
+2671,Seahorse,243
+2671,Moray Eel,75
+2671,Octopus,47
+2671,Cuttlefish,16
+2671,Wobbegong Shark,484
+2671,Stingray,28
+2673,Frogfish,127
+2673,Seahorse,243
+2673,Stingray,28
+2673,Crab,299
+2673,Nudibranch,479
+2673,Cuttlefish,16
+2673,Octopus,47
+2673,Bull Ray,564
+2673,Old Wive,515
+2674,Weedy Sea Dragon,483
+2675,Weedy Sea Dragon,483
+2675,Rays,481
+2675,Turtle,506
+2675,Giant Cuttlefish,498
+2675,Old Wive,515
+2675,Octopus,47
+2675,Port Jackson Shark,486
+2675,Wobbegong Shark,484
+2676,Sunfish Mola Mola,524
+2676,Manta Ray,475
+2676,Eagle Ray,6
+2678,Perch,541
+2678,Pike,69
+2680,Surgeonfish,41
+2680,Snapper,19
+2680,Octopus,47
+2680,Eel,36
+2680,Green Sea Turtle,550
+2681,Trumpetfish Pipefish,480
+2681,Tigerfish,84
+2681,Butterflyfish,73
+2681,Whitemouth Moray,566
+2681,Octopus,47
+2681,Green Sea Turtle,550
+2682,Grouper,1
+2682,Surgeonfish,41
+2682,Trumpetfish Pipefish,480
+2682,Tigerfish,84
+2682,Butterflyfish,73
+2682,Snapper,19
+2682,Flying Gurnard,230
+2682,Green Turtle,539
+2683,Trumpetfish Pipefish,480
+2683,Tigerfish,84
+2683,Snapper,19
+2683,Green Sea Turtle,550
+2683,Snaper,476
+2684,Scorpionfish,20
+2684,Whitetip Reef Shark,490
+2684,Giant Moray,527
+2684,Eagle Ray,6
+2685,Frogfish,127
+2685,Goatfish,15
+2685,Whitetip Reef Shark,490
+2685,Nudibranch,479
+2685,Green Turtle,539
+2686,Manta Ray,475
+2686,Garden Eels,528
+2687,Baracuda,5
+2687,Reef Shark,567
+2687,Reef Fish Scorpionfish,507
+2687,Boxfish,11
+2687,Pufferfish,18
+2687,Surgeonfish,41
+2687,Angelfish,9
+2687,Bannerfish,487
+2687,Tigerfish,84
+2687,Parrotfish,10
+2687,Trumpetfish,3
+2687,Pipefish,72
+2687,Cowfish,477
+2687,Sweetlips,508
+2687,Snaper,476
+2687,Grouper,1
+2687,Lionfish Etc,509
+2688,Gorgonian Fan,530
+2693,Sharks,523
+2694,Crayfish,495
+2701,Tuna,526
+2701,Jackfish,17
+2701,Leopard Shark,531
+2701,Blacktip Reef Shark,501
+2701,Turtle,506
+2701,Dolphins,158
+2701,Lobster,30
+2701,Octopus,47
+2701,Nudibranch,479
+2701,Muray,568
+2711,Frogfish,127
+2711,Angelfish,9
+2711,Manta Ray,475
+2711,Sharks,523
+2711,Whitetip Reef Shark,490
+2711,Turtle,506
+2711,Octopus,47
+2711,Crab,299
+2711,Reef Fish Scorpionfish,507
+2711,Boxfish,11
+2711,Pufferfish,18
+2711,Surgeonfish,41
+2711,Angelfish,9
+2711,Bannerfish,487
+2711,Tigerfish,84
+2711,Parrotfish,10
+2711,Trumpetfish,3
+2711,Pipefish,72
+2711,Cowfish,477
+2711,Sweetlips,508
+2711,Snaper,476
+2711,Grouper,1
+2711,Lionfish Etc,509
+2712,Frogfish,127
+2712,Trumpetfish Pipefish,480
+2712,Angelfish,9
+2712,Whitetip Reef Shark,490
+2712,Sea Urchin,131
+2712,Reef Fish Scorpionfish,507
+2712,Boxfish,11
+2712,Pufferfish,18
+2712,Surgeonfish,41
+2712,Angelfish,9
+2712,Bannerfish,487
+2712,Tigerfish,84
+2712,Parrotfish,10
+2712,Trumpetfish,3
+2712,Pipefish,72
+2712,Cowfish,477
+2712,Sweetlips,508
+2712,Snaper,476
+2712,Grouper,1
+2712,Lionfish Etc,509
+2712,Lobster,30
+2712,Eel,36
+2713,Reef Fish Scorpionfish,507
+2713,Boxfish,11
+2713,Pufferfish,18
+2713,Surgeonfish,41
+2713,Angelfish,9
+2713,Bannerfish,487
+2713,Tigerfish,84
+2713,Parrotfish,10
+2713,Trumpetfish,3
+2713,Pipefish,72
+2713,Cowfish,477
+2713,Sweetlips,508
+2713,Snaper,476
+2713,Grouper,1
+2713,Lionfish Etc,509
+2714,Baracuda,5
+2714,Frogfish,127
+2714,Whitetip Reef Shark,490
+2714,Hammerhead Shark,93
+2714,Reef Fish Scorpionfish,507
+2714,Boxfish,11
+2714,Pufferfish,18
+2714,Surgeonfish,41
+2714,Angelfish,9
+2714,Bannerfish,487
+2714,Tigerfish,84
+2714,Parrotfish,10
+2714,Trumpetfish,3
+2714,Pipefish,72
+2714,Cowfish,477
+2714,Sweetlips,508
+2714,Snaper,476
+2714,Grouper,1
+2714,Lionfish Etc,509
+2714,Eagle Ray,6
+2714,Eel,36
+2715,Galapagos Sharks,535
+2715,Whitetip Reef Shark,490
+2715,Nudibranch,479
+2715,Grey Reef Shark,516
+2715,Reef Fish Scorpionfish,507
+2715,Boxfish,11
+2715,Pufferfish,18
+2715,Surgeonfish,41
+2715,Angelfish,9
+2715,Bannerfish,487
+2715,Tigerfish,84
+2715,Parrotfish,10
+2715,Trumpetfish,3
+2715,Pipefish,72
+2715,Cowfish,477
+2715,Sweetlips,508
+2715,Snaper,476
+2715,Grouper,1
+2715,Lionfish Etc,509
+2715,Eel,36
+2715,Whaleshark,80
+2715,Manta Ray,475
+2715,Eagle Ray,6
+2715,Nudibranch,479
+2715,Sea Slug,569
+2716,Boxfish Pufferfish,478
+2716,Octopus,47
+2716,Reef Fish Scorpionfish,507
+2716,Boxfish,11
+2716,Pufferfish,18
+2716,Surgeonfish,41
+2716,Angelfish,9
+2716,Bannerfish,487
+2716,Tigerfish,84
+2716,Parrotfish,10
+2716,Trumpetfish,3
+2716,Pipefish,72
+2716,Cowfish,477
+2716,Sweetlips,508
+2716,Snaper,476
+2716,Grouper,1
+2716,Lionfish Etc,509
+2716,Eel,36
+2717,Reef Fish Scorpionfish,507
+2717,Boxfish,11
+2717,Pufferfish,18
+2717,Surgeonfish,41
+2717,Angelfish,9
+2717,Bannerfish,487
+2717,Tigerfish,84
+2717,Parrotfish,10
+2717,Trumpetfish,3
+2717,Pipefish,72
+2717,Cowfish,477
+2717,Sweetlips,508
+2717,Snaper,476
+2717,Grouper,1
+2717,Lionfish Etc,509
+2719,Baracuda,5
+2719,Lionfish,496
+2719,Eel,36
+2721,Baracuda,5
+2721,Tigerfish,84
+2721,Bull Shark,570
+2721,Tiger Shark,511
+2721,Moray Eel,75
+2723,Turtle,506
+2724,Bluegill,571
+2724,Bass,572
+2724,Crappie,573
+2724,Batfish,57
+2724,Turtle,506
+2724,Jellyfish,489
+2728,Seahorse,243
+2730,Pike,69
+2731,Sturgeon,38
+2731,Perch,541
+2731,Pike,69
+2732,Reef Fish,513
+2735,Fish,494
+2735,Eel,36
+2735,Crab,299
+2741,Tigerfish,84
+2741,Octopus,47
+2741,Reef Fish Scorpionfish,507
+2741,Boxfish,11
+2741,Pufferfish,18
+2741,Surgeonfish,41
+2741,Angelfish,9
+2741,Bannerfish,487
+2741,Tigerfish,84
+2741,Parrotfish,10
+2741,Trumpetfish,3
+2741,Pipefish,72
+2741,Cowfish,477
+2741,Sweetlips,508
+2741,Snaper,476
+2741,Grouper,1
+2741,Lionfish Etc,509
+2741,Eel,36
+2742,Tuna,526
+2742,Baracuda,5
+2742,Amberjack,558
+2742,Manta,574
+2743,Grouper,1
+2743,Tigerfish,84
+2743,Stingray,28
+2743,Sea Urchin,131
+2743,Damselfish,12
+2743,Flounder,45
+2744,Blue Shark,575
+2744,Mako Shark,576
+2745,Surgeonfish,41
+2745,Scorpionfish,20
+2745,Butterflyfish,73
+2745,Frogfish,127
+2745,Rays,481
+2745,Loggerhead Turtle,532
+2745,Eel,36
+2745,Kingfish,559
+2746,Grouper,1
+2746,Rays,481
+2746,Octopus,47
+2746,Wobbegong Shark,484
+2746,Turtle,506
+2746,Anemones,577
+2751,Trumpetfish Pipefish,480
+2751,Rays,481
+2751,Garden Eels,528
+2751,Octopus,47
+2751,Shrimp,197
+2751,Sea Anemone,65
+2752,Seahorse,243
+2752,Rays,481
+2752,Moray Eel,75
+2752,Octopus,47
+2752,Shrimp,197
+2752,Sea Anemone,65
+2753,Tuna,526
+2753,Baracuda,5
+2753,Pelagic Fish,518
+2753,Hammerhead Shark,93
+2754,Frogfish,127
+2754,Eagle Ray,6
+2755,Lobster,30
+2755,Crab,299
+2755,Hermit Crab,70
+2756,Angelfish,9
+2756,Baracuda,5
+2756,Bannerfish,487
+2756,Lionfish,496
+2756,Goatfish,15
+2756,Stingray,28
+2756,Nudibranch,479
+2756,Fusilier,578
+2757,Grouper,1
+2757,Lobster,30
+2757,Octopus,47
+2757,Reef Fish,513
+2757,Turtle,506
+2759,Sea Otter,579
+2759,Nudibranch,479
+2759,Octopus,47
+2759,Sea Lions,580
+2759,Harbor Seal,581
+2759,Kelp Forest,582
+2759,Seastars,214
+2759,Rock Fish,583
+2765,Angelfish,9
+2765,Bannerfish,487
+2765,Sand Tiger Shark,61
+2765,Humpback Whale,536
+2765,Octopus,47
+2765,Lobster,30
+2765,Port Jackson Shark,486
+2765,Wobbegong Shark,484
+2765,Fur Seal,584
+2767,Pelagic Fish,518
+2767,Whaleshark,80
+2767,Manta Ray,475
+2767,Sharks,523
+2767,Eel,36
+2767,Octopus,47
+2767,Lobster,30
+2767,Reef Fish,513
+2770,Whitetip Reef Shark,490
+2770,Nudibranch,479
+2778,Hawksbill Turtle,488
+2778,Green Sea Turtle,550
+2817,Batfish,57
+2818,Batfish,57
+2820,Lionfish,496
+2820,Stingray,28
+2820,Whaleshark,80
+2820,Manta Ray,475
+2820,Eagle Ray,6
+2820,Nudibranch,479
+2820,Sea Slug,569
+2821,Parrotfish,10
+2821,Boxfish Pufferfish,478
+2821,Baracuda,5
+2821,Cowfish,477
+2821,Scorpionfish,20
+2821,Blacktip Reef Shark,501
+2821,Hammerhead Shark,93
+2821,Silvertip Shark,503
+2821,Dolphins,158
+2822,Baracuda,5
+2822,Angelfish,9
+2822,Sea Turtle,2
+2822,Coral,482
+2823,Nudibranch,479
+2823,Port Jackson Shark,486
+2824,Nudibranch,479
+2824,Pygmy Seahorse,585
+2824,Cuttlefish,16
+2825,Giant Cuttlefish,498
+2826,Reef Fish Scorpionfish,507
+2826,Boxfish,11
+2826,Pufferfish,18
+2826,Surgeonfish,41
+2826,Angelfish,9
+2826,Bannerfish,487
+2826,Tigerfish,84
+2826,Parrotfish,10
+2826,Trumpetfish,3
+2826,Pipefish,72
+2826,Cowfish,477
+2826,Sweetlips,508
+2826,Snaper,476
+2826,Grouper,1
+2826,Lionfish Etc,509
+2827,Reef Fish,513
+2830,Leaffish,499
+2830,Angelfish,9
+2830,Baracuda,5
+2830,Turtle,506
+2830,Bluespotted Stingray,586
+2830,Reef Fish Scorpionfish,507
+2830,Boxfish,11
+2830,Pufferfish,18
+2830,Surgeonfish,41
+2830,Angelfish,9
+2830,Bannerfish,487
+2830,Tigerfish,84
+2830,Parrotfish,10
+2830,Trumpetfish,3
+2830,Pipefish,72
+2830,Cowfish,477
+2830,Sweetlips,508
+2830,Snaper,476
+2830,Grouper,1
+2830,Lionfish Etc,509
+2830,Eel,36
+2830,Nudibranch,479
+2832,Lobster,30
+2832,Crab,299
+2832,Flatfish,27
+2832,Pollack,587
+2832,Wrasse,44
+2836,Carp,545
+2836,Pike,69
+2836,Largemouth Bass,588
+2837,Goliath Grouper,589
+2841,Bluegill,571
+2841,Bass,572
+2841,Crappie,573
+2841,Batfish,57
+2841,Turtle,506
+2841,Jellyfish,489
+2843,Nurse Shark,7
+2843,Sharks White Tip Reef Shark,551
+2843,Nurse Shark,7
+2843,Cat Sharks Etc,552
+2843,Sea Turtle,2
+2843,Caribbean Reef Shark,590
+2844,Napoleon Fish,500
+2844,Nurse Shark,7
+2844,Leopard Shark,531
+2844,Blacktip Reef Shark,501
+2844,Sea Turtle,2
+2844,Eel,36
+2844,Reef Fish Scorpionfish,507
+2844,Boxfish,11
+2844,Pufferfish,18
+2844,Surgeonfish,41
+2844,Angelfish,9
+2844,Bannerfish,487
+2844,Tigerfish,84
+2844,Parrotfish,10
+2844,Trumpetfish,3
+2844,Pipefish,72
+2844,Cowfish,477
+2844,Sweetlips,508
+2844,Snaper,476
+2844,Grouper,1
+2844,Lionfish Etc,509
+2851,Carp,545
+2851,Crayfish,495
+2851,Striped Bass,591
+2851,Largemouth Bass,588
+2853,Octopus,47
+2853,Garibaldi,592
+2853,Sheepshead,593
+2853,Calico Bass,594
+2853,Giant Black Sea Bass Wreck Fish,595
+2853,Blue Banded Gobi,596
+2854,Octopus,47
+2854,Sea Hare,597
+2854,Garibaldi,592
+2854,White Sea Bass,598
+2854,Sheepshead,593
+2854,Nudibranch,479
+2854,Flounder,45
+2854,Blue Banded Gobi,596
+2858,Sweetlips,508
+2858,Manta Ray,475
+2858,Nudibranch,479
+2858,Bamboo Shark,206
+2858,Reef Fish Scorpionfish,507
+2858,Boxfish,11
+2858,Pufferfish,18
+2858,Surgeonfish,41
+2858,Angelfish,9
+2858,Bannerfish,487
+2858,Tigerfish,84
+2858,Parrotfish,10
+2858,Trumpetfish,3
+2858,Pipefish,72
+2858,Cowfish,477
+2858,Sweetlips,508
+2858,Snaper,476
+2858,Grouper,1
+2858,Lionfish Etc,509
+2858,Wobbegong Shark,484
+2858,Bluespotted Stingray,586
+2865,Paddlefish,149
+2865,Bluegill,571
+2865,Bass,572
+2865,Crappie,573
+2865,Batfish,57
+2865,Turtle,506
+2865,Jellyfish,489
+2866,Nudibranch,479
+2866,Kuhls Stingray,599
+2867,Butterflyfish,73
+2867,Snapper,19
+2867,Parrotfish,10
+2867,Tigerfish,84
+2867,Moray Eel,75
+2867,Feathertail Ray,600
+2867,Eagle Ray,6
+2867,Soldierfish,601
+2867,Squirrelfish,0
+2867,Emperors,602
+2868,Reef Fish Scorpionfish,507
+2868,Boxfish,11
+2868,Pufferfish,18
+2868,Surgeonfish,41
+2868,Angelfish,9
+2868,Bannerfish,487
+2868,Tigerfish,84
+2868,Parrotfish,10
+2868,Trumpetfish,3
+2868,Pipefish,72
+2868,Cowfish,477
+2868,Sweetlips,508
+2868,Snaper,476
+2868,Grouper,1
+2868,Lionfish Etc,509
+2876,Boxfish Pufferfish,478
+2876,Baracuda,5
+2876,Frogfish,127
+2876,Grouper,1
+2876,Jackfish,17
+2876,Whaleshark,80
+2876,Nudibranch,479
+2876,Coral,482
+2879,Blue Groper,491
+2879,Octopus,47
+2879,Wobbegong Shark,484
+2879,Eastern Blue Devil Fish,493
+2879,Nudibranch,479
+2881,Dolphins,158
+2882,Tigerfish,84
+2882,Butterflyfish,73
+2882,Hawksbill Turtle,488
+2882,Wrasse,44
+2883,Angelfish,9
+2883,Tigerfish,84
+2883,Butterflyfish,73
+2883,Hawksbill Turtle,488
+2883,Wrasse,44
+2884,Baracuda,5
+2884,Grouper,1
+2885,Tuna,526
+2885,Gorgonian Fan,530
+2886,Whitetip Reef Shark,490
+2886,Blacktip Reef Shark,501
+2886,Mobula,533
+2886,Hawksbill Turtle,488
+2887,Tuna,526
+2887,Baracuda,5
+2887,Mobula,533
+2887,Sharks,523
+2889,Pike,69
+2889,Trout,517
+2889,Eel,36
+2899,Baracuda,5
+2899,Grouper,1
+2899,Lionfish,496
+2899,Octopus,47
+2904,Tuna,526
+2904,Napoleon Fish,500
+2904,Batfish,57
+2904,Eagle Ray,6
+2904,Grey Reef Shark,516
+2904,Mobula Ray,505
+2908,Whitetip Reef Shark,490
+2908,Stingray,28
+2908,Hawksbill Turtle,488
+2908,Eel,36
+2908,Octopus,47
+2908,Reef Fish,513
+2909,Sharks,523
+2909,Rays,481
+2909,Eel,36
+2909,Reef Fish Scorpionfish,507
+2909,Boxfish,11
+2909,Pufferfish,18
+2909,Surgeonfish,41
+2909,Angelfish,9
+2909,Bannerfish,487
+2909,Tigerfish,84
+2909,Parrotfish,10
+2909,Trumpetfish,3
+2909,Pipefish,72
+2909,Cowfish,477
+2909,Sweetlips,508
+2909,Snaper,476
+2909,Grouper,1
+2909,Lionfish Etc,509
+2909,Turtle,506
+2910,Sharks,523
+2910,Rays,481
+2910,Sea Turtle,2
+2910,Eel,36
+2910,Octopus,47
+2910,Reef Fish Scorpionfish,507
+2910,Boxfish,11
+2910,Pufferfish,18
+2910,Surgeonfish,41
+2910,Angelfish,9
+2910,Bannerfish,487
+2910,Tigerfish,84
+2910,Parrotfish,10
+2910,Trumpetfish,3
+2910,Pipefish,72
+2910,Cowfish,477
+2910,Sweetlips,508
+2910,Snaper,476
+2910,Grouper,1
+2910,Lionfish Etc,509
+2920,Pipefish,72
+2920,Crab,299
+2920,Shrimp,197
+2920,Seahorse,243
+2920,Stingray,28
+2923,Sturgeon,38
+2923,Perch,541
+2923,Trout,517
+2924,Stingray,28
+2924,Sharks,523
+2924,Eel,36
+2924,Octopus,47
+2924,Crayfish,495
+2924,Reef Fish,513
+2924,Sea Turtle,2
+2925,Sharks,523
+2925,Rays,481
+2925,Eel,36
+2925,Crayfish,495
+2925,Octopus,47
+2925,Turtle,506
+2925,Reef Fish Scorpionfish,507
+2925,Boxfish,11
+2925,Pufferfish,18
+2925,Surgeonfish,41
+2925,Angelfish,9
+2925,Bannerfish,487
+2925,Tigerfish,84
+2925,Parrotfish,10
+2925,Trumpetfish,3
+2925,Pipefish,72
+2925,Cowfish,477
+2925,Sweetlips,508
+2925,Snaper,476
+2925,Grouper,1
+2925,Lionfish Etc,509
+2926,Lemon Shark,512
+2926,Reef Fish,513
+2926,Sea Turtle,2
+2927,Pike,69
+2927,Trout,517
+2927,Eel,36
+2927,Rudd,603
+2928,Moray Eel,75
+2928,Octopus,47
+2928,Nudibranch,479
+2928,Reef Fish Scorpionfish,507
+2928,Boxfish,11
+2928,Pufferfish,18
+2928,Surgeonfish,41
+2928,Angelfish,9
+2928,Bannerfish,487
+2928,Tigerfish,84
+2928,Parrotfish,10
+2928,Trumpetfish,3
+2928,Pipefish,72
+2928,Cowfish,477
+2928,Sweetlips,508
+2928,Snaper,476
+2928,Grouper,1
+2928,Lionfish Etc,509
+2936,Loggerhead Turtle,532
+2936,Hawksbill Turtle,488
+2936,Green Moray,604
+2936,Spotted Eagle Ray,605
+2937,Boxfish Pufferfish,478
+2937,Lionfish,496
+2937,Hawksbill Turtle,488
+2937,Moray Eel,75
+2937,Shrimp,197
+2937,Octopus,47
+2937,Reef Fish,513
+2937,Anemone Fish,546
+2937,Kuhls Stingray,599
+2937,Moorish Idol,419
+2938,Tigerfish,84
+2938,Sea Turtle,2
+2938,Starfish,60
+2938,Moray Eel,75
+2938,Lobster,30
+2938,Octopus,47
+2938,Nudibranch,479
+2938,Anemone Fish,546
+2938,Mantis Shrimp,114
+2938,Reef Fish Scorpionfish,507
+2938,Boxfish,11
+2938,Pufferfish,18
+2938,Surgeonfish,41
+2938,Angelfish,9
+2938,Bannerfish,487
+2938,Tigerfish,84
+2938,Parrotfish,10
+2938,Trumpetfish,3
+2938,Pipefish,72
+2938,Cowfish,477
+2938,Sweetlips,508
+2938,Snaper,476
+2938,Grouper,1
+2938,Lionfish Etc,509
+2938,Cuttlefish,16
+2939,Turtle,506
+2939,Jellyfish,489
+2943,Sea Turtle,2
+2949,Baracuda,5
+2949,Sunfish Mola Mola,524
+2949,Tuna,526
+2949,Mako Shark,576
+2949,Silvertip Shark,503
+2949,Whitetip Reef Shark,490
+2949,Thresher Shark,40
+2949,Whaleshark,80
+2949,Oceanic Manta,606
+2949,Grey Reef Shark,516
+2949,Yellowfins Tuna,607
+2949,Trevally,608
+2949,Hammerhead Shark,93
+2951,Bream,514
+2951,Turtle,506
+2951,Octopus,47
+2951,Nudibranch,479
+2951,Reef Fish Scorpionfish,507
+2951,Boxfish,11
+2951,Pufferfish,18
+2951,Surgeonfish,41
+2951,Angelfish,9
+2951,Bannerfish,487
+2951,Tigerfish,84
+2951,Parrotfish,10
+2951,Trumpetfish,3
+2951,Pipefish,72
+2951,Cowfish,477
+2951,Sweetlips,508
+2951,Snaper,476
+2951,Grouper,1
+2951,Lionfish Etc,509
+2951,Cuttlefish,16
+2952,Lionfish,496
+2952,Bream,514
+2952,Sea Turtle,2
+2952,Octopus,47
+2952,Damselfish,12
+2952,Reef Fish Scorpionfish,507
+2952,Boxfish,11
+2952,Pufferfish,18
+2952,Surgeonfish,41
+2952,Angelfish,9
+2952,Bannerfish,487
+2952,Tigerfish,84
+2952,Parrotfish,10
+2952,Trumpetfish,3
+2952,Pipefish,72
+2952,Cowfish,477
+2952,Sweetlips,508
+2952,Snaper,476
+2952,Grouper,1
+2952,Lionfish Etc,509
+2952,Cuttlefish,16
+2953,Lionfish,496
+2953,Sea Turtle,2
+2953,Reef Fish Scorpionfish,507
+2953,Boxfish,11
+2953,Pufferfish,18
+2953,Surgeonfish,41
+2953,Angelfish,9
+2953,Bannerfish,487
+2953,Tigerfish,84
+2953,Parrotfish,10
+2953,Trumpetfish,3
+2953,Pipefish,72
+2953,Cowfish,477
+2953,Sweetlips,508
+2953,Snaper,476
+2953,Grouper,1
+2953,Lionfish Etc,509
+2956,Eagle Ray,6
+2956,Stingray,28
+2956,Sea Cucumber,64
+2956,Starfish,60
+2956,Crab,299
+2956,Crayfish,495
+2956,Nudibranch,479
+2956,Sea Anemone,65
+2956,Sea Hare,597
+2956,Cod,81
+2956,Eel,36
+2956,Nudibranch,479
+2958,Seahorse,243
+2958,Boxfish Pufferfish,478
+2958,Trumpetfish Pipefish,480
+2958,Moray Eel,75
+2958,Octopus,47
+2959,Baracuda,5
+2959,Jackfish,17
+2959,Whitetip Reef Shark,490
+2959,Starfish,60
+2959,Reef Fish,513
+2959,Eagle Ray,6
+2960,Trumpetfish Pipefish,480
+2960,Rays,481
+2960,Crab,299
+2960,Octopus,47
+2960,Blue-Fin Damselfish,609
+2960,Sea Urchin,131
+2960,Eagle Ray,6
+2960,Cuttlefish,16
+2960,Spider Crab,33
+2962,Stingray,28
+2962,Sharks,523
+2962,Sea Turtle,2
+2962,Eel,36
+2962,Octopus,47
+2962,Reef Fish,513
+2964,Reef Fish,513
+2964,Stingray,28
+2964,Reef Shark,567
+2965,Whitetip Reef Shark,490
+2965,Stingray,28
+2965,Sea Turtle,2
+2965,Octopus,47
+2965,Reef Fish Scorpionfish,507
+2965,Boxfish,11
+2965,Pufferfish,18
+2965,Surgeonfish,41
+2965,Angelfish,9
+2965,Bannerfish,487
+2965,Tigerfish,84
+2965,Parrotfish,10
+2965,Trumpetfish,3
+2965,Pipefish,72
+2965,Cowfish,477
+2965,Sweetlips,508
+2965,Snaper,476
+2965,Grouper,1
+2965,Lionfish Etc,509
+2966,Jackfish,17
+2966,Whitetip Reef Shark,490
+2966,Octopus,47
+2966,Reef Fish Scorpionfish,507
+2966,Boxfish,11
+2966,Pufferfish,18
+2966,Surgeonfish,41
+2966,Angelfish,9
+2966,Bannerfish,487
+2966,Tigerfish,84
+2966,Parrotfish,10
+2966,Trumpetfish,3
+2966,Pipefish,72
+2966,Cowfish,477
+2966,Sweetlips,508
+2966,Snaper,476
+2966,Grouper,1
+2966,Lionfish Etc,509
+2967,Nurse Shark,7
+2967,Eagle Ray,6
+2967,Stingray,28
+2967,Starfish,60
+2967,Reef Fish Scorpionfish,507
+2967,Boxfish,11
+2967,Pufferfish,18
+2967,Surgeonfish,41
+2967,Angelfish,9
+2967,Bannerfish,487
+2967,Tigerfish,84
+2967,Parrotfish,10
+2967,Trumpetfish,3
+2967,Pipefish,72
+2967,Cowfish,477
+2967,Sweetlips,508
+2967,Snaper,476
+2967,Grouper,1
+2967,Lionfish Etc,509
+2967,Lobster,30
+2969,Jackfish,17
+2969,Scorpionfish,20
+2969,Whitetip Reef Shark,490
+2969,Stingray,28
+2969,Octopus,47
+2969,Seastars,214
+2970,Blue Gill,610
+2970,Turtle,506
+2972,Baracuda,5
+2972,Grouper,1
+2972,Rays,481
+2972,Octopus,47
+2972,Nudibranch,479
+2972,Damselfish,12
+2973,Reef Fish,513
+2974,Sealion,525
+2974,Sea Otter,579
+2975,Snapper,19
+2975,Angelfish,9
+2975,Seahorse,243
+2975,Sea Turtle,2
+2975,Eel,36
+2975,Nudibranch,479
+2975,Coral,482
+2975,Eel,36
+2975,Sea Fan,611
+2976,Green Turtle,539
+2976,Snaper,476
+2978,Snapper,19
+2978,Hammerhead Shark,93
+2978,Manta Ray,475
+2981,Whitetip Reef Shark,490
+2981,Zebra Leopard Shark,612
+2981,Green Sea Turtle,550
+2984,Baracuda,5
+2984,Grouper,1
+2984,Whaleshark,80
+2984,Coral,482
+2984,Reef Fish,513
+2984,Reef Shark,567
+2984,Trevally,608
+2985,Parrotfish,10
+2985,Boxfish Pufferfish,478
+2985,Lionfish,496
+2985,Angelfish,9
+2985,Blacktip Reef Shark,501
+2985,Sea Turtle,2
+2985,Turtle,506
+2985,Coral,482
+2985,Cuttlefish,16
+2985,Fusilier,578
+2985,Reef Shark,567
+2985,Bluespotted Stingray,586
+2988,Stonefish,152
+2988,Grouper,1
+2988,Boxfish Pufferfish,478
+2988,Lionfish,496
+2988,Tigerfish,84
+2988,Pipefish,72
+2988,Hawksbill Turtle,488
+2988,Sea Urchin,131
+2988,Moorish Idol,419
+2988,Sergent Mayor,613
+2989,Green Turtle,539
+2991,Sealion,525
+2991,Octopus,47
+2991,Nudibranch,479
+2991,Rock Fish,583
+2991,Kelp Forest,582
+2994,Amberjack,558
+2994,Red Snapper,614
+2995,Angelfish,9
+2995,Snapper,19
+2995,Sea Turtle,2
+2995,Lobster,30
+2995,Nudibranch,479
+2995,Reef Fish,513
+3003,Whitetip Reef Shark,490
+3003,Eagle Ray,6
+3003,Grey Reef Shark,516
+3003,Green Sea Turtle,550
+3003,Bluestripe Snapper Invasive,615
+3004,Surgeonfish,41
+3004,Lionfish,496
+3004,Batfish,57
+3004,Tigerfish,84
+3004,Pipefish,72
+3004,Stonefish,152
+3004,Grouper,1
+3004,Perch,541
+3004,Stingray,28
+3004,Turtle,506
+3004,Sea Cucumber,64
+3004,Eel,36
+3004,Octopus,47
+3004,Squid,58
+3004,Jellyfish,489
+3004,Red Snapper,614
+3004,Sardines,616
+3004,Fusilier,578
+3004,Needlefish,21
+3005,Surgeonfish,41
+3005,Lionfish,496
+3005,Batfish,57
+3005,Tigerfish,84
+3005,Pipefish,72
+3005,Stonefish,152
+3005,Grouper,1
+3005,Perch,541
+3005,Stingray,28
+3005,Turtle,506
+3005,Sea Cucumber,64
+3005,Eel,36
+3005,Squid,58
+3005,Octopus,47
+3005,Jellyfish,489
+3005,Fusilier,578
+3005,Sardines,616
+3005,Needlefish,21
+3005,Red Snapper,614
+3006,Small Mouth Bass,617
+3006,Bluegill,571
+3006,Bass,572
+3006,Crappie,573
+3006,Batfish,57
+3006,Turtle,506
+3006,Jellyfish,489
+3006,Largemouth Bass,588
+3006,Walleye,618
+3007,Grouper,1
+3007,Amberjack,558
+3007,Red Snapper,614
+3008,Reef Fish Scorpionfish,507
+3008,Boxfish,11
+3008,Pufferfish,18
+3008,Surgeonfish,41
+3008,Angelfish,9
+3008,Bannerfish,487
+3008,Tigerfish,84
+3008,Parrotfish,10
+3008,Trumpetfish,3
+3008,Pipefish,72
+3008,Cowfish,477
+3008,Sweetlips,508
+3008,Snaper,476
+3008,Grouper,1
+3008,Lionfish Etc,509
+3008,Snaper,476
+3008,Turtles Green And Hawksbill,619
+3008,Frogfish,127
+3008,Pipehorse,620
+3008,Sawfish,118
+3008,Nudibranch,479
+3014,Rays,481
+3014,Coral,482
+3014,Bluegill,571
+3014,Bass,572
+3014,Crappie,573
+3014,Batfish,57
+3014,Turtle,506
+3014,Jellyfish,489
+3014,Spider Crab,33
+3014,Horse Shoe Crab,621
+3014,Seahorse,243
+3015,Great White Shark,622
+3015,Sand Tiger Shark,61
+3015,Lemon Shark,512
+3015,Lobster,30
+3015,Bluegill,571
+3015,Bass,572
+3015,Crappie,573
+3015,Batfish,57
+3015,Turtle,506
+3015,Jellyfish,489
+3015,Goliath Grouper,589
+3022,Freshwater Fish,521
+3034,Coral,482
+3034,Reef Fish,513
+3035,Parrotfish,10
+3035,Reef Fish,513
+3039,Boxfish Pufferfish,478
+3039,Tigerfish,84
+3039,Brain Coral,130
+3039,Coral,482
+3039,Sea Anemone,65
+3040,Tigerfish,84
+3040,Baracuda,5
+3040,Sea Turtle,2
+3040,Coral,482
+3040,Kuhls Stingray,599
+3040,Trevally,608
+3040,Sergent Mayor,613
+3040,Grey Angelfish,623
+3040,Rock Beauty,624
+3040,Foureye Butterflyfish,625
+3040,Humphead Parrotfish,555
+3040,Reef Fish Scorpionfish,507
+3040,Boxfish,11
+3040,Pufferfish,18
+3040,Surgeonfish,41
+3040,Angelfish,9
+3040,Bannerfish,487
+3040,Tigerfish,84
+3040,Parrotfish,10
+3040,Trumpetfish,3
+3040,Pipefish,72
+3040,Cowfish,477
+3040,Sweetlips,508
+3040,Snaper,476
+3040,Grouper,1
+3040,Lionfish Etc,509
+3040,Fusilier,578
+3045,Whitetip Reef Shark,490
+3046,Tuna,526
+3046,Eagle Ray,6
+3065,Snapper,19
+3065,Grouper,1
+3065,Boxfish Pufferfish,478
+3065,Baracuda,5
+3065,Coral,482
+3065,Reef Fish Scorpionfish,507
+3065,Boxfish,11
+3065,Pufferfish,18
+3065,Surgeonfish,41
+3065,Angelfish,9
+3065,Bannerfish,487
+3065,Tigerfish,84
+3065,Parrotfish,10
+3065,Trumpetfish,3
+3065,Pipefish,72
+3065,Cowfish,477
+3065,Sweetlips,508
+3065,Snaper,476
+3065,Grouper,1
+3065,Lionfish Etc,509
+3065,Nudibranch,479
+3073,Grouper,1
+3073,Angelfish,9
+3073,Batfish,57
+3073,Butterflyfish,73
+3073,Sheepshead,593
+3073,Snapper,19
+3073,Goliath Grouper,589
+3073,Baracuda,5
+3076,Frogfish,127
+3076,Seahorse,243
+3076,Nudibranch,479
+3077,Baracuda,5
+3077,Frogfish,127
+3077,Batfish,57
+3077,Seahorse,243
+3079,Tigerfish,84
+3079,Scorpionfish,20
+3079,Sea Urchin,131
+3079,Giant Moray,527
+3079,Goliath Grouper,589
+3079,Peacock Grouper Invasive,626
+3079,Grouper,1
+3079,Red Snapper,614
+3079,Angelfish,9
+3079,Reef Fish Scorpionfish,507
+3079,Boxfish,11
+3079,Pufferfish,18
+3079,Surgeonfish,41
+3079,Angelfish,9
+3079,Bannerfish,487
+3079,Tigerfish,84
+3079,Parrotfish,10
+3079,Trumpetfish,3
+3079,Pipefish,72
+3079,Cowfish,477
+3079,Sweetlips,508
+3079,Snaper,476
+3079,Grouper,1
+3079,Lionfish Etc,509
+3079,Hawksbill Turtle,488
+3079,Moorish Idol,419
+3080,Tuna,526
+3080,Grouper,1
+3080,Lionfish,496
+3080,Dolphins,158
+3082,Grouper,1
+3082,Angelfish,9
+3082,Tigerfish,84
+3082,Butterflyfish,73
+3082,Snapper,19
+3082,Pork Fish,627
+3082,Sheepshead,593
+3082,Goliath Grouper,589
+3083,Stonefish,152
+3083,Lionfish,496
+3083,Sea Turtle,2
+3083,Nudibranch,479
+3083,Trevally,608
+3083,Golden Trevally,628
+3093,Tigerfish,84
+3093,Hawksbill Turtle,488
+3093,Gorgonian Fan,530
+3093,Reef Fish Scorpionfish,507
+3093,Boxfish,11
+3093,Pufferfish,18
+3093,Surgeonfish,41
+3093,Angelfish,9
+3093,Bannerfish,487
+3093,Tigerfish,84
+3093,Parrotfish,10
+3093,Trumpetfish,3
+3093,Pipefish,72
+3093,Cowfish,477
+3093,Sweetlips,508
+3093,Snaper,476
+3093,Grouper,1
+3093,Lionfish Etc,509
+3093,Sea Sponges,104
+3093,Sea Fan,611
+3093,Spadefish,629
+3094,Hawksbill Turtle,488
+3094,Moray Eel,75
+3094,Reef Fish Scorpionfish,507
+3094,Boxfish,11
+3094,Pufferfish,18
+3094,Surgeonfish,41
+3094,Angelfish,9
+3094,Bannerfish,487
+3094,Tigerfish,84
+3094,Parrotfish,10
+3094,Trumpetfish,3
+3094,Pipefish,72
+3094,Cowfish,477
+3094,Sweetlips,508
+3094,Snaper,476
+3094,Grouper,1
+3094,Lionfish Etc,509
+3094,Eagle Ray,6
+3094,Reef Shark,567
+3094,Colourful Wrasse Species,630
+3095,Pipefish,72
+3095,Baracuda,5
+3095,Nudibranch,479
+3095,Trunkfish,631
+3095,Pufferfish,18
+3095,Seaslug,23
+3095,Souther Stingray,632
+3096,Grouper,1
+3096,Pipefish,72
+3096,Lobster,30
+3096,Crab,299
+3096,Eagle Ray,6
+3096,Colourful Wrasse Species,630
+3097,Walleye,618
+3097,Crappie,573
+3097,Batfish,57
+3097,Perch,541
+3097,Largemouth Bass,588
+3097,Smallmouth Bass,633
+3097,Striper,634
+3097,White Bass,635
+3097,Long-Nose Gar,636
+3097,Suckers,300
+3097,Turtle,506
+3098,Freshwater Fish,521
+3100,Octopus,47
+3100,Nudibranch,479
+3100,Crab,299
+3100,Spider Crab,33
+3100,Eel,36
+3100,Morey Eel,637
+3102,Carp,545
+3102,Pike,69
+3102,Batfish,57
+3103,Parrotfish,10
+3103,Grouper,1
+3103,Boxfish Pufferfish,478
+3103,Lionfish,496
+3103,Tigerfish,84
+3103,Sweetlips,508
+3103,Stingray,28
+3103,Honeycomb Moray,522
+3103,Starfish,60
+3103,Octopus,47
+3103,Nudibranch,479
+3106,Grouper,1
+3106,Jackfish,17
+3106,Hawksbill Turtle,488
+3106,Moray Eel,75
+3106,Nudibranch,479
+3106,Reef Shark,567
+3106,Fusilier,578
+3106,Stingray,28
+3111,Tuna,526
+3111,Grouper,1
+3111,Stingray,28
+3111,Nudibranch,479
+3111,Reef Fish Scorpionfish,507
+3111,Boxfish,11
+3111,Pufferfish,18
+3111,Surgeonfish,41
+3111,Angelfish,9
+3111,Bannerfish,487
+3111,Tigerfish,84
+3111,Parrotfish,10
+3111,Trumpetfish,3
+3111,Pipefish,72
+3111,Cowfish,477
+3111,Sweetlips,508
+3111,Snaper,476
+3111,Grouper,1
+3111,Lionfish Etc,509
+3111,Sardines,616
+3115,Blue Gill,610
+3115,Turtle,506
+3115,Largemouth Bass,588
+3115,Batfish,57
+3116,Baracuda,5
+3116,Grouper,1
+3116,Angelfish,9
+3116,Butterflyfish,73
+3116,Pork Fish,627
+3116,Sheepshead,593
+3116,Snapper,19
+3116,Goliath Grouper,589
+3116,Hogfish,207
+3117,Grouper,1
+3117,Boxfish Pufferfish,478
+3117,Angelfish,9
+3117,Butterflyfish,73
+3117,Toad Fish,638
+3117,Pork Fish,627
+3117,Sheepshead,593
+3117,Damselfish,12
+3117,Goliath Grouper,589
+3117,Baracuda,5
+3117,Snook Fish,639
+3119,Pike,69
+3119,Perch,541
+3119,Eel,36
+3119,Carp,545
+3119,Batfish,57
+3119,Crayfish,495
+3120,Grouper,1
+3120,Butterflyfish,73
+3120,Snapper,19
+3120,Pork Fish,627
+3120,Pufferfish,18
+3120,Toadfishes,640
+3120,Sheepshead,593
+3120,Goliath Grouper,589
+3120,Angelfish,9
+3120,Baracuda,5
+3120,Snook Fish,639
+3120,Hogfish,207
+3120,Spadefish,629
+3121,Grouper,1
+3121,Butterflyfish,73
+3121,Snapper,19
+3121,Pork Fish,627
+3121,Pufferfish,18
+3121,Toadfishes,640
+3121,Sheepshead,593
+3121,Goliath Grouper,589
+3121,Angelfish,9
+3121,Baracuda,5
+3121,Snook Fish,639
+3121,Hogfish,207
+3121,Spadefish,629
+3122,Angelfish,9
+3122,Butterflyfish,73
+3122,Toad Fish,638
+3122,Pork Fish,627
+3122,Sheepshead,593
+3122,Goliath Grouper,589
+3122,Baracuda,5
+3122,Snook Fish,639
+3122,Hogfish,207
+3123,Baracuda,5
+3123,Grouper,1
+3123,Angelfish,9
+3123,Butterflyfish,73
+3123,Snapper,19
+3123,Pork Fish,627
+3123,Sheepshead,593
+3123,Goliath Grouper,589
+3123,Snook Fish,639
+3123,Hogfish,207
+3126,Hammerhead Shark,93
+3126,Tge Biggest Brain Corals,641
+3126,Elkhorns,642
+3126,Etc,643
+3126,Etc,643
+3126,Etc,643
+3126,Striper,634
+3127,Baracuda,5
+3127,Turtle,506
+3127,Striper,634
+3129,Sea Anemone,65
+3129,Eel,36
+3129,Sea Sponges,104
+3129,Nudibranch,479
+3129,Giant Pacific Octopus,644
+3129,Sculpins,48
+3133,Grouper,1
+3133,Angelfish,9
+3133,Butterflyfish,73
+3133,Pork Fish,627
+3133,Sheepshead,593
+3133,Damselfish,12
+3133,Snapper,19
+3133,Goliath Grouper,589
+3133,Snook Fish,639
+3133,Hogfish,207
+3134,Grouper,1
+3134,Nurse Shark,7
+3134,Loggerhead Turtle,532
+3134,Hogfish,207
+3134,Sheepshead,593
+3134,Snapper,19
+3134,Goliath Grouper,589
+3146,Frogfish,127
+3146,Angelfish,9
+3146,Butterflyfish,73
+3146,Toad Fish,638
+3146,Pork Fish,627
+3146,Sheepshead,593
+3146,Nurse Shark,7
+3146,Goliath Grouper,589
+3146,Snook Fish,639
+3146,Hogfish,207
+3147,Stonefish,152
+3147,Baracuda,5
+3147,Trumpetfish Pipefish,480
+3147,Angelfish,9
+3147,Electric Ray,220
+3147,Rays,481
+3147,Stingray,28
+3151,Hammerhead Shark,93
+3151,Hammerheads,645
+3152,Sharks,523
+3152,Rays,481
+3155,Frogfish,127
+3159,Baracuda,5
+3159,Sweetlips,508
+3159,Snapper,19
+3159,Manta Ray,475
+3159,Leopard Shark,531
+3159,Mackerel,126
+3159,Blue Groper,491
+3159,Grey Nurse Shark,485
+3159,Wobbegong Shark,484
+3159,Black Coral,201
+3165,Tench,646
+3165,Pike,69
+3165,Perch,541
+3165,Eel,36
+3165,Carp,545
+3165,Batfish,57
+3165,Crayfish,495
+3165,Freshwater Jellyfish,647
+3168,Scorpionfish,20
+3168,Grouper,1
+3168,Tuna,526
+3168,Hawksbill Turtle,488
+3168,Nudibranch,479
+3168,Anemone Fish,546
+3168,Reef Fish Scorpionfish,507
+3168,Boxfish,11
+3168,Pufferfish,18
+3168,Surgeonfish,41
+3168,Angelfish,9
+3168,Bannerfish,487
+3168,Tigerfish,84
+3168,Parrotfish,10
+3168,Trumpetfish,3
+3168,Pipefish,72
+3168,Cowfish,477
+3168,Sweetlips,508
+3168,Snaper,476
+3168,Grouper,1
+3168,Lionfish Etc,509
+3168,Ornate Ghost Pipefish,548
+3168,Frogfish,127
+3168,Pipehorse,620
+3168,Sawfish,118
+3169,Tuna,526
+3169,Sea Turtle,2
+3169,Reef Fish Scorpionfish,507
+3169,Boxfish,11
+3169,Pufferfish,18
+3169,Surgeonfish,41
+3169,Angelfish,9
+3169,Bannerfish,487
+3169,Tigerfish,84
+3169,Parrotfish,10
+3169,Trumpetfish,3
+3169,Pipefish,72
+3169,Cowfish,477
+3169,Sweetlips,508
+3169,Snaper,476
+3169,Grouper,1
+3169,Lionfish Etc,509
+3169,Nudibranch,479
+3170,Eel,36
+3170,Giant Pacific Octopus,644
+3170,Anemones,577
+3170,Sailfin Sculpin,648
+3170,Grunt Sculpin,649
+3171,Whitetip Reef Shark,490
+3171,Hawksbill Turtle,488
+3171,Green Turtle,539
+3172,Grouper,1
+3172,Snapper,19
+3172,Nurse Shark,7
+3172,Lobster,30
+3172,Caribbean Reef Shark,590
+3173,Pike,69
+3174,Green Sea Turtle,550
+3177,Pike,69
+3179,Shrimp,197
+3187,Cod,81
+3189,Pipefish,72
+3190,Bull Shark,570
+3190,Guitar Shark,534
+3190,Hawksbill Turtle,488
+3192,Leaffish,499
+3192,Seahorse,243
+3192,Garden Eels,528
+3192,Ribbon Eel,529
+3192,Flounder,45
+3192,Bluespotted Stingray,586
+3194,Stingray,28
+3194,Sea Turtle,2
+3194,Coral,482
+3196,Tigerfish,84
+3196,Butterflyfish,73
+3196,Tuna,526
+3196,Napoleon Fish,500
+3196,Pelagic Fish,518
+3196,Parrotfish,10
+3196,Scorpionfish,20
+3196,Lionfish,496
+3196,Angelfish,9
+3196,Batfish,57
+3196,Whitetip Reef Shark,490
+3196,Blacktip Reef Shark,501
+3196,Crab,299
+3196,Shrimp,197
+3196,Nudibranch,479
+3196,Reef Fish,513
+3207,Grouper,1
+3207,Angelfish,9
+3207,Butterflyfish,73
+3207,Snapper,19
+3207,Pork Fish,627
+3207,Sheepshead,593
+3207,Goliath Grouper,589
+3207,Amberjack,558
+3208,Grouper,1
+3208,Angelfish,9
+3208,Butterflyfish,73
+3208,Snapper,19
+3208,Pork Fish,627
+3208,Sheepshead,593
+3208,Goliath Grouper,589
+3211,Turtle,506
+3212,Cuttlefish,16
+3212,Anemone Fish,546
+3212,Reef Fish Scorpionfish,507
+3212,Boxfish,11
+3212,Pufferfish,18
+3212,Surgeonfish,41
+3212,Angelfish,9
+3212,Bannerfish,487
+3212,Tigerfish,84
+3212,Parrotfish,10
+3212,Trumpetfish,3
+3212,Pipefish,72
+3212,Cowfish,477
+3212,Sweetlips,508
+3212,Snaper,476
+3212,Grouper,1
+3212,Lionfish Etc,509
+3212,Sea Turtle,2
+3212,Nudibranch,479
+3212,Eel,36
+3212,Spadefish,629
+3218,Cowfish,477
+3218,Sea Turtle,2
+3218,Cuttlefish,16
+3218,Reef Fish Scorpionfish,507
+3218,Boxfish,11
+3218,Pufferfish,18
+3218,Surgeonfish,41
+3218,Angelfish,9
+3218,Bannerfish,487
+3218,Tigerfish,84
+3218,Parrotfish,10
+3218,Trumpetfish,3
+3218,Pipefish,72
+3218,Cowfish,477
+3218,Sweetlips,508
+3218,Snaper,476
+3218,Grouper,1
+3218,Lionfish Etc,509
+3221,Seahorse,243
+3222,Grouper,1
+3222,Moray Eel,75
+3222,Octopus,47
+3222,Dentex,650
+3225,Cowfish,477
+3225,Coral,482
+3225,Reef Fish Scorpionfish,507
+3225,Boxfish,11
+3225,Pufferfish,18
+3225,Surgeonfish,41
+3225,Angelfish,9
+3225,Bannerfish,487
+3225,Tigerfish,84
+3225,Parrotfish,10
+3225,Trumpetfish,3
+3225,Pipefish,72
+3225,Cowfish,477
+3225,Sweetlips,508
+3225,Snaper,476
+3225,Grouper,1
+3225,Lionfish Etc,509
+3225,Sponges,34
+3226,Reef Fish Scorpionfish,507
+3226,Boxfish,11
+3226,Pufferfish,18
+3226,Surgeonfish,41
+3226,Angelfish,9
+3226,Bannerfish,487
+3226,Tigerfish,84
+3226,Parrotfish,10
+3226,Trumpetfish,3
+3226,Pipefish,72
+3226,Cowfish,477
+3226,Sweetlips,508
+3226,Snaper,476
+3226,Grouper,1
+3226,Lionfish Etc,509
+3226,Coral,482
+3229,Butterflyfish,73
+3229,Seahorse,243
+3229,Tigerfish,84
+3229,Cownose Ray,519
+3229,Horse Shoe Crab,621
+3229,Striped Bass,591
+3229,Scallops,79
+3229,Hermit Crab,70
+3229,Mussles,51
+3229,Grouper,1
+3229,Pufferfish,18
+3229,Spider Crab,33
+3229,Eel,36
+3230,Tigerfish,84
+3230,Nurse Shark,7
+3230,Rays,481
+3230,Lobster,30
+3230,Octopus,47
+3230,Toad Fish,638
+3230,Reef Fish Scorpionfish,507
+3230,Boxfish,11
+3230,Pufferfish,18
+3230,Surgeonfish,41
+3230,Angelfish,9
+3230,Bannerfish,487
+3230,Tigerfish,84
+3230,Parrotfish,10
+3230,Trumpetfish,3
+3230,Pipefish,72
+3230,Cowfish,477
+3230,Sweetlips,508
+3230,Snaper,476
+3230,Grouper,1
+3230,Lionfish Etc,509
+3231,Eals,43
+3231,Starfish,60
+3231,Sea Urchin,131
+3231,Kelp Forest,582
+3231,Rockfish,76
+3231,Sealion,525
+3232,Sweetlips,508
+3232,Hawksbill Turtle,488
+3232,Nudibranch,479
+3235,Boxfish Pufferfish,478
+3235,Scorpionfish,20
+3235,Green Turtle,539
+3235,Thornback Ray,651
+3236,Parrotfish,10
+3236,Lionfish,496
+3236,Goatfish,15
+3236,Trumpetfish Pipefish,480
+3236,Snapper,19
+3236,Reef Fish Scorpionfish,507
+3236,Boxfish,11
+3236,Pufferfish,18
+3236,Surgeonfish,41
+3236,Angelfish,9
+3236,Bannerfish,487
+3236,Tigerfish,84
+3236,Parrotfish,10
+3236,Trumpetfish,3
+3236,Pipefish,72
+3236,Cowfish,477
+3236,Sweetlips,508
+3236,Snaper,476
+3236,Grouper,1
+3236,Lionfish Etc,509
+3236,Nudibranch,479
+3239,Trumpetfish Pipefish,480
+3239,Parrotfish,10
+3239,Reef Fish Scorpionfish,507
+3239,Boxfish,11
+3239,Pufferfish,18
+3239,Surgeonfish,41
+3239,Angelfish,9
+3239,Bannerfish,487
+3239,Tigerfish,84
+3239,Parrotfish,10
+3239,Trumpetfish,3
+3239,Pipefish,72
+3239,Cowfish,477
+3239,Sweetlips,508
+3239,Snaper,476
+3239,Grouper,1
+3239,Lionfish Etc,509
+3239,Lionfish,496
+3239,Nudibranch,479
+3239,Yellow Goat Fish,652
+3239,Goatfish,15
+3239,Bluehead,653
+3239,Yellowhead Wrasse,654
+3239,Sergent Mayor,613
+3239,Blue Chromis,655
+3239,French Grunt,656
+3239,Souther Stingray,632
+3239,Remora,90
+3239,Green Turtle,539
+3239,Nurse Shark,7
+3243,Common Dolphin,520
+3243,Hawaiian Endemic Native Species,657
+3243,Hawaiian Monk Seal,658
+3243,Green Sea Turtle,550
+3244,Sea Turtle,2
+3246,Lionfish,496
+3246,Grouper,1
+3246,Tuna,526
+3246,Boxfish Pufferfish,478
+3246,Sea Turtle,2
+3246,Octopus,47
+3246,Baracuda,5
+3246,Manta Ray,475
+3246,Whaleshark,80
+3246,Snaper,476
+3247,Baracuda,5
+3247,Grouper,1
+3247,Rays,481
+3247,Nurse Shark,7
+3247,Moray Eel,75
+3247,Reef Fish,513
+3247,Eel,36
+3247,Toad Fish,638
+3247,Pork Fish,627
+3247,Drums,56
+3247,Pufferfish,18
+3247,Jack Species,659
+3254,Pipefish,72
+3254,Starfish,60
+3254,Crab,299
+3254,Octopus,47
+3254,Nudibranch,479
+3254,Wrasse,44
+3254,Squat Lobster,78
+3254,John Dory,229
+3255,Cowfish,477
+3255,Crab,299
+3255,Sea Anemone,65
+3255,Coral,482
+3255,Snaper,476
+3259,Baracuda,5
+3259,Grouper,1
+3259,Angelfish,9
+3259,Tigerfish,84
+3259,Rays,481
+3259,Nurse Shark,7
+3259,Eel,36
+3259,Toad Fish,638
+3259,Reef Fish Scorpionfish,507
+3259,Boxfish,11
+3259,Pufferfish,18
+3259,Surgeonfish,41
+3259,Angelfish,9
+3259,Bannerfish,487
+3259,Tigerfish,84
+3259,Parrotfish,10
+3259,Trumpetfish,3
+3259,Pipefish,72
+3259,Cowfish,477
+3259,Sweetlips,508
+3259,Snaper,476
+3259,Grouper,1
+3259,Lionfish Etc,509
+3259,Crab,299
+3259,Remora,90
+3260,Hammerhead Shark,93
+3261,Cowfish,477
+3261,Baracuda,5
+3261,Green Sea Turtle,550
+3264,Scorpionfish,20
+3264,Sunfish Mola Mola,524
+3264,Moray Eel,75
+3264,Nudibranch,479
+3264,Octopus,47
+3264,Flying Gurnard,230
+3264,Marbled Electric Ray,660
+3264,Eel,36
+3266,Tuna,526
+3266,Baracuda,5
+3266,Grouper,1
+3266,Jackfish,17
+3269,Baracuda,5
+3269,Grouper,1
+3270,Tuna,526
+3270,Grouper,1
+3273,Yellow Goat Fish,652
+3273,Goatfish,15
+3273,Bluehead,653
+3273,Yellowhead Wrasse,654
+3273,Sergent Mayor,613
+3273,Blue Chromis,655
+3273,French Grunt,656
+3273,Souther Stingray,632
+3273,Remora,90
+3273,Green Turtle,539
+3273,Nurse Shark,7
+3274,Parrotfish,10
+3274,Snapper,19
+3274,Butterflyfish,73
+3274,Nurse Shark,7
+3274,Sea Urchin,131
+3274,Sea Cucumber,64
+3274,Octopus,47
+3274,Lobster,30
+3274,Crab,299
+3274,Damselfish,12
+3274,Reef Fish Scorpionfish,507
+3274,Boxfish,11
+3274,Pufferfish,18
+3274,Surgeonfish,41
+3274,Angelfish,9
+3274,Bannerfish,487
+3274,Tigerfish,84
+3274,Parrotfish,10
+3274,Trumpetfish,3
+3274,Pipefish,72
+3274,Cowfish,477
+3274,Sweetlips,508
+3274,Snaper,476
+3274,Grouper,1
+3274,Lionfish Etc,509
+3275,Scorpionfish,20
+3277,Jackfish,17
+3277,Grouper,1
+3277,Tuna,526
+3277,Moray Eel,75
+3277,Nudibranch,479
+3277,Lobster,30
+3277,Crab,299
+3279,Snapper,19
+3279,Crab,299
+3279,Cuttlefish,16
+3287,Pipefish,72
+3287,Boxfish Pufferfish,478
+3287,Seahorse,243
+3287,Crab,299
+3287,Nudibranch,479
+3287,Giant Clam,661
+3287,Squirrelfish,0
+3295,Moray Eel,75
+3295,Lobster,30
+3295,Conger Eel,662
+3295,Octopus,47
+3295,Seastars,214
+3296,Sweetlips,508
+3296,Napoleon Fish,500
+3296,Tuna,526
+3296,Lobster,30
+3296,Anthias,663
+3296,Humphead Parrotfish,555
+3296,Pygmy Seahorse,585
+3297,Salmon,664
+3297,Sturgeon,38
+3297,Trout,517
+3297,Rainbow Trout,665
+3298,Tuna,526
+3298,Jackfish,17
+3298,Turtle,506
+3298,Dolphins,158
+3298,Muray,568
+3303,Baracuda,5
+3303,Jackfish,17
+3303,Tiger Shark,511
+3303,Silvertip Shark,503
+3303,Trevally,608
+3304,Baracuda,5
+3304,Tuna,526
+3304,Whaleshark,80
+3304,Silvertip Shark,503
+3304,Hammerhead Shark,93
+3304,Thresher Shark,40
+3304,Oceanic Manta,606
+3304,Mola Mola,666
+3304,Trevally,608
+3304,Grey Reef Shark,516
+3307,Parrotfish,10
+3307,Surgeonfish,41
+3307,Lionfish,496
+3307,Coral,482
+3307,Jellyfish,489
+3307,Basket Star,198
+3307,Sardines,616
+3314,Napoleon Fish,500
+3314,Grey Sharks,502
+3314,Eaglerays,667
+3314,Fusilier,578
+3314,Tuna,526
+3316,Turtle,506
+3319,Whitetip Reef Shark,490
+3319,Eagle Ray,6
+3319,Turtle,506
+3319,Giant Moray,527
+3319,Octopus,47
+3320,Baracuda,5
+3320,Jackfish,17
+3320,Grey Reef Shark,516
+3321,Bumper Head Parrarot Fish,668
+3321,Green Sea Turtle,550
+3322,Jackfish,17
+3322,Baracuda,5
+3322,Eagle Ray,6
+3322,Octopus,47
+3322,Grey Reef Shark,516
+3322,Devil Ray,669
+3322,Whitetip Reef Shark,490
+3323,Manta Ray,475
+3324,Thresher Shark,40
+3335,Hecht,670
+3335,Barsch,671
+3335,Krebs,672
+3335,Schleie,673
+3335,Egli,674
+3336,Hecht,670
+3336,Schleie,673
+3336,Egli,674
+3337,Butterflyfish,73
+3337,Baracuda,5
+3337,Frogfish,127
+3337,Pipefish,72
+3337,Parrotfish,10
+3337,Boxfish Pufferfish,478
+3337,Scorpionfish,20
+3337,Angelfish,9
+3337,Manta Ray,475
+3337,Sea Urchin,131
+3337,Eel,36
+3337,Shrimp,197
+3337,Lobster,30
+3337,Crab,299
+3337,Brain Coral,130
+3337,Coral,482
+3338,Frogfish,127
+3338,Boxfish Pufferfish,478
+3338,Sea Turtle,2
+3338,Honeycomb Moray,522
+3338,Nudibranch,479
+3338,Crab,299
+3340,Baracuda,5
+3340,Sea Anemone,65
+3343,Lionfish,496
+3343,Baracuda,5
+3343,Tigerfish,84
+3343,Scorpionfish,20
+3343,Stingray,28
+3343,Whitetip Reef Shark,490
+3343,Turtle,506
+3343,Ribbon Eel,529
+3343,Moray Eel,75
+3345,Grouper,1
+3345,Gorgonian Fan,530
+3353,Tigerfish,84
+3353,Scorpionfish,20
+3353,Rays,481
+3353,Moray Eel,75
+3353,Octopus,47
+3353,Nudibranch,479
+3353,Spider Crab,33
+3363,Baracuda,5
+3363,Wide Range Of Reef Fish,675
+3364,Wide Range Of Reef Fish,675
+3365,Wide Range Of Reef Fish,675
+3366,Wide Range Of Reef Fish,675
+3367,Wide Range Of Reef Fish,675
+3368,Wide Range Of Reef Fish,675
+3371,Baracuda,5
+3371,Trumpetfish Pipefish,480
+3371,Stingray,28
+3371,Electric Ray,220
+3371,Moray Eel,75
+3371,Octopus,47
+3373,Stingray,28
+3373,Loggerhead Turtle,532
+3373,Eagle Ray,6
+3373,Green Turtle,539
+3373,Angelshark,218
+3373,Bull Rays,676
+3373,Amberjack,558
+3374,Eagle Ray,6
+3374,Stingray,28
+3374,Angelshark,218
+3374,Atlantic Torpedo Ray,677
+3374,Atlantic Ray,678
+3374,Bull Rays,676
+3375,Baracuda,5
+3375,Stingray,28
+3375,Eagle Ray,6
+3375,Atlantic Ray,678
+3375,Flying Gurnard,230
+3375,Angelshark,218
+3375,Atlantic Torpedo Ray,677
+3379,Small Mouth Bass,617
+3380,Small Mouth Bass,617
+3381,Nurse Shark,7
+3381,Squid,58
+3381,Coral,482
+3381,Reef Fish,513
+3382,Pike,69
+3392,Lionfish,496
+3392,Butterflyfish,73
+3392,Parrotfish,10
+3392,Surgeonfish,41
+3392,Moray Eel,75
+3392,Lobster,30
+3392,Sole Fish,679
+3392,Grunts,46
+3392,Eel,36
+3392,Flying Fish,226
+3392,Pez Angel,680
+3405,Tuna,526
+3405,Grouper,1
+3405,Scorpionfish,20
+3405,Moray Eel,75
+3405,Octopus,47
+3405,Conger Eel,662
+3406,Parrotfish,10
+3406,Boxfish Pufferfish,478
+3406,Tuna,526
+3406,Turtle,506
+3406,Pez Angel,680
+3407,Boxfish Pufferfish,478
+3407,Parrotfish,10
+3407,Moray Eel,75
+3407,Pez Angel,680
+3407,Queen Angelfish,681
+3407,Blue Angelfish,682
+3408,Parrotfish,10
+3408,Butterflyfish,73
+3408,Parrotfish,10
+3409,Stonefish,152
+3409,Surgeonfish,41
+3409,Boxfish Pufferfish,478
+3409,Lionfish,496
+3409,Trumpetfish Pipefish,480
+3409,Butterflyfish,73
+3409,Parrotfish,10
+3410,Grouper,1
+3410,Jackfish,17
+3410,Batfish,57
+3410,Sweetlips,508
+3410,Turtle,506
+3411,Turtle,506
+3411,Sardines,616
+3411,Whaleshark,80
+3414,Octopus,47
+3414,Stone Crab,683
+3414,Fire Worm,684
+3415,Sea Urchin,131
+3415,Cuttlefish,16
+3415,Nudibranch,479
+3415,Salpe,504
+3415,Octopus,47
+3415,Morey Eel,637
+3415,Redfish,107
+3415,Seastars,214
+3417,Rays,481
+3417,Sea Turtle,2
+3418,Nudibranch,479
+3418,Coral,482
+3419,Grouper,1
+3419,Butterflyfish,73
+3419,Sea Turtle,2
+3420,Rays,481
+3420,Sea Turtle,2
+3420,Nudibranch,479
+3424,Octopus,47
+3425,Sea Snake,497
+3427,Sea Turtle,2
+3428,Blacktip Reef Shark,501
+3429,Blacktip Reef Shark,501
+3430,Cowfish,477
+3430,Nudibranch,479
+3431,Rays,481
+3431,Sea Turtle,2
+3432,Rays,481
+3432,Sea Turtle,2
+3432,Octopus,47
+3433,Baracuda,5
+3433,Lionfish,496
+3434,Cowfish,477
+3434,Seahorse,243
+3434,Trumpetfish Pipefish,480
+3435,Jackfish,17
+3435,Angelfish,9
+3435,Blacktip Reef Shark,501
+3435,Sponges,34
+3436,Octopus,47
+3436,Lionfish,496
+3437,Cowfish,477
+3437,Angelfish,9
+3437,Damselfish,12
+3438,Scorpionfish,20
+3438,Nudibranch,479
+3438,Sea Turtle,2
+3439,Lionfish,496
+3439,Angelfish,9
+3439,Eel,36
+3440,Blacktip Reef Shark,501
+3440,Sea Snake,497
+3441,Sea Turtle,2
+3441,Coral,482
+3441,Sponges,34
+3442,Nudibranch,479
+3442,Coral,482
+3445,Pipefish,72
+3445,Goatfish,15
+3445,Seahorse,243
+3445,Moray Eel,75
+3445,Squid,58
+3445,Nudibranch,479
+3445,Octopus,47
+3445,Bluespotted Stingray,586
+3445,Kuhls Stingray,599
+3445,Ghost Pipefish,547
+3445,Eel,36
+3445,Eel,36
+3445,Flatworm,165
+3445,Frogfish,127
+3445,Pipehorse,620
+3445,Sawfish,118
+3445,Trevally,608
+3446,Pipefish,72
+3446,Scorpionfish,20
+3446,Lionfish,496
+3446,Angelfish,9
+3446,Frogfish,127
+3446,Seahorse,243
+3446,Butterflyfish,73
+3446,Moray Eel,75
+3446,Nudibranch,479
+3446,Crab,299
+3446,Shrimp,197
+3446,Octopus,47
+3446,Squid,58
+3446,Kuhls Stingray,599
+3446,Trevally,608
+3446,Indian Walkman,685
+3446,Ghost Pipefish,547
+3446,Pygmy Pipehorse,686
+3446,Eel,36
+3446,Eel,36
+3446,Sawfish,118
+3446,Bluespotted Stingray,586
+3446,Guitarfish,164
+3446,Flying Gurnard,230
+3446,Juvenile Fish Macro,687
+3446,Flounder,45
+3446,Mantis Shrimp,114
+3447,Sweetlips,508
+3447,Hawksbill Turtle,488
+3447,Moray Eel,75
+3447,Nudibranch,479
+3447,Octopus,47
+3447,Juvenile Fish Macro,687
+3447,Trevally,608
+3447,Bluespotted Stingray,586
+3447,Kuhls Stingray,599
+3447,Reef Fish Scorpionfish,507
+3447,Boxfish,11
+3447,Pufferfish,18
+3447,Surgeonfish,41
+3447,Angelfish,9
+3447,Bannerfish,487
+3447,Tigerfish,84
+3447,Parrotfish,10
+3447,Trumpetfish,3
+3447,Pipefish,72
+3447,Cowfish,477
+3447,Sweetlips,508
+3447,Snaper,476
+3447,Grouper,1
+3447,Lionfish Etc,509
+3447,Green Turtle,539
+3447,Snaper,476
+3447,Flatworm,165
+3448,Lionfish,496
+3448,Frogfish,127
+3448,Nudibranch,479
+3448,Flatworm,165
+3448,Juvenile Fish Macro,687
+3448,Shrimp,197
+3448,Harlequin Shrimp,688
+3448,Crab,299
+3449,Moray Eel,75
+3449,Nudibranch,479
+3449,Crab,299
+3449,Octopus,47
+3449,Shrimp,197
+3449,Bluespotted Stingray,586
+3449,Kuhls Stingray,599
+3449,Reef Fish Scorpionfish,507
+3449,Boxfish,11
+3449,Pufferfish,18
+3449,Surgeonfish,41
+3449,Angelfish,9
+3449,Bannerfish,487
+3449,Tigerfish,84
+3449,Parrotfish,10
+3449,Trumpetfish,3
+3449,Pipefish,72
+3449,Cowfish,477
+3449,Sweetlips,508
+3449,Snaper,476
+3449,Grouper,1
+3449,Lionfish Etc,509
+3449,Flatworm,165
+3449,Juvenile Fish Macro,687
+3455,Hammerhead Shark,93
+3456,Eel,36
+3456,Conger Eel,662
+3456,Dentex,650
+3456,Lobster,30
+3456,Grouper,1
+3458,Baracuda,5
+3458,Grouper,1
+3458,Trumpetfish Pipefish,480
+3458,Fish,494
+3458,Rays,481
+3458,Stingray,28
+3458,Nudibranch,479
+3460,Cowfish,477
+3460,Lionfish,496
+3460,Parrotfish,10
+3460,Hawksbill Turtle,488
+3460,Reef Fish Scorpionfish,507
+3460,Boxfish,11
+3460,Pufferfish,18
+3460,Surgeonfish,41
+3460,Angelfish,9
+3460,Bannerfish,487
+3460,Tigerfish,84
+3460,Parrotfish,10
+3460,Trumpetfish,3
+3460,Pipefish,72
+3460,Cowfish,477
+3460,Sweetlips,508
+3460,Snaper,476
+3460,Grouper,1
+3460,Lionfish Etc,509
+3461,Manta Ray,475
+3462,Crayfish,495
+3468,Baracuda,5
+3468,Jackfish,17
+3468,Frogfish,127
+3468,Green Sea Turtle,550
+3470,Frogfish,127
+3470,Nudibranch,479
+3470,Harlequin Shrimp,688
+3470,Rhinophias,689
+3470,Bobtail Squid,156
+3470,Ghostpipefish,188
+3471,Batfish,57
+3471,Frogfish,127
+3471,Nudibranch,479
+3471,Leaffish,499
+3471,Ghostpipefish,188
+3471,Trevally,608
+3471,Rhinophias,689
+3473,Reef Fish Scorpionfish,507
+3473,Boxfish,11
+3473,Pufferfish,18
+3473,Surgeonfish,41
+3473,Angelfish,9
+3473,Bannerfish,487
+3473,Tigerfish,84
+3473,Parrotfish,10
+3473,Trumpetfish,3
+3473,Pipefish,72
+3473,Cowfish,477
+3473,Sweetlips,508
+3473,Snaper,476
+3473,Grouper,1
+3473,Lionfish Etc,509
+3475,Moray Eel,75
+3477,Scorpionfish,20
+3477,Goatfish,15
+3477,Baracuda,5
+3477,Bream,514
+3477,Turtle,506
+3477,Sea Cucumber,64
+3477,Garden Eels,528
+3477,Moray Eel,75
+3477,Octopus,47
+3477,Squid,58
+3477,Rabbitfish,159
+3477,Damselfish,12
+3477,Stingray,28
+3477,Fire Worm,684
+3490,Octopus,47
+3490,Astroides Calycularis,690
+3491,Tuna,526
+3491,Sunfish Mola Mola,524
+3491,Octopus,47
+3491,Nudibranch,479
+3491,Scorpionfish,20
+3491,Crappie,573
+3491,Eagle Stripes,691
+3491,Sole,62
+3492,Octopus,47
+3492,Nudibranch,479
+3492,Crappie,573
+3492,Fire Worm,684
+3493,Tuna,526
+3493,Sunfish Mola Mola,524
+3493,Octopus,47
+3493,Nudibranch,479
+3493,Scorpionfish,20
+3493,Astroides Calycularis,690
+3496,Batfish,57
+3496,Common Dolphin,520
+3496,Squid,58
+3496,Octopus,47
+3496,Eel,36
+3496,Ghost Pipefish,547
+3496,Leaffish,499
+3496,Eel,36
+3496,Eel,36
+3496,Green Turtle,539
+3497,Baracuda,5
+3497,Napoleon Fish,500
+3497,Grouper,1
+3497,Eagle Ray,6
+3497,Green Turtle,539
+3497,Jack Species,659
+3498,Sea Turtle,2
+3502,Eagle Ray,6
+3502,Stingray,28
+3502,Sea Turtle,2
+3502,Morey Eel,637
+3503,Moray Eel,75
+3503,Octopus,47
+3506,Nudibranch,479
+3507,Slipper Lobster,692
+3508,Shrimp,197
+3509,Baracuda,5
+3509,Grouper,1
+3509,Moray Eel,75
+3511,Stonefish,152
+3511,Lionfish,496
+3511,Anemone Fish,546
+3511,Mantis Shrimp,114
+3511,Peacock Flounder,693
+3511,Sargeant Majors,694
+3512,Ribbon Eel,529
+3512,Reef Fish Scorpionfish,507
+3512,Boxfish,11
+3512,Pufferfish,18
+3512,Surgeonfish,41
+3512,Angelfish,9
+3512,Bannerfish,487
+3512,Tigerfish,84
+3512,Parrotfish,10
+3512,Trumpetfish,3
+3512,Pipefish,72
+3512,Cowfish,477
+3512,Sweetlips,508
+3512,Snaper,476
+3512,Grouper,1
+3512,Lionfish Etc,509
+3512,Green Turtle,539
+3513,Sea Snake,497
+3513,Hawksbill Turtle,488
+3513,Reef Fish Scorpionfish,507
+3513,Boxfish,11
+3513,Pufferfish,18
+3513,Surgeonfish,41
+3513,Angelfish,9
+3513,Bannerfish,487
+3513,Tigerfish,84
+3513,Parrotfish,10
+3513,Trumpetfish,3
+3513,Pipefish,72
+3513,Cowfish,477
+3513,Sweetlips,508
+3513,Snaper,476
+3513,Grouper,1
+3513,Lionfish Etc,509
+3513,Green Turtle,539
+3514,Baracuda,5
+3514,Stingray,28
+3514,Hawksbill Turtle,488
+3514,Reef Fish Scorpionfish,507
+3514,Boxfish,11
+3514,Pufferfish,18
+3514,Surgeonfish,41
+3514,Angelfish,9
+3514,Bannerfish,487
+3514,Tigerfish,84
+3514,Parrotfish,10
+3514,Trumpetfish,3
+3514,Pipefish,72
+3514,Cowfish,477
+3514,Sweetlips,508
+3514,Snaper,476
+3514,Grouper,1
+3514,Lionfish Etc,509
+3514,Green Turtle,539
+3514,Peacock Mantis Shrimp,695
+3517,Eagle Ray,6
+3517,Flatworm,165
+3517,Seaslug,23
+3517,Ghost Pipefish,547
+3517,Pygmy Sea Hose,696
+3517,Nudibranch,479
+3518,Eagle Ray,6
+3518,Hawksbill Turtle,488
+3518,Moray Eel,75
+3519,Nudibranch,479
+3519,Sea Anemone,65
+3519,Seastars,214
+3519,Macro,697
+3520,Frogfish,127
+3520,Lionfish,496
+3520,Sea Turtle,2
+3520,Moray Eel,75
+3520,Nudibranch,479
+3520,Goby,698
+3523,Tuna,526
+3523,Electric Ray,220
+3523,Moray Eel,75
+3523,Octopus,47
+3523,Nudibranch,479
+3523,Lobster,30
+3523,Squat Lobster,78
+3523,Astroides Calycularis,690
+3523,Red Coral,699
+3523,Seabream,557
+3523,Rainbow Wrasse,540
+3523,Gorgonians,700
+3523,Spider Crab,33
+3523,Eel,36
+3524,Tigerfish,84
+3524,Tuna,526
+3524,Bream,514
+3524,Moray Eel,75
+3524,Lobster,30
+3524,Octopus,47
+3524,Gorgonian Fan,530
+3524,Eel,36
+3524,Squat Lobster,78
+3524,Astroides Calycularis,690
+3524,Seabream,557
+3524,Rainbow Wrasse,540
+3524,Brittlestars,138
+3524,Seastars,214
+3524,Spider Crab,33
+3524,Ballan Wrasse,701
+3525,Tuna,526
+3525,Eagle Ray,6
+3525,Moray Eel,75
+3525,Eel,36
+3525,Forkbeard,702
+3525,Thornback Ray,651
+3525,Flying Gurnard,230
+3525,Spider Crab,33
+3526,Reef Fish,513
+3526,Reef Fish Scorpionfish,507
+3526,Boxfish,11
+3526,Pufferfish,18
+3526,Surgeonfish,41
+3526,Angelfish,9
+3526,Bannerfish,487
+3526,Tigerfish,84
+3526,Parrotfish,10
+3526,Trumpetfish,3
+3526,Pipefish,72
+3526,Cowfish,477
+3526,Sweetlips,508
+3526,Snaper,476
+3526,Grouper,1
+3526,Lionfish Etc,509
+3526,Green Turtle,539
+3526,Coral Reef,703
+3528,Grouper,1
+3528,Batfish,57
+3528,Snapper,19
+3528,Blacktip Reef Shark,501
+3528,Hawksbill Turtle,488
+3529,Scorpionfish,20
+3529,Lionfish,496
+3529,Sea Snake,497
+3530,Baracuda,5
+3530,Seahorse,243
+3530,Blacktip Reef Shark,501
+3530,Leopard Shark,531
+3530,Sea Snake,497
+3530,Hawksbill Turtle,488
+3530,Moray Eel,75
+3530,Octopus,47
+3530,Giant Cuttlefish,498
+3530,Nudibranch,479
+3530,Trevally,608
+3530,Reef Fish Scorpionfish,507
+3530,Boxfish,11
+3530,Pufferfish,18
+3530,Surgeonfish,41
+3530,Angelfish,9
+3530,Bannerfish,487
+3530,Tigerfish,84
+3530,Parrotfish,10
+3530,Trumpetfish,3
+3530,Pipefish,72
+3530,Cowfish,477
+3530,Sweetlips,508
+3530,Snaper,476
+3530,Grouper,1
+3530,Lionfish Etc,509
+3531,Grouper,1
+3531,Stingray,28
+3533,Baracuda,5
+3533,Tigerfish,84
+3533,Reef Fish Scorpionfish,507
+3533,Boxfish,11
+3533,Pufferfish,18
+3533,Surgeonfish,41
+3533,Angelfish,9
+3533,Bannerfish,487
+3533,Tigerfish,84
+3533,Parrotfish,10
+3533,Trumpetfish,3
+3533,Pipefish,72
+3533,Cowfish,477
+3533,Sweetlips,508
+3533,Snaper,476
+3533,Grouper,1
+3533,Lionfish Etc,509
+3533,Bluespotted Stingray,586
+3534,Stonefish,152
+3534,Lobster,30
+3534,Reef Fish Scorpionfish,507
+3534,Boxfish,11
+3534,Pufferfish,18
+3534,Surgeonfish,41
+3534,Angelfish,9
+3534,Bannerfish,487
+3534,Tigerfish,84
+3534,Parrotfish,10
+3534,Trumpetfish,3
+3534,Pipefish,72
+3534,Cowfish,477
+3534,Sweetlips,508
+3534,Snaper,476
+3534,Grouper,1
+3534,Lionfish Etc,509
+3534,Kuhls Stingray,599
+3534,Nudibranch,479
+3535,Reef Fish Scorpionfish,507
+3535,Boxfish,11
+3535,Pufferfish,18
+3535,Surgeonfish,41
+3535,Angelfish,9
+3535,Bannerfish,487
+3535,Tigerfish,84
+3535,Parrotfish,10
+3535,Trumpetfish,3
+3535,Pipefish,72
+3535,Cowfish,477
+3535,Sweetlips,508
+3535,Snaper,476
+3535,Grouper,1
+3535,Lionfish Etc,509
+3537,Baracuda,5
+3537,Stingray,28
+3537,Eagle Ray,6
+3537,Turtle,506
+3537,Eel,36
+3537,Octopus,47
+3537,Squid,58
+3537,Reef Fish Scorpionfish,507
+3537,Boxfish,11
+3537,Pufferfish,18
+3537,Surgeonfish,41
+3537,Angelfish,9
+3537,Bannerfish,487
+3537,Tigerfish,84
+3537,Parrotfish,10
+3537,Trumpetfish,3
+3537,Pipefish,72
+3537,Cowfish,477
+3537,Sweetlips,508
+3537,Snaper,476
+3537,Grouper,1
+3537,Lionfish Etc,509
+3537,Eel,36
+3544,Eagle Ray,6
+3544,Stingray,28
+3544,Sea Turtle,2
+3544,Morey Eel,637
+3545,Moray Eel,75
+3545,Octopus,47
+3548,Nudibranch,479
+3549,Slipper Lobster,692
+3550,Shrimp,197
+3551,Baracuda,5
+3551,Grouper,1
+3551,Moray Eel,75
+3553,Stonefish,152
+3553,Lionfish,496
+3553,Anemone Fish,546
+3553,Mantis Shrimp,114
+3553,Peacock Flounder,693
+3553,Sargeant Majors,694
+3554,Ribbon Eel,529
+3554,Reef Fish Scorpionfish,507
+3554,Boxfish,11
+3554,Pufferfish,18
+3554,Surgeonfish,41
+3554,Angelfish,9
+3554,Bannerfish,487
+3554,Tigerfish,84
+3554,Parrotfish,10
+3554,Trumpetfish,3
+3554,Pipefish,72
+3554,Cowfish,477
+3554,Sweetlips,508
+3554,Snaper,476
+3554,Grouper,1
+3554,Lionfish Etc,509
+3554,Green Turtle,539
+3555,Sea Snake,497
+3555,Hawksbill Turtle,488
+3555,Reef Fish Scorpionfish,507
+3555,Boxfish,11
+3555,Pufferfish,18
+3555,Surgeonfish,41
+3555,Angelfish,9
+3555,Bannerfish,487
+3555,Tigerfish,84
+3555,Parrotfish,10
+3555,Trumpetfish,3
+3555,Pipefish,72
+3555,Cowfish,477
+3555,Sweetlips,508
+3555,Snaper,476
+3555,Grouper,1
+3555,Lionfish Etc,509
+3555,Green Turtle,539
+3556,Baracuda,5
+3556,Stingray,28
+3556,Hawksbill Turtle,488
+3556,Reef Fish Scorpionfish,507
+3556,Boxfish,11
+3556,Pufferfish,18
+3556,Surgeonfish,41
+3556,Angelfish,9
+3556,Bannerfish,487
+3556,Tigerfish,84
+3556,Parrotfish,10
+3556,Trumpetfish,3
+3556,Pipefish,72
+3556,Cowfish,477
+3556,Sweetlips,508
+3556,Snaper,476
+3556,Grouper,1
+3556,Lionfish Etc,509
+3556,Green Turtle,539
+3556,Peacock Mantis Shrimp,695
+3559,Eagle Ray,6
+3559,Flatworm,165
+3559,Seaslug,23
+3559,Ghost Pipefish,547
+3559,Pygmy Sea Hose,696
+3559,Nudibranch,479
+3560,Eagle Ray,6
+3560,Hawksbill Turtle,488
+3560,Moray Eel,75
+3565,Boxfish Pufferfish,478
+3565,Moray Eel,75
+3565,Nudibranch,479
+3565,Shrimp,197
+3565,Coral,482
+3565,Brain Coral,130
+3565,Reef Fish Scorpionfish,507
+3565,Boxfish,11
+3565,Pufferfish,18
+3565,Surgeonfish,41
+3565,Angelfish,9
+3565,Bannerfish,487
+3565,Tigerfish,84
+3565,Parrotfish,10
+3565,Trumpetfish,3
+3565,Pipefish,72
+3565,Cowfish,477
+3565,Sweetlips,508
+3565,Snaper,476
+3565,Grouper,1
+3565,Lionfish Etc,509
+3565,Cowfish,477
+3569,Pike,69
+3569,Barsch,671
+3569,Batfish,57
+3572,Zurich Fish,704
+3577,Baracuda,5
+3577,Nudibranch,479
+3580,Aborre,705
+3581,Reef Fish,513
+3583,Baracuda,5
+3583,Stingray,28
+3583,Sea Turtle,2
+3583,Garden Eels,528
+3583,Sea Anemone,65
+3583,Reef Fish Scorpionfish,507
+3583,Boxfish,11
+3583,Pufferfish,18
+3583,Surgeonfish,41
+3583,Angelfish,9
+3583,Bannerfish,487
+3583,Tigerfish,84
+3583,Parrotfish,10
+3583,Trumpetfish,3
+3583,Pipefish,72
+3583,Cowfish,477
+3583,Sweetlips,508
+3583,Snaper,476
+3583,Grouper,1
+3583,Lionfish Etc,509
+3583,Eel,36
+3583,Eagle Ray,6
+3584,Small Mouth Bass,617
+3584,Largemouth Bass,588
+3585,Burbot,706
+3587,Batfish,57
+3587,Blacktip Reef Shark,501
+3590,Grouper,1
+3601,Sharks,523
+3601,Eel,36
+3601,Octopus,47
+3603,Baracuda,5
+3603,Nudibranch,479
+3603,Anemone Fish,546
+3608,Sea Turtle,2
+3608,Shrimp,197
+3608,Reef Fish Scorpionfish,507
+3608,Boxfish,11
+3608,Pufferfish,18
+3608,Surgeonfish,41
+3608,Angelfish,9
+3608,Bannerfish,487
+3608,Tigerfish,84
+3608,Parrotfish,10
+3608,Trumpetfish,3
+3608,Pipefish,72
+3608,Cowfish,477
+3608,Sweetlips,508
+3608,Snaper,476
+3608,Grouper,1
+3608,Lionfish Etc,509
+3608,Stingray,28
+3608,Eel,36
+3609,Lionfish,496
+3609,Trumpetfish Pipefish,480
+3609,Seahorse,243
+3609,Rays,481
+3609,Octopus,47
+3609,Coral,482
+3609,Reef Fish Scorpionfish,507
+3609,Boxfish,11
+3609,Pufferfish,18
+3609,Surgeonfish,41
+3609,Angelfish,9
+3609,Bannerfish,487
+3609,Tigerfish,84
+3609,Parrotfish,10
+3609,Trumpetfish,3
+3609,Pipefish,72
+3609,Cowfish,477
+3609,Sweetlips,508
+3609,Snaper,476
+3609,Grouper,1
+3609,Lionfish Etc,509
+3609,Eel,36
+3610,Mandarinfish,707
+3610,Green Turtle,539
+3611,Sturgeon,38
+3611,Perch,541
+3612,Sponges,34
+3612,Seastars,214
+3612,Nudibranch,479
+3613,Moray Eel,75
+3613,Nudibranch,479
+3613,Octopus,47
+3613,Sea Sponges,104
+3613,Crustaceans,708
+3613,Grouper,1
+3615,Starfish,60
+3615,Moray Eel,75
+3615,Nudibranch,479
+3615,Octopus,47
+3615,Astroides Calycularis,690
+3615,Crappie,573
+3617,Sturgeon,38
+3617,Carp,545
+3617,Pike,69
+3617,Perch,541
+3617,Cat Fish,709
+3618,Blacktip Reef Shark,501
+3618,Eagle Ray,6
+3618,Manta Ray,475
+3618,Green Sea Turtle,550
+3619,Leaffish,499
+3619,Parrotfish,10
+3619,Nudibranch,479
+3619,Shrimp,197
+3619,Green Turtle,539
+3619,Trevally,608
+3620,Blacktip Reef Shark,501
+3620,Loggerhead Turtle,532
+3620,Hawksbill Turtle,488
+3620,Shrimp,197
+3620,Nudibranch,479
+3620,Anemones,577
+3620,Rays,481
+3620,Grey Reef Shark,516
+3620,Cuttlefish,16
+3620,Green Turtle,539
+3620,Snaper,476
+3620,Trevally,608
+3622,Snoek,710
+3622,Baars,711
+3623,Baracuda,5
+3623,Grouper,1
+3623,Octopus,47
+3623,Muray,568
+3623,Salema,712
+3623,Nudibranch,479
+3624,Shrimp,197
+3624,Reef Fish Scorpionfish,507
+3624,Boxfish,11
+3624,Pufferfish,18
+3624,Surgeonfish,41
+3624,Angelfish,9
+3624,Bannerfish,487
+3624,Tigerfish,84
+3624,Parrotfish,10
+3624,Trumpetfish,3
+3624,Pipefish,72
+3624,Cowfish,477
+3624,Sweetlips,508
+3624,Snaper,476
+3624,Grouper,1
+3624,Lionfish Etc,509
+3624,Moray Eel,75
+3626,Leaffish,499
+3626,Blacktip Reef Shark,501
+3626,Rays,481
+3626,Hawksbill Turtle,488
+3626,Loggerhead Turtle,532
+3626,Moray Eel,75
+3626,Nudibranch,479
+3626,Shrimp,197
+3626,Reef Fish,513
+3626,Green Turtle,539
+3626,Trevally,608
+3626,Grey Reef Shark,516
+3627,Bull Shark,570
+3627,Blacktip Reef Shark,501
+3627,Rays,481
+3627,Loggerhead Turtle,532
+3627,Hawksbill Turtle,488
+3627,Shrimp,197
+3627,Nudibranch,479
+3627,Grouper,1
+3627,Reef Fish,513
+3627,Bass,572
+3627,Green Turtle,539
+3627,Grey Reef Shark,516
+3627,Trevally,608
+3627,Anemones,577
+3627,Morey Eel,637
+3633,Grouper,1
+3633,Batfish,57
+3633,Whaleshark,80
+3641,Baracuda,5
+3641,Scorpionfish,20
+3641,Octopus,47
+3641,Morena,713
+3642,Baracuda,5
+3642,Scorpionfish,20
+3642,Octopus,47
+3642,Morena,713
+3643,Manta,574
+3643,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+3643,Dolphins,158
+3643,Hump Back Wahles,715
+3643,Octos,716
+3644,Grouper,1
+3644,Jackfish,17
+3644,Lionfish,496
+3644,Turtle,506
+3644,Moray Eel,75
+3644,Octopus,47
+3645,Parrotfish,10
+3645,Grouper,1
+3645,Jackfish,17
+3645,Lionfish,496
+3645,Stingray,28
+3645,Turtle,506
+3645,Moray Eel,75
+3645,Octopus,47
+3650,Baracuda,5
+3650,Scorpionfish,20
+3650,Moray Eel,75
+3650,Octopus,47
+3650,Nudibranch,479
+3650,Jellyfish,489
+3652,Baracuda,5
+3652,Scorpionfish,20
+3652,Moray Eel,75
+3652,Octopus,47
+3653,Baracuda,5
+3653,Sunfish Mola Mola,524
+3653,Scorpionfish,20
+3653,Moray Eel,75
+3653,Octopus,47
+3653,Jellyfish,489
+3654,Baracuda,5
+3654,Seahorse,243
+3654,Scorpionfish,20
+3654,Moray Eel,75
+3654,Jellyfish,489
+3655,Baracuda,5
+3655,Scorpionfish,20
+3655,Octopus,47
+3655,Mere,717
+3655,Morena,713
+3656,Baracuda,5
+3656,Scorpionfish,20
+3656,Octopus,47
+3656,Mere,717
+3656,Morena,713
+3657,Baracuda,5
+3657,Scorpionfish,20
+3657,Octopus,47
+3657,Mere,717
+3657,Morena,713
+3658,Baracuda,5
+3658,Scorpionfish,20
+3658,Octopus,47
+3658,Mere,717
+3658,Morena,713
+3660,Grouper,1
+3660,Bream,514
+3660,Sea Urchin,131
+3660,Moray Eel,75
+3660,Starfish,60
+3660,Bass,572
+3660,Black Seabass,718
+3660,Ornate Wrasse,554
+3660,Yellowtail,565
+3660,Colourful Wrasse Species,630
+3660,Nudibranch,479
+3660,Salpe,504
+3660,Octopus,47
+3664,Reef Fish Scorpionfish,507
+3664,Boxfish,11
+3664,Pufferfish,18
+3664,Surgeonfish,41
+3664,Angelfish,9
+3664,Bannerfish,487
+3664,Tigerfish,84
+3664,Parrotfish,10
+3664,Trumpetfish,3
+3664,Pipefish,72
+3664,Cowfish,477
+3664,Sweetlips,508
+3664,Snaper,476
+3664,Grouper,1
+3664,Lionfish Etc,509
+3664,Eel,36
+3665,Butterflyfish,73
+3665,Squid,58
+3665,Brain Coral,130
+3665,Coral,482
+3665,Reef Fish Scorpionfish,507
+3665,Boxfish,11
+3665,Pufferfish,18
+3665,Surgeonfish,41
+3665,Angelfish,9
+3665,Bannerfish,487
+3665,Tigerfish,84
+3665,Parrotfish,10
+3665,Trumpetfish,3
+3665,Pipefish,72
+3665,Cowfish,477
+3665,Sweetlips,508
+3665,Snaper,476
+3665,Grouper,1
+3665,Lionfish Etc,509
+3665,Reef Fish,513
+3666,Baracuda,5
+3666,Eagle Ray,6
+3666,Moray Eel,75
+3666,Shrimp,197
+3666,Coral,482
+3666,Reef Fish Scorpionfish,507
+3666,Boxfish,11
+3666,Pufferfish,18
+3666,Surgeonfish,41
+3666,Angelfish,9
+3666,Bannerfish,487
+3666,Tigerfish,84
+3666,Parrotfish,10
+3666,Trumpetfish,3
+3666,Pipefish,72
+3666,Cowfish,477
+3666,Sweetlips,508
+3666,Snaper,476
+3666,Grouper,1
+3666,Lionfish Etc,509
+3666,Sea Turtle,2
+3666,Flounder,45
+3667,Sea Moth,719
+3667,Pygmy Sea Hose,696
+3682,Hammerhead Shark,93
+3682,Eagle Ray,6
+3682,Stingray,28
+3682,Reef Manta,553
+3682,Shovel Nose Ray,720
+3682,Blacktip Shark,721
+3682,Bowmouth,722
+3682,Goliath Grouper,589
+3682,Leopard Ray,723
+3682,Baracuda,5
+3682,Leopard Shark,531
+3683,Blacktip Reef Shark,501
+3683,Hammerhead Shark,93
+3683,Leopard Shark,531
+3683,Sand Tiger Shark,61
+3683,Oceanic Blacktip Shark,724
+3683,Grey Nurse Shark,485
+3683,Wobbegong Shark,484
+3683,Sandbar Shark,725
+3683,Silvertip Shark,503
+3684,Whaleshark,80
+3684,Nudibranch,479
+3684,Frogfish,127
+3684,Pipehorse,620
+3684,Sawfish,118
+3690,Seahorse,243
+3690,Angelfish,9
+3690,Baracuda,5
+3690,Octopus,47
+3690,Black Canary Mongrel,726
+3690,Roncadores,727
+3690,Old Red,728
+3691,Perch,541
+3691,Pike,69
+3691,Tench,646
+3691,Minnow,729
+3692,Jackfish,17
+3692,Moray Eel,75
+3692,Octopus,47
+3692,Nudibranch,479
+3692,Eel,36
+3694,Burbot,706
+3695,Burbot,706
+3698,Lionfish,496
+3698,Grouper,1
+3698,Stingray,28
+3698,Sea Turtle,2
+3698,Eel,36
+3698,Octopus,47
+3698,Reef Fish Scorpionfish,507
+3698,Boxfish,11
+3698,Pufferfish,18
+3698,Surgeonfish,41
+3698,Angelfish,9
+3698,Bannerfish,487
+3698,Tigerfish,84
+3698,Parrotfish,10
+3698,Trumpetfish,3
+3698,Pipefish,72
+3698,Cowfish,477
+3698,Sweetlips,508
+3698,Snaper,476
+3698,Grouper,1
+3698,Lionfish Etc,509
+3699,Stingray,28
+3699,Sea Turtle,2
+3699,Eel,36
+3699,Octopus,47
+3699,Reef Fish Scorpionfish,507
+3699,Boxfish,11
+3699,Pufferfish,18
+3699,Surgeonfish,41
+3699,Angelfish,9
+3699,Bannerfish,487
+3699,Tigerfish,84
+3699,Parrotfish,10
+3699,Trumpetfish,3
+3699,Pipefish,72
+3699,Cowfish,477
+3699,Sweetlips,508
+3699,Snaper,476
+3699,Grouper,1
+3699,Lionfish Etc,509
+3702,Reef Fish Scorpionfish,507
+3702,Boxfish,11
+3702,Pufferfish,18
+3702,Surgeonfish,41
+3702,Angelfish,9
+3702,Bannerfish,487
+3702,Tigerfish,84
+3702,Parrotfish,10
+3702,Trumpetfish,3
+3702,Pipefish,72
+3702,Cowfish,477
+3702,Sweetlips,508
+3702,Snaper,476
+3702,Grouper,1
+3702,Lionfish Etc,509
+3703,Reef Fish Scorpionfish,507
+3703,Boxfish,11
+3703,Pufferfish,18
+3703,Surgeonfish,41
+3703,Angelfish,9
+3703,Bannerfish,487
+3703,Tigerfish,84
+3703,Parrotfish,10
+3703,Trumpetfish,3
+3703,Pipefish,72
+3703,Cowfish,477
+3703,Sweetlips,508
+3703,Snaper,476
+3703,Grouper,1
+3703,Lionfish Etc,509
+3704,Grouper,1
+3704,Sea Turtle,2
+3704,Moray Eel,75
+3704,Octopus,47
+3704,Reef Fish Scorpionfish,507
+3704,Boxfish,11
+3704,Pufferfish,18
+3704,Surgeonfish,41
+3704,Angelfish,9
+3704,Bannerfish,487
+3704,Tigerfish,84
+3704,Parrotfish,10
+3704,Trumpetfish,3
+3704,Pipefish,72
+3704,Cowfish,477
+3704,Sweetlips,508
+3704,Snaper,476
+3704,Grouper,1
+3704,Lionfish Etc,509
+3705,Lionfish,496
+3705,Loggerhead Turtle,532
+3705,Nudibranch,479
+3706,Tuna,526
+3706,Jackfish,17
+3706,Reef Fish,513
+3706,Trevally,608
+3709,Rays,481
+3709,Sea Turtle,2
+3709,Octopus,47
+3711,Moray Eel,75
+3711,Nudibranch,479
+3711,Giant Clam,661
+3711,Peacock Mantis Shrimp,695
+3711,Spearing Mantis Shrimp,730
+3712,Reef Fish Scorpionfish,507
+3712,Boxfish,11
+3712,Pufferfish,18
+3712,Surgeonfish,41
+3712,Angelfish,9
+3712,Bannerfish,487
+3712,Tigerfish,84
+3712,Parrotfish,10
+3712,Trumpetfish,3
+3712,Pipefish,72
+3712,Cowfish,477
+3712,Sweetlips,508
+3712,Snaper,476
+3712,Grouper,1
+3712,Lionfish Etc,509
+3713,Reef Fish Scorpionfish,507
+3713,Boxfish,11
+3713,Pufferfish,18
+3713,Surgeonfish,41
+3713,Angelfish,9
+3713,Bannerfish,487
+3713,Tigerfish,84
+3713,Parrotfish,10
+3713,Trumpetfish,3
+3713,Pipefish,72
+3713,Cowfish,477
+3713,Sweetlips,508
+3713,Snaper,476
+3713,Grouper,1
+3713,Lionfish Etc,509
+3714,Reef Fish Scorpionfish,507
+3714,Boxfish,11
+3714,Pufferfish,18
+3714,Surgeonfish,41
+3714,Angelfish,9
+3714,Bannerfish,487
+3714,Tigerfish,84
+3714,Parrotfish,10
+3714,Trumpetfish,3
+3714,Pipefish,72
+3714,Cowfish,477
+3714,Sweetlips,508
+3714,Snaper,476
+3714,Grouper,1
+3714,Lionfish Etc,509
+3715,Baracuda,5
+3715,Grouper,1
+3715,Bull Shark,570
+3715,Oceanic Blacktip Shark,724
+3715,Loggerhead Turtle,532
+3715,Trevally,608
+3715,Hammerhead Shark,93
+3715,Dusky Shark,731
+3716,Grouper,1
+3716,Bull Shark,570
+3716,Whitetip Reef Shark,490
+3716,Nudibranch,479
+3716,Shrimp,197
+3716,King Mackerel,732
+3716,Grey Reef Shark,516
+3716,Hammerhead Shark,93
+3716,Zebra Shark,322
+3716,Giant Manta Ray,733
+3716,Trevally,608
+3716,Anemones,577
+3721,Reef Fish Scorpionfish,507
+3721,Boxfish,11
+3721,Pufferfish,18
+3721,Surgeonfish,41
+3721,Angelfish,9
+3721,Bannerfish,487
+3721,Tigerfish,84
+3721,Parrotfish,10
+3721,Trumpetfish,3
+3721,Pipefish,72
+3721,Cowfish,477
+3721,Sweetlips,508
+3721,Snaper,476
+3721,Grouper,1
+3721,Lionfish Etc,509
+3722,Reef Fish Scorpionfish,507
+3722,Boxfish,11
+3722,Pufferfish,18
+3722,Surgeonfish,41
+3722,Angelfish,9
+3722,Bannerfish,487
+3722,Tigerfish,84
+3722,Parrotfish,10
+3722,Trumpetfish,3
+3722,Pipefish,72
+3722,Cowfish,477
+3722,Sweetlips,508
+3722,Snaper,476
+3722,Grouper,1
+3722,Lionfish Etc,509
+3723,Reef Fish Scorpionfish,507
+3723,Boxfish,11
+3723,Pufferfish,18
+3723,Surgeonfish,41
+3723,Angelfish,9
+3723,Bannerfish,487
+3723,Tigerfish,84
+3723,Parrotfish,10
+3723,Trumpetfish,3
+3723,Pipefish,72
+3723,Cowfish,477
+3723,Sweetlips,508
+3723,Snaper,476
+3723,Grouper,1
+3723,Lionfish Etc,509
+3724,Reef Fish Scorpionfish,507
+3724,Boxfish,11
+3724,Pufferfish,18
+3724,Surgeonfish,41
+3724,Angelfish,9
+3724,Bannerfish,487
+3724,Tigerfish,84
+3724,Parrotfish,10
+3724,Trumpetfish,3
+3724,Pipefish,72
+3724,Cowfish,477
+3724,Sweetlips,508
+3724,Snaper,476
+3724,Grouper,1
+3724,Lionfish Etc,509
+3725,Frogfish,127
+3725,Eel,36
+3725,Nudibranch,479
+3725,Ghostpipefish,188
+3727,Reef Fish Scorpionfish,507
+3727,Boxfish,11
+3727,Pufferfish,18
+3727,Surgeonfish,41
+3727,Angelfish,9
+3727,Bannerfish,487
+3727,Tigerfish,84
+3727,Parrotfish,10
+3727,Trumpetfish,3
+3727,Pipefish,72
+3727,Cowfish,477
+3727,Sweetlips,508
+3727,Snaper,476
+3727,Grouper,1
+3727,Lionfish Etc,509
+3730,Sardines,616
+3731,Grouper,1
+3731,Sharks,523
+3731,Rays,481
+3731,Arrow Crab,734
+3731,Morey Eel,637
+3732,Baracuda,5
+3732,Rays,481
+3732,Sea Turtle,2
+3734,Baracuda,5
+3734,Seahorse,243
+3734,Rays,481
+3734,Octopus,47
+3734,Roncadors Grunts,561
+3734,Angelshark,218
+3738,Mandarinfish,707
+3738,Nudibranch,479
+3738,Green Sea Turtle,550
+3738,Octopus,47
+3739,Angelfish,9
+3739,Butterflyfish,73
+3739,Sea Turtle,2
+3739,Cowfish,477
+3740,Reef Fish Scorpionfish,507
+3740,Boxfish,11
+3740,Pufferfish,18
+3740,Surgeonfish,41
+3740,Angelfish,9
+3740,Bannerfish,487
+3740,Tigerfish,84
+3740,Parrotfish,10
+3740,Trumpetfish,3
+3740,Pipefish,72
+3740,Cowfish,477
+3740,Sweetlips,508
+3740,Snaper,476
+3740,Grouper,1
+3740,Lionfish Etc,509
+3741,Baracuda,5
+3741,Reef Fish Scorpionfish,507
+3741,Boxfish,11
+3741,Pufferfish,18
+3741,Surgeonfish,41
+3741,Angelfish,9
+3741,Bannerfish,487
+3741,Tigerfish,84
+3741,Parrotfish,10
+3741,Trumpetfish,3
+3741,Pipefish,72
+3741,Cowfish,477
+3741,Sweetlips,508
+3741,Snaper,476
+3741,Grouper,1
+3741,Lionfish Etc,509
+3742,Reef Fish Scorpionfish,507
+3742,Boxfish,11
+3742,Pufferfish,18
+3742,Surgeonfish,41
+3742,Angelfish,9
+3742,Bannerfish,487
+3742,Tigerfish,84
+3742,Parrotfish,10
+3742,Trumpetfish,3
+3742,Pipefish,72
+3742,Cowfish,477
+3742,Sweetlips,508
+3742,Snaper,476
+3742,Grouper,1
+3742,Lionfish Etc,509
+3743,Lobster,30
+3743,Crayfish,495
+3743,Nudibranch,479
+3743,Scorfano,735
+3743,Red Coral,699
+3744,Moray Eel,75
+3744,Nudibranch,479
+3744,Coral,482
+3744,Croaker,736
+3749,Angelfish,9
+3749,Grouper,1
+3749,Snapper,19
+3749,Stingray,28
+3749,Moray Eel,75
+3749,Sea Urchin,131
+3749,Lobster,30
+3749,Sea Anemone,65
+3749,Flamingo Tong,737
+3749,Tigerfish,84
+3749,Shrimp,197
+3749,Grunts,46
+3749,Crab,299
+3749,Spider Crab,33
+3752,Tigerfish,84
+3752,Reef Fish Scorpionfish,507
+3752,Boxfish,11
+3752,Pufferfish,18
+3752,Surgeonfish,41
+3752,Angelfish,9
+3752,Bannerfish,487
+3752,Tigerfish,84
+3752,Parrotfish,10
+3752,Trumpetfish,3
+3752,Pipefish,72
+3752,Cowfish,477
+3752,Sweetlips,508
+3752,Snaper,476
+3752,Grouper,1
+3752,Lionfish Etc,509
+3752,Anemones,577
+3752,Fusilier,578
+3752,Trumpetfish,3
+3752,Soft Coral,14
+3753,Tigerfish,84
+3753,Snapper,19
+3753,Whitetip Reef Shark,490
+3753,Turtle,506
+3753,Rays,481
+3754,Trumpetfish Pipefish,480
+3754,Anemone Fish,546
+3754,Cuttlefish,16
+3754,Boxpufferfish,738
+3755,Batfish,57
+3755,Jackfish,17
+3755,Sweetlips,508
+3755,Snapper,19
+3755,Blacktip Reef Shark,501
+3755,Grey Sharks,502
+3755,Whitetip Reef Shark,490
+3759,Eagle Ray,6
+3759,Manta Ray,475
+3759,Turtle,506
+3759,Manatee Dugong,739
+3759,Shrimp,197
+3765,Baracuda,5
+3765,Grouper,1
+3765,Nurse Shark,7
+3765,Reef Fish Scorpionfish,507
+3765,Boxfish,11
+3765,Pufferfish,18
+3765,Surgeonfish,41
+3765,Angelfish,9
+3765,Bannerfish,487
+3765,Tigerfish,84
+3765,Parrotfish,10
+3765,Trumpetfish,3
+3765,Pipefish,72
+3765,Cowfish,477
+3765,Sweetlips,508
+3765,Snaper,476
+3765,Grouper,1
+3765,Lionfish Etc,509
+3765,Snaper,476
+3765,Acropora,740
+3766,Pelagic Fish,518
+3766,Hammerhead Shark,93
+3766,Nurse Shark,7
+3768,Parrotfish,10
+3768,Reef Fish Scorpionfish,507
+3768,Boxfish,11
+3768,Pufferfish,18
+3768,Surgeonfish,41
+3768,Angelfish,9
+3768,Bannerfish,487
+3768,Tigerfish,84
+3768,Parrotfish,10
+3768,Trumpetfish,3
+3768,Pipefish,72
+3768,Cowfish,477
+3768,Sweetlips,508
+3768,Snaper,476
+3768,Grouper,1
+3768,Lionfish Etc,509
+3768,Green Turtle,539
+3768,Peacock Mantis Shrimp,695
+3768,Squat Lobster,78
+3768,Shrimp,197
+3768,Nudibranch,479
+3769,Napoleon Fish,500
+3769,Hammerhead Shark,93
+3769,Oceanic Whitetip Shark,133
+3769,Tiger Shark,511
+3769,Guitar Shark,534
+3769,Mako Shark,576
+3769,Eagle Ray,6
+3769,Manta Ray,475
+3769,Electric Ray,220
+3769,Silky Shark,741
+3769,Grey Sharks,502
+3769,Sharks,523
+3769,Blacktip Reef Shark,501
+3769,Turtle,506
+3769,Dolphins,158
+3769,Eagle Ray,6
+3769,Mobula Ray,505
+3773,Lionfish,496
+3774,Lionfish,496
+3775,Lionfish,496
+3777,Scorpionfish,20
+3778,Lionfish,496
+3779,Lionfish,496
+3780,Scorpionfish,20
+3783,Butterflyfish,73
+3783,Wrasse,44
+3786,Baracuda,5
+3788,Leopard Shark,531
+3788,Manta Ray,475
+3788,Grey Sharks,502
+3789,Baracuda,5
+3789,Grouper,1
+3789,Sea Snake,497
+3790,Grouper,1
+3790,Tigerfish,84
+3790,Butterflyfish,73
+3790,Parrotfish,10
+3798,Octopus,47
+3799,Sea Turtle,2
+3800,Coral,482
+3802,Sea Turtle,2
+3803,Turtle,506
+3803,Nurse Shark,7
+3803,Red Snapper,614
+3803,Striper,634
+3804,Grouper,1
+3804,Snapper,19
+3804,Parrotfish,10
+3804,Lobster,30
+3804,Seahorse,243
+3804,Manatee,193
+3814,Eals,43
+3815,Sturgeon,38
+3816,Grouper,1
+3816,Lionfish,496
+3816,Moray Eel,75
+3817,Hecht,670
+3817,Barsch,671
+3819,Frogfish,127
+3819,Sea Anemone,65
+3819,Flatfish,27
+3819,Ghost Pipefish,547
+3819,Nudibranch,479
+3819,Seagrass,452
+3819,Sheep Nudi,742
+3819,Devil Sea Walker,743
+3819,Crinoid Shrimp,744
+3819,Decorator Crab,745
+3819,Pipehorse,620
+3820,Seahorse,243
+3821,Nudibranch,479
+3822,Cuttlefish,16
+3823,Seahorse,243
+3824,Sea Turtle,2
+3825,Pipefish,72
+3826,Sargeant Majors,694
+3827,Sea Turtle,2
+3828,Nudibranch,479
+3829,Sea Turtle,2
+3830,Nudibranch,479
+3845,Frogfish,127
+3845,Seahorse,243
+3845,Trumpetfish Pipefish,480
+3845,Pipefish,72
+3845,Starfish,60
+3845,Nudibranch,479
+3845,Shrimp,197
+3845,Crab,299
+3845,Octopus,47
+3845,Squid,58
+3846,Frogfish,127
+3846,Mandarinfish,707
+3846,Seahorse,243
+3846,Pipefish,72
+3846,Flamboyant Cuttlefish,746
+3846,Crab,299
+3846,Octopus,47
+3848,Stonefish,152
+3848,Moray Eel,75
+3848,Lobster,30
+3849,Moray Eel,75
+3850,Reef Fish,513
+3857,Snapper,19
+3857,Baracuda,5
+3857,Eel,36
+3857,Shrimp,197
+3857,Sea Anemone,65
+3857,Stingray,28
+3857,Fusilier,578
+3858,Grouper,1
+3858,Snapper,19
+3858,Sea Turtle,2
+3859,Grouper,1
+3859,Sweetlips,508
+3859,Sea Turtle,2
+3859,Trevally,608
+3859,Wide Range Of Reef Fish,675
+3859,Crown Of Thorns Seastar,747
+3859,Baracuda,5
+3860,Grouper,1
+3860,Boxfish Pufferfish,478
+3860,Sea Turtle,2
+3860,Fusilier,578
+3860,Bluespotted Stingray,586
+3860,Wide Range Of Reef Fish,675
+3860,Table Coral,748
+3860,Staghorn Coral,167
+3861,Grouper,1
+3861,Coral,482
+3861,Wide Range Of Reef Fish,675
+3862,Grouper,1
+3862,Stingray,28
+3862,Coral,482
+3862,Wide Range Of Reef Fish,675
+3863,Grouper,1
+3863,Coral,482
+3863,Fusilier,578
+3863,Stingray,28
+3863,Wide Range Of Reef Fish,675
+3865,Trumpetfish Pipefish,480
+3865,Sea Turtle,2
+3865,Reef Fish,513
+3865,Colourful Wrasse Species,630
+3866,Boxfish Pufferfish,478
+3866,Butterflyfish,73
+3866,Nudibranch,479
+3866,Reef Fish Scorpionfish,507
+3866,Boxfish,11
+3866,Pufferfish,18
+3866,Surgeonfish,41
+3866,Angelfish,9
+3866,Bannerfish,487
+3866,Tigerfish,84
+3866,Parrotfish,10
+3866,Trumpetfish,3
+3866,Pipefish,72
+3866,Cowfish,477
+3866,Sweetlips,508
+3866,Snaper,476
+3866,Grouper,1
+3866,Lionfish Etc,509
+3866,Kuhls Stingray,599
+3867,Reef Fish Scorpionfish,507
+3867,Boxfish,11
+3867,Pufferfish,18
+3867,Surgeonfish,41
+3867,Angelfish,9
+3867,Bannerfish,487
+3867,Tigerfish,84
+3867,Parrotfish,10
+3867,Trumpetfish,3
+3867,Pipefish,72
+3867,Cowfish,477
+3867,Sweetlips,508
+3867,Snaper,476
+3867,Grouper,1
+3867,Lionfish Etc,509
+3868,Reef Fish Scorpionfish,507
+3868,Boxfish,11
+3868,Pufferfish,18
+3868,Surgeonfish,41
+3868,Angelfish,9
+3868,Bannerfish,487
+3868,Tigerfish,84
+3868,Parrotfish,10
+3868,Trumpetfish,3
+3868,Pipefish,72
+3868,Cowfish,477
+3868,Sweetlips,508
+3868,Snaper,476
+3868,Grouper,1
+3868,Lionfish Etc,509
+3869,Reef Fish Scorpionfish,507
+3869,Boxfish,11
+3869,Pufferfish,18
+3869,Surgeonfish,41
+3869,Angelfish,9
+3869,Bannerfish,487
+3869,Tigerfish,84
+3869,Parrotfish,10
+3869,Trumpetfish,3
+3869,Pipefish,72
+3869,Cowfish,477
+3869,Sweetlips,508
+3869,Snaper,476
+3869,Grouper,1
+3869,Lionfish Etc,509
+3870,Grouper,1
+3870,Moray Eel,75
+3870,Lobster,30
+3870,Nudibranch,479
+3870,Coral,482
+3871,Grouper,1
+3871,Batfish,57
+3871,Pipefish,72
+3871,Coral,482
+3871,Fusilier,578
+3871,Trevally,608
+3871,Wide Range Of Reef Fish,675
+3871,Nudibranch,479
+3871,Baracuda,5
+3872,Tigerfish,84
+3872,Rays,481
+3872,Octopus,47
+3872,Cuttlefish,16
+3872,Eel,36
+3877,Trumpetfish Pipefish,480
+3877,Moray Eel,75
+3877,Lobster,30
+3877,Coral,482
+3877,Reef Fish,513
+3878,Walleye,618
+3878,Crappie,573
+3878,Batfish,57
+3878,Perch,541
+3878,Largemouth Bass,588
+3878,Smallmouth Bass,633
+3878,Striper,634
+3878,White Bass,635
+3878,Long-Nose Gar,636
+3878,Suckers,300
+3878,Turtle,506
+3881,Parrotfish,10
+3881,Stonefish,152
+3881,Grouper,1
+3881,Lionfish,496
+3881,Tigerfish,84
+3881,Snapper,19
+3881,Stingray,28
+3881,Anemone Fish,546
+3881,Morey Eel,637
+3882,Reef Fish Scorpionfish,507
+3882,Boxfish,11
+3882,Pufferfish,18
+3882,Surgeonfish,41
+3882,Angelfish,9
+3882,Bannerfish,487
+3882,Tigerfish,84
+3882,Parrotfish,10
+3882,Trumpetfish,3
+3882,Pipefish,72
+3882,Cowfish,477
+3882,Sweetlips,508
+3882,Snaper,476
+3882,Grouper,1
+3882,Lionfish Etc,509
+3883,Reef Fish Scorpionfish,507
+3883,Boxfish,11
+3883,Pufferfish,18
+3883,Surgeonfish,41
+3883,Angelfish,9
+3883,Bannerfish,487
+3883,Tigerfish,84
+3883,Parrotfish,10
+3883,Trumpetfish,3
+3883,Pipefish,72
+3883,Cowfish,477
+3883,Sweetlips,508
+3883,Snaper,476
+3883,Grouper,1
+3883,Lionfish Etc,509
+3884,Angelfish,9
+3884,Baracuda,5
+3884,Lionfish,496
+3884,Bannerfish,487
+3884,Parrotfish,10
+3884,Stingray,28
+3884,Eel,36
+3885,Reef Fish Scorpionfish,507
+3885,Boxfish,11
+3885,Pufferfish,18
+3885,Surgeonfish,41
+3885,Angelfish,9
+3885,Bannerfish,487
+3885,Tigerfish,84
+3885,Parrotfish,10
+3885,Trumpetfish,3
+3885,Pipefish,72
+3885,Cowfish,477
+3885,Sweetlips,508
+3885,Snaper,476
+3885,Grouper,1
+3885,Lionfish Etc,509
+3886,Baracuda,5
+3886,Hawksbill Turtle,488
+3886,Octopus,47
+3886,Stingray,28
+3886,Reef Fish Scorpionfish,507
+3886,Boxfish,11
+3886,Pufferfish,18
+3886,Surgeonfish,41
+3886,Angelfish,9
+3886,Bannerfish,487
+3886,Tigerfish,84
+3886,Parrotfish,10
+3886,Trumpetfish,3
+3886,Pipefish,72
+3886,Cowfish,477
+3886,Sweetlips,508
+3886,Snaper,476
+3886,Grouper,1
+3886,Lionfish Etc,509
+3887,Manatee Dugong,739
+3887,Octopus,47
+3887,Humphead Parrotfish,555
+3887,Reef Fish Scorpionfish,507
+3887,Boxfish,11
+3887,Pufferfish,18
+3887,Surgeonfish,41
+3887,Angelfish,9
+3887,Bannerfish,487
+3887,Tigerfish,84
+3887,Parrotfish,10
+3887,Trumpetfish,3
+3887,Pipefish,72
+3887,Cowfish,477
+3887,Sweetlips,508
+3887,Snaper,476
+3887,Grouper,1
+3887,Lionfish Etc,509
+3888,Jackfish,17
+3888,Tuna,526
+3888,Tigerfish,84
+3888,Blacktip Reef Shark,501
+3888,Sharks,523
+3888,Whitetip Reef Shark,490
+3888,Eagle Ray,6
+3888,Sea Turtle,2
+3888,Turtle,506
+3888,Hawksbill Turtle,488
+3888,Octopus,47
+3888,Peacock Mantis Shrimp,695
+3888,Shrimp,197
+3888,Soft Coral,14
+3888,Bluestripe Snapper Invasive,615
+3888,Reef Shark,567
+3888,Nudibranch,479
+3888,Trevally,608
+3888,Crab,299
+3888,Cowfish,477
+3888,Fusilier,578
+3890,Turtle,506
+3891,Snapper,19
+3891,Baracuda,5
+3891,Sweetlips,508
+3891,Whaleshark,80
+3891,Hawksbill Turtle,488
+3891,Pufferfish,18
+3891,Trevally,608
+3891,Rabbitfish,159
+3892,Nudibranch,479
+3894,Sea Fans,141
+3895,Nudibranch,479
+3896,Frogfish,127
+3897,Jackfish,17
+3897,Black Coral,201
+3897,Sea Fans,141
+3899,Baracuda,5
+3899,Hammerhead Shark,93
+3899,Rays,481
+3899,Reef Shark,567
+3899,Manta,574
+3899,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+3899,Dolphins,158
+3899,Hump Back Wahles,715
+3899,Octos,716
+3899,Turtle,506
+3900,Baracuda,5
+3900,Whaleshark,80
+3900,Sharks,523
+3900,Rays,481
+3900,Dolphins,158
+3900,Manta,574
+3900,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+3900,Dolphins,158
+3900,Hump Back Wahles,715
+3900,Octos,716
+3901,Baracuda,5
+3901,Rays,481
+3901,Turtle,506
+3901,Reef Shark,567
+3902,Rays,481
+3902,Turtle,506
+3902,Wide Range Of Reef Fish,675
+3902,Manta,574
+3902,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+3902,Dolphins,158
+3902,Hump Back Wahles,715
+3902,Octos,716
+3903,Manta Ray,475
+3903,Stingray,28
+3903,Rigid Shrimpfish,749
+3903,Blennies,105
+3903,Manta,574
+3903,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+3903,Dolphins,158
+3903,Hump Back Wahles,715
+3903,Octos,716
+3904,Parrotfish,10
+3904,Napoleon Fish,500
+3904,Scorpionfish,20
+3904,Stingray,28
+3904,Sea Turtle,2
+3904,Dolphins,158
+3904,Crocodile Fish,750
+3906,Scorpionfish,20
+3906,Lionfish,496
+3906,Angelfish,9
+3906,Moray Eel,75
+3906,Wrasse,44
+3907,Baracuda,5
+3907,Eals,43
+3907,Sea Turtle,2
+3907,Octopus,47
+3909,Boxfish Pufferfish,478
+3909,Baracuda,5
+3909,Tigerfish,84
+3909,Rays,481
+3909,Nurse Shark,7
+3909,Moray Eel,75
+3909,Octopus,47
+3909,Lobster,30
+3909,Nudibranch,479
+3909,Gorgonian Fan,530
+3909,Brain Coral,130
+3909,Toad Fish,638
+3909,Reef Fish Scorpionfish,507
+3909,Boxfish,11
+3909,Pufferfish,18
+3909,Surgeonfish,41
+3909,Angelfish,9
+3909,Bannerfish,487
+3909,Tigerfish,84
+3909,Parrotfish,10
+3909,Trumpetfish,3
+3909,Pipefish,72
+3909,Cowfish,477
+3909,Sweetlips,508
+3909,Snaper,476
+3909,Grouper,1
+3909,Lionfish Etc,509
+3909,Damselfish,12
+3909,Spiny Lobster,751
+3910,Tigerfish,84
+3910,Jackfish,17
+3910,Grouper,1
+3910,Hawksbill Turtle,488
+3910,Nudibranch,479
+3910,Coral,482
+3910,Tilefish,335
+3911,Tigerfish,84
+3911,Baracuda,5
+3911,Butterflyfish,73
+3911,Jackfish,17
+3911,Stingray,28
+3911,Turtle,506
+3911,Coral,482
+3911,Sea Anemone,65
+3912,Pelagic Fish,518
+3912,Nudibranch,479
+3912,Coral,482
+3913,Baracuda,5
+3913,Grouper,1
+3913,Jackfish,17
+3913,Boxfish Pufferfish,478
+3913,Tigerfish,84
+3913,Nudibranch,479
+3914,Batfish,57
+3914,Whitetip Reef Shark,490
+3914,Blacktip Reef Shark,501
+3914,Giant Moray,527
+3914,Anemone Fish,546
+3915,Batfish,57
+3915,Cowfish,477
+3915,Snapper,19
+3915,Butterflyfish,73
+3915,Whaleshark,80
+3915,Turtle,506
+3915,Moray Eel,75
+3915,Octopus,47
+3915,Shrimp,197
+3915,Porcupinefish,752
+3915,Lobster,30
+3917,Lionfish,496
+3917,Baracuda,5
+3917,Stingray,28
+3917,Eals,43
+3917,Sea Turtle,2
+3917,Moray Eel,75
+3917,Octopus,47
+3917,Crab,299
+3918,Baracuda,5
+3918,Stingray,28
+3918,Sea Turtle,2
+3919,Baracuda,5
+3919,Octopus,47
+3920,Grouper,1
+3920,Stingray,28
+3920,Octopus,47
+3920,Trumpetfish,3
+3922,Snapper,19
+3922,Grouper,1
+3922,Scorpionfish,20
+3922,Whitetip Reef Shark,490
+3922,Ribbon Eel,529
+3922,Moray Eel,75
+3922,Reef Fish,513
+3922,Juvenile Fish Macro,687
+3922,Paperfish,753
+3923,Baracuda,5
+3923,Tigerfish,84
+3923,Nurse Shark,7
+3923,Nudibranch,479
+3923,Flying Gurnard,230
+3923,Damsel,754
+3923,Wrasse,44
+3923,Various Bream,755
+3923,Seabass,756
+3923,Mullet,96
+3923,Dentex,650
+3923,Reef Fish Scorpionfish,507
+3923,Boxfish,11
+3923,Pufferfish,18
+3923,Surgeonfish,41
+3923,Angelfish,9
+3923,Bannerfish,487
+3923,Tigerfish,84
+3923,Parrotfish,10
+3923,Trumpetfish,3
+3923,Pipefish,72
+3923,Cowfish,477
+3923,Sweetlips,508
+3923,Snaper,476
+3923,Grouper,1
+3923,Lionfish Etc,509
+3923,Mackerel,126
+3923,Spanish Slipper Lobster,757
+3924,Blacktip Reef Shark,501
+3926,Turtle,506
+3926,Manatee,193
+3926,Largemouth Bass,588
+3927,Snapper,19
+3927,Whitetip Reef Shark,490
+3927,Grey Reef Shark,516
+3927,Eaglerays,667
+3928,Angelfish,9
+3928,Parrotfish,10
+3928,Grouper,1
+3928,Moray Eel,75
+3928,Brain Coral,130
+3928,Black Durgon,758
+3928,Flounder,45
+3928,Tilefish,335
+3928,Drums,56
+3928,Spiny Lobster,751
+3928,Elkhorn Corals,759
+3928,Snapper,19
+3928,Sea Fans,141
+3928,Staghorn Coral,167
+3928,Turtle,506
+3928,Stingray,28
+3928,Cowfish,477
+3928,Trunkfish,631
+3930,Juvenile Fish Macro,687
+3936,Grouper,1
+3936,Batfish,57
+3936,Shrimp,197
+3936,Jellyfish,489
+3936,Trevally,608
+3937,Lionfish,496
+3937,Tigerfish,84
+3937,Nudibranch,479
+3937,Rabbitfish,159
+3938,Cowfish,477
+3938,Damselfish,12
+3938,Seabream,557
+3939,Grouper,1
+3939,Eagle Ray,6
+3939,Lobster,30
+3939,Brain Coral,130
+3939,Grey Reef Shark,516
+3939,Tarpon,122
+3939,Elkhorn Corals,759
+3940,Snapper,19
+3940,Scorpionfish,20
+3940,Angelfish,9
+3940,Hawksbill Turtle,488
+3940,Starfish,60
+3940,Lobster,30
+3940,Squid,58
+3940,Sea Anemone,65
+3940,Grunts,46
+3940,Stingray,28
+3940,Tube Sponge,760
+3941,Baracuda,5
+3941,Crayfish,495
+3941,Reef Fish Scorpionfish,507
+3941,Boxfish,11
+3941,Pufferfish,18
+3941,Surgeonfish,41
+3941,Angelfish,9
+3941,Bannerfish,487
+3941,Tigerfish,84
+3941,Parrotfish,10
+3941,Trumpetfish,3
+3941,Pipefish,72
+3941,Cowfish,477
+3941,Sweetlips,508
+3941,Snaper,476
+3941,Grouper,1
+3941,Lionfish Etc,509
+3941,Grey Reef Shark,516
+3942,Angelfish,9
+3942,Grouper,1
+3942,Snapper,19
+3942,Parrotfish,10
+3942,Eagle Ray,6
+3942,Hawksbill Turtle,488
+3942,Eel,36
+3942,Lobster,30
+3942,Grey Reef Shark,516
+3942,Pufferfish,18
+3942,Colourful Wrasse Species,630
+3942,Black Coral,201
+3942,Drums,56
+3942,Sea Fans,141
+3942,Tube Sponge,760
+3945,Grouper,1
+3945,Parrotfish,10
+3945,Angelfish,9
+3945,Snapper,19
+3945,Grunts,46
+3945,Turtle,506
+3945,Trumpetfish,3
+3945,Grey Reef Shark,516
+3945,Coral Reef,703
+3946,Snapper,19
+3946,Parrotfish,10
+3946,Angelfish,9
+3946,Grouper,1
+3946,Hawksbill Turtle,488
+3946,Trumpetfish,3
+3946,Coral Reef,703
+3946,Sea Fans,141
+3946,Pufferfish,18
+3946,Stingray,28
+3946,Sponges,34
+3946,Colourful Wrasse Species,630
+3949,Seahorse,243
+3949,Surgeonfish,41
+3949,Angelfish,9
+3949,Batfish,57
+3949,Crab,299
+3949,Shrimp,197
+3949,Brain Coral,130
+3949,Spider Crab,33
+3949,Hermit Crab,70
+3949,Fire Worm,684
+3949,Seastars,214
+3949,Tube Sponge,760
+3950,Sea Snake,497
+3950,Nudibranch,479
+3950,Clam,446
+3950,Reef Fish Scorpionfish,507
+3950,Boxfish,11
+3950,Pufferfish,18
+3950,Surgeonfish,41
+3950,Angelfish,9
+3950,Bannerfish,487
+3950,Tigerfish,84
+3950,Parrotfish,10
+3950,Trumpetfish,3
+3950,Pipefish,72
+3950,Cowfish,477
+3950,Sweetlips,508
+3950,Snaper,476
+3950,Grouper,1
+3950,Lionfish Etc,509
+3952,Snapper,19
+3952,Parrotfish,10
+3952,Angelfish,9
+3952,Grouper,1
+3952,Sharks,523
+3952,Eagle Ray,6
+3952,Trumpetfish,3
+3952,Souther Stingray,632
+3952,Tube Sponge,760
+3952,Rainbow Wrasse,540
+3952,Yellow Sponges,542
+3952,Pufferfish,18
+3952,Turtle,506
+3954,Stonefish,152
+3954,Grouper,1
+3954,Batfish,57
+3954,Tigerfish,84
+3954,Pipefish,72
+3954,Lionfish,496
+3954,Surgeonfish,41
+3954,Sturgeon,38
+3954,Perch,541
+3954,Stingray,28
+3954,Turtle,506
+3954,Sea Cucumber,64
+3954,Sea Urchin,131
+3954,Eel,36
+3954,Jellyfish,489
+3954,Needlefish,21
+3954,Octopus,47
+3954,Red Snapper,614
+3954,Fusilier,578
+3954,Sardines,616
+3955,Frogfish,127
+3955,Eel,36
+3955,Flamboyant Cuttlefish,746
+3955,Green Turtle,539
+3955,Ghostpipefish,188
+3956,Pygmy Sea Hose,696
+3957,Frogfish,127
+3957,Grouper,1
+3957,Jackfish,17
+3957,Giant Moray,527
+3957,Ornate Ghost Pipefish,548
+3958,Octopus,47
+3958,Stingray,28
+3958,Octopus,47
+3960,Snapper,19
+3960,Boxfish Pufferfish,478
+3960,Angelfish,9
+3960,Grouper,1
+3960,Brain Coral,130
+3960,Hawksbill Turtle,488
+3960,Trumpetfish,3
+3960,Tilefish,335
+3960,Sea Fans,141
+3960,Eagle Ray,6
+3960,Sponges,34
+3960,Colourful Wrasse Species,630
+3960,Black Durgon,758
+3961,Snapper,19
+3961,Angelfish,9
+3961,Parrotfish,10
+3961,Sea Turtle,2
+3961,Eagle Ray,6
+3961,Chubs,761
+3961,Nurse Shark,7
+3961,Souther Stingray,632
+3961,Drums,56
+3961,Yellowhead Jawfish,762
+3961,Sargeant Majors,694
+3961,Staghorn Coral,167
+3961,Grunts,46
+3961,Reef Shark,567
+3961,Blenny,196
+3962,Snapper,19
+3962,Grouper,1
+3962,Sea Cucumber,64
+3962,Eel,36
+3962,Black Coral,201
+3962,Hawksbill Turtle,488
+3962,Green Sea Turtle,550
+3962,Brittlestars,138
+3962,Tube Sponge,760
+3962,Grunts,46
+3962,Sponges,34
+3963,Goatfish,15
+3963,Coral,482
+3963,Anemones,577
+3963,Sponges,34
+3963,Sole,62
+3963,Tablecloth,763
+3964,Sunfish Mola Mola,524
+3964,Starfish,60
+3964,Sea Urchin,131
+3964,Moray Eel,75
+3964,Lobster,30
+3964,Octopus,47
+3964,Scorpionfish,20
+3964,Nudibranch,479
+3964,Sponges,34
+3965,Angelfish,9
+3965,Snapper,19
+3965,Grouper,1
+3965,Lobster,30
+3965,Chubs,761
+3965,Trumpetfish,3
+3965,Elkhorn Corals,759
+3965,Slipper Lobster,692
+3965,Sea Fans,141
+3965,Grunts,46
+3965,Tarpon,122
+3965,Eagle Ray,6
+3966,Angelfish,9
+3966,Parrotfish,10
+3966,Nurse Shark,7
+3966,Eel,36
+3966,Lobster,30
+3966,Nudibranch,479
+3966,Drums,56
+3966,Coral Reef,703
+3966,Sea Fans,141
+3966,Tube Sponge,760
+3966,Turtle,506
+3966,Flamingo Tong,737
+3966,Eagle Ray,6
+3966,Trumpetfish,3
+3966,Yellow Goat Fish,652
+3966,Goatfish,15
+3966,Bluehead,653
+3966,Yellowhead Wrasse,654
+3966,Sergent Mayor,613
+3966,Blue Chromis,655
+3966,French Grunt,656
+3966,Souther Stingray,632
+3966,Remora,90
+3966,Green Turtle,539
+3966,Nurse Shark,7
+3967,Parrotfish,10
+3967,Snapper,19
+3967,Angelfish,9
+3967,Nurse Shark,7
+3967,Garden Eels,528
+3967,Lobster,30
+3967,Hawksbill Turtle,488
+3967,Boxpufferfish,738
+3969,Baracuda,5
+3969,Starfish,60
+3969,Sea Urchin,131
+3969,Octopus,47
+3969,Sole,62
+3969,Tablecloth,763
+3969,Ornate Wrasse,554
+3970,Sea Urchin,131
+3970,Starfish,60
+3970,Moray Eel,75
+3970,Octopus,47
+3970,Nudibranch,479
+3970,Lobster,30
+3970,Coral,482
+3970,Sole,62
+3970,Tablecloth,763
+3970,Anemones,577
+3970,Sponges,34
+3971,Baracuda,5
+3971,Starfish,60
+3971,Sea Urchin,131
+3971,Moray Eel,75
+3971,Nudibranch,479
+3971,Octopus,47
+3971,Scorpora,764
+3972,Sea Urchin,131
+3972,Moray Eel,75
+3972,Lobster,30
+3972,Sponges,34
+3975,Parrotfish,10
+3975,Trumpetfish Pipefish,480
+3975,Angelfish,9
+3975,Nurse Shark,7
+3975,Hawksbill Turtle,488
+3975,Eel,36
+3975,Lobster,30
+3975,Grunts,46
+3975,Snaper,476
+3975,Filefishes,562
+3975,Hamlet,765
+3975,Coral Reef,703
+3975,Sea Fans,141
+3976,Perch,541
+3976,Pike,69
+3976,Crayfish,495
+3977,Pike,69
+3977,Crayfish,495
+3978,Perch,541
+3978,Carp,545
+3978,Pike,69
+3979,Perch,541
+3979,Carp,545
+3979,Pike,69
+3979,Tench,646
+3980,Starfish,60
+3980,Nudibranch,479
+3980,Crab,299
+3980,Wide Range Of Reef Fish,675
+3981,Grouper,1
+3981,Baracuda,5
+3981,Bream,514
+3981,Moray Eel,75
+3981,Sea Bass,766
+3981,Red Coral,699
+3981,Nudibranch,479
+3981,Gorgonians,700
+3981,Amberjack,558
+3981,Dentex,650
+3982,Grouper,1
+3982,Red Coral,699
+3982,Dentex,650
+3982,Nudibranch,479
+3983,Baracuda,5
+3983,Grouper,1
+3983,Moray Eel,75
+3983,Octopus,47
+3983,Crayfish,495
+3983,Gorgonians,700
+3983,Dentex,650
+3983,Red Coral,699
+3986,Goatfish,15
+3986,Octopus,47
+3986,Gold Welts,767
+3991,Grouper,1
+3991,Snapper,19
+3991,Parrotfish,10
+3991,Angelfish,9
+3991,Hawksbill Turtle,488
+3991,Eel,36
+3991,Lobster,30
+3991,Grunts,46
+3991,Coral Reef,703
+3992,Grouper,1
+3992,Parrotfish,10
+3992,Angelfish,9
+3992,Brain Coral,130
+3992,Sea Sponges,104
+3992,Black Durgon,758
+3992,Trumpetfish,3
+3992,Tilefish,335
+3992,Green Sea Turtle,550
+3992,Grey Reef Shark,516
+3992,Sea Fans,141
+3994,Grouper,1
+3994,Lionfish,496
+3994,Nurse Shark,7
+3994,Hawksbill Turtle,488
+3994,Moray Eel,75
+3994,Coral,482
+3994,Brain Coral,130
+3994,Reef Fish Scorpionfish,507
+3994,Boxfish,11
+3994,Pufferfish,18
+3994,Surgeonfish,41
+3994,Angelfish,9
+3994,Bannerfish,487
+3994,Tigerfish,84
+3994,Parrotfish,10
+3994,Trumpetfish,3
+3994,Pipefish,72
+3994,Cowfish,477
+3994,Sweetlips,508
+3994,Snaper,476
+3994,Grouper,1
+3994,Lionfish Etc,509
+3994,Stingray,28
+3994,Tge Biggest Brain Corals,641
+3994,Elkhorns,642
+3994,Etc,643
+3994,Etc,643
+3994,Etc,643
+3994,Staghorn Coral,167
+3994,Conchs,768
+3996,Baracuda,5
+3996,Perch,541
+3996,Moray Eel,75
+3996,Octopus,47
+3997,Bream,514
+3997,Lobster,30
+3997,Cuttlefish,16
+3997,Spider Crab,33
+3997,Wrasse,44
+3997,Crab,299
+3997,Bass,572
+3998,Bream,514
+3998,Lobster,30
+3998,Crab,299
+3998,Eel,36
+3998,Wrasse,44
+3998,Bass,572
+3999,Pipefish,72
+3999,Bream,514
+3999,Lobster,30
+3999,Crab,299
+3999,Cuttlefish,16
+3999,Wrasse,44
+4000,Scorpionfish,20
+4000,Grouper,1
+4000,Baracuda,5
+4000,Moray Eel,75
+4000,Lobster,30
+4000,Eel,36
+4000,Nudibranch,479
+4000,Skorpion,769
+4000,Eals,43
+4000,Langustas,770
+4000,Bream,514
+4001,Fish,494
+4001,Pelagic Fish,518
+4001,Eel,36
+4001,Lobster,30
+4001,Nudibranch,479
+4001,Coral,482
+4003,Trout,517
+4003,Small Mouth Bass,617
+4004,Baracuda,5
+4004,Angelfish,9
+4004,Bannerfish,487
+4004,Stingray,28
+4006,Lionfish,496
+4006,Sea Turtle,2
+4006,Starfish,60
+4006,Baracuda,5
+4007,Octopus,47
+4008,Pipefish,72
+4008,Nudibranch,479
+4008,Cuttlefish,16
+4008,Spider Crab,33
+4008,Eel,36
+4008,Crabs - Harbour,771
+4008,Edible,772
+4008,Velvet Swimming,773
+4008,Tompot Blenny,774
+4008,Jewel Anemone,775
+4008,Snakelocks Anemone,776
+4008,Lobster,30
+4009,Lobster,30
+4009,Cuttlefish,16
+4009,Eel,36
+4009,Wrasse,44
+4009,Tompot Blenny,774
+4010,Butterflyfish,73
+4010,Seahorse,243
+4010,Angelfish,9
+4010,Eagle Ray,6
+4010,Yellow Goat Fish,652
+4010,Goatfish,15
+4010,Bluehead,653
+4010,Yellowhead Wrasse,654
+4010,Sergent Mayor,613
+4010,Blue Chromis,655
+4010,French Grunt,656
+4010,Souther Stingray,632
+4010,Remora,90
+4010,Green Turtle,539
+4010,Nurse Shark,7
+4010,Eagle Ray,6
+4010,Fairy Basslet,777
+4011,Frogfish,127
+4011,Eagle Ray,6
+4011,Moray Eel,75
+4011,Octopus,47
+4011,Seaslug,23
+4012,Starfish,60
+4012,Eel,36
+4012,Octopus,47
+4012,Toad Fish,638
+4013,Bream,514
+4013,Lobster,30
+4013,Crab,299
+4013,Wrasse,44
+4013,Bass,572
+4017,Hawksbill Turtle,488
+4017,Sardines,616
+4018,Starfish,60
+4018,Sea Urchin,131
+4018,Moray Eel,75
+4018,Octopus,47
+4018,Nudibranch,479
+4018,Flatfish,27
+4031,Lionfish,496
+4031,Stingray,28
+4031,Eagle Ray,6
+4031,Sea Turtle,2
+4031,Eel,36
+4031,Squid,58
+4031,Octopus,47
+4031,Coral,482
+4031,Soft Coral,14
+4031,Hard Coral,778
+4032,Baracuda,5
+4032,Nurse Shark,7
+4032,Reef Fish,513
+4032,Eagle Ray,6
+4032,Stingray,28
+4032,Turtle,506
+4033,Goatfish,15
+4033,Angelfish,9
+4033,Grunts,46
+4033,Hermit Crab,70
+4033,Trumpetfish,3
+4033,Spiny Lobster,751
+4034,Angelfish,9
+4034,Butterflyfish,73
+4034,Eagle Ray,6
+4034,Colourful Wrasse Species,630
+4034,Souther Stingray,632
+4034,Fairy Basslet,777
+4036,Hawksbill Turtle,488
+4036,Moray Eel,75
+4036,Lobster,30
+4036,Octopus,47
+4041,Parrotfish,10
+4041,Seahorse,243
+4041,Manta Ray,475
+4041,Sea Turtle,2
+4041,Tarpon,122
+4041,Trumpetfish,3
+4041,Sea Turtle,2
+4041,Stingray,28
+4041,Eaglerays,667
+4042,Trumpetfish Pipefish,480
+4042,Stingray,28
+4042,Eaglerays,667
+4042,Sea Turtle,2
+4043,Lionfish,496
+4043,Angelfish,9
+4043,Sea Turtle,2
+4044,Seahorse,243
+4044,Parrotfish,10
+4044,Eagle Ray,6
+4044,Sea Turtle,2
+4044,Octopus,47
+4044,File Fish,779
+4046,Octopus,47
+4046,Turtle,506
+4046,Stingray,28
+4047,Lobster,30
+4047,Turtle,506
+4048,Batfish,57
+4048,Baracuda,5
+4048,Frogfish,127
+4048,Seahorse,243
+4048,Eagle Ray,6
+4048,Sea Turtle,2
+4048,Stingray,28
+4048,Tarpon,122
+4048,Flounder,45
+4049,Lobster,30
+4049,Stingray,28
+4050,Seahorse,243
+4050,Lionfish,496
+4050,Sea Turtle,2
+4050,Moray Eel,75
+4050,Octopus,47
+4050,Stingray,28
+4051,Sea Slug,569
+4052,Sharks,523
+4052,Rays,481
+4052,Moray Eel,75
+4052,Starfish,60
+4052,Lobster,30
+4052,Octopus,47
+4052,Crab,299
+4052,Sea Turtle,2
+4052,Coral,482
+4052,Speckled Eagle Ray,780
+4053,Baracuda,5
+4053,Sunfish Mola Mola,524
+4053,Moray Eel,75
+4053,Amberjack,558
+4053,Grouper,1
+4054,Baracuda,5
+4054,Grouper,1
+4054,Jackfish,17
+4054,Stingray,28
+4054,Moray Eel,75
+4058,Snapper,19
+4058,Hammerhead Shark,93
+4058,Nurse Shark,7
+4058,Loggerhead Turtle,532
+4058,Hawksbill Turtle,488
+4058,Reef Shark,567
+4058,Eagle Ray,6
+4062,Lionfish,496
+4062,Dolphins,158
+4062,Giant Moray,527
+4063,Rays,481
+4063,Turtle,506
+4063,Nudibranch,479
+4063,Coral,482
+4063,Whitetip Reef Shark,490
+4063,Blacktip Reef Sharks,563
+4063,Nurse Shark,7
+4063,Sea Turtle,2
+4063,Nudibranch,479
+4064,Leopard Shark,531
+4064,Turtle,506
+4064,Cuttlefish,16
+4075,Nurse Shark,7
+4075,Eagle Ray,6
+4075,Sea Turtle,2
+4075,Moray Eel,75
+4075,Reef Fish,513
+4076,Hammerhead Shark,93
+4076,Rays,481
+4076,Octopus,47
+4076,Squid,58
+4076,Caribbean Reef Shark,590
+4077,Whitetip Reef Shark,490
+4077,Moray Eel,75
+4077,Whaleshark,80
+4078,Grouper,1
+4078,Scorpionfish,20
+4078,Batfish,57
+4078,Butterflyfish,73
+4078,Snapper,19
+4078,Lobster,30
+4078,Nudibranch,479
+4078,Fusilier,578
+4078,Bluespotted Stingray,586
+4080,Paddlefish,149
+4080,Octopus,47
+4080,Frogfish,127
+4081,Nurse Shark,7
+4081,Crab,299
+4081,Octopus,47
+4081,Eagle Ray,6
+4081,Spiny Lobster,751
+4082,Cuttlefish,16
+4082,Spider Crab,33
+4082,Wrasse,44
+4083,Green Turtle,539
+4084,Whaleshark,80
+4084,Leopard Shark,531
+4084,Turtle,506
+4085,Ragged Tooth Sharks,781
+4094,Snoekbaars,782
+4094,Snoek,710
+4094,Paling,783
+4094,Kreeft,784
+4094,Baars,711
+4097,Baracuda,5
+4097,Rays,481
+4097,Shrimp,197
+4097,Reef Fish Scorpionfish,507
+4097,Boxfish,11
+4097,Pufferfish,18
+4097,Surgeonfish,41
+4097,Angelfish,9
+4097,Bannerfish,487
+4097,Tigerfish,84
+4097,Parrotfish,10
+4097,Trumpetfish,3
+4097,Pipefish,72
+4097,Cowfish,477
+4097,Sweetlips,508
+4097,Snaper,476
+4097,Grouper,1
+4097,Lionfish Etc,509
+4097,Eel,36
+4097,Tarpon,122
+4098,Baracuda,5
+4098,Rays,481
+4098,Sea Turtle,2
+4098,Shrimp,197
+4098,Reef Fish Scorpionfish,507
+4098,Boxfish,11
+4098,Pufferfish,18
+4098,Surgeonfish,41
+4098,Angelfish,9
+4098,Bannerfish,487
+4098,Tigerfish,84
+4098,Parrotfish,10
+4098,Trumpetfish,3
+4098,Pipefish,72
+4098,Cowfish,477
+4098,Sweetlips,508
+4098,Snaper,476
+4098,Grouper,1
+4098,Lionfish Etc,509
+4098,Tarpon,122
+4098,Porcupinefish,752
+4101,Grey Nurse Shark,485
+4101,Port Jackson Shark,486
+4101,Wobbegong Shark,484
+4103,Shrimp,197
+4103,Reef Fish Scorpionfish,507
+4103,Boxfish,11
+4103,Pufferfish,18
+4103,Surgeonfish,41
+4103,Angelfish,9
+4103,Bannerfish,487
+4103,Tigerfish,84
+4103,Parrotfish,10
+4103,Trumpetfish,3
+4103,Pipefish,72
+4103,Cowfish,477
+4103,Sweetlips,508
+4103,Snaper,476
+4103,Grouper,1
+4103,Lionfish Etc,509
+4103,Eel,36
+4103,Porcupinefish,752
+4103,Trunkfish,631
+4103,Flounder,45
+4104,Sea Turtle,2
+4104,Squid,58
+4104,Coral,482
+4104,Reef Fish Scorpionfish,507
+4104,Boxfish,11
+4104,Pufferfish,18
+4104,Surgeonfish,41
+4104,Angelfish,9
+4104,Bannerfish,487
+4104,Tigerfish,84
+4104,Parrotfish,10
+4104,Trumpetfish,3
+4104,Pipefish,72
+4104,Cowfish,477
+4104,Sweetlips,508
+4104,Snaper,476
+4104,Grouper,1
+4104,Lionfish Etc,509
+4105,Baracuda,5
+4105,Rays,481
+4105,Sea Turtle,2
+4105,Shrimp,197
+4105,Reef Fish Scorpionfish,507
+4105,Boxfish,11
+4105,Pufferfish,18
+4105,Surgeonfish,41
+4105,Angelfish,9
+4105,Bannerfish,487
+4105,Tigerfish,84
+4105,Parrotfish,10
+4105,Trumpetfish,3
+4105,Pipefish,72
+4105,Cowfish,477
+4105,Sweetlips,508
+4105,Snaper,476
+4105,Grouper,1
+4105,Lionfish Etc,509
+4105,Eel,36
+4105,Flounder,45
+4106,Boxfish Pufferfish,478
+4106,Trumpetfish Pipefish,480
+4106,Gorgonian Fan,530
+4106,Pork Fish,627
+4106,White Tip Sharks,785
+4107,Mobula,533
+4107,Sea Turtle,2
+4107,Moray Eel,75
+4107,Nudibranch,479
+4108,Perch,541
+4108,Pike,69
+4108,Freshwater Crayfish,786
+4109,Napoleon Fish,500
+4109,Eagle Ray,6
+4110,Carp,545
+4110,Pike,69
+4114,Baracuda,5
+4114,Grouper,1
+4114,Angelfish,9
+4114,Batfish,57
+4114,Snapper,19
+4114,Snails,787
+4114,Hermit Crab,70
+4115,Grouper,1
+4115,Baracuda,5
+4115,Tigerfish,84
+4115,Bull Shark,570
+4115,Rays,481
+4115,Shrimp,197
+4115,Nudibranch,479
+4115,Reef Fish,513
+4115,Trevally,608
+4115,Anemones,577
+4115,Bass,572
+4116,Rays,481
+4116,Blacktip Reef Shark,501
+4116,Loggerhead Turtle,532
+4116,Shrimp,197
+4116,Nudibranch,479
+4116,King Mackerel,732
+4116,Grey Reef Shark,516
+4116,Green Turtle,539
+4116,Fusilier,578
+4116,Trevally,608
+4116,Anemones,577
+4117,Eagle Ray,6
+4117,Hawksbill Turtle,488
+4117,Garden Eels,528
+4117,Octopus,47
+4117,Anemone Fish,546
+4117,Trunkfish,631
+4117,Trevally,608
+4118,Baracuda,5
+4118,Angelfish,9
+4118,Batfish,57
+4118,Snapper,19
+4118,Hermit Crab,70
+4120,Snapper,19
+4120,Frogfish,127
+4120,Jackfish,17
+4120,Scorpionfish,20
+4120,Lionfish,496
+4120,Batfish,57
+4120,Sweetlips,508
+4120,Nudibranch,479
+4121,Blacktip Reef Shark,501
+4121,Nurse Shark,7
+4121,Eagle Ray,6
+4122,Grouper,1
+4122,Lionfish,496
+4122,Snapper,19
+4122,Moray Eel,75
+4122,Octopus,47
+4122,Nudibranch,479
+4122,Mackerel,126
+4122,Humphead Parrotfish,555
+4122,Barrel Sponge,788
+4122,Soft Coral,14
+4123,Grouper,1
+4123,Surgeonfish,41
+4123,Snapper,19
+4123,Damselfish,12
+4123,Bluespotted Stingray,586
+4124,Trumpetfish Pipefish,480
+4124,Boxfish Pufferfish,478
+4124,Sea Turtle,2
+4124,Nudibranch,479
+4124,Cat Fish,709
+4124,Pufferfish,18
+4124,Ghostpipefish,188
+4124,Mackerel,126
+4124,Flounder,45
+4125,Nudibranch,479
+4125,Bluespotted Stingray,586
+4126,Frogfish,127
+4126,Seahorse,243
+4126,Jackfish,17
+4126,Scorpionfish,20
+4126,Lionfish,496
+4126,Octopus,47
+4126,Nudibranch,479
+4126,Bluespotted Stingray,586
+4126,Mackerel,126
+4126,Snapper,19
+4126,Cuttlefish,16
+4127,Nudibranch,479
+4127,Crab,299
+4127,Bluespotted Stingray,586
+4127,Pygmy Sea Hose,696
+4127,Boxer Shrimp,789
+4127,Pufferfish,18
+4128,Sweetlips,508
+4128,Snapper,19
+4128,Nudibranch,479
+4128,Humphead Parrotfish,555
+4128,Soft Coral,14
+4128,Barrel Sponge,788
+4129,Stonefish,152
+4129,Grouper,1
+4129,Scorpionfish,20
+4129,Lionfish,496
+4129,Batfish,57
+4129,Snapper,19
+4129,Sea Turtle,2
+4129,Cardinalfish,68
+4129,Emperors,602
+4129,Mackerel,126
+4129,Soft Coral,14
+4129,Sea Fans,141
+4129,Staghorn Coral,167
+4130,Grouper,1
+4130,Snapper,19
+4130,Nudibranch,479
+4130,Humphead Parrotfish,555
+4130,Soft Coral,14
+4130,Barrel Sponge,788
+4131,Baracuda,5
+4131,Lionfish,496
+4131,Bluespotted Stingray,586
+4131,Soft Coral,14
+4131,Barrel Sponge,788
+4131,Sea Fans,141
+4131,Sea Turtle,2
+4132,Snapper,19
+4132,Frogfish,127
+4132,Nudibranch,479
+4132,Mimic Octopus,790
+4132,Flamboyant Cuttlefish,746
+4132,Soft Coral,14
+4132,Barrel Sponge,788
+4132,Wonderpus,791
+4132,Giant Clam,661
+4133,Baracuda,5
+4133,Grouper,1
+4133,Jackfish,17
+4133,Scorpionfish,20
+4133,Batfish,57
+4133,Sweetlips,508
+4134,Baracuda,5
+4134,Scorpionfish,20
+4134,Snapper,19
+4134,Sea Turtle,2
+4134,Thresher Shark,40
+4135,Tuna,526
+4135,Baracuda,5
+4135,Grouper,1
+4135,Jackfish,17
+4135,Parrotfish,10
+4135,Batfish,57
+4135,Sweetlips,508
+4135,Mackerel,126
+4135,Thresher Shark,40
+4135,Soft Coral,14
+4135,Pufferfish,18
+4136,Sweetlips,508
+4136,Stonefish,152
+4136,Octopus,47
+4136,Nudibranch,479
+4136,Thresher Shark,40
+4136,Barrel Sponge,788
+4136,Tree Coral,792
+4136,Sea Turtle,2
+4136,Eel,36
+4136,Pygmy Sea Hose,696
+4137,Stonefish,152
+4137,Scorpionfish,20
+4137,Nudibranch,479
+4137,Sea Turtle,2
+4137,Thresher Shark,40
+4137,Soft Coral,14
+4138,Lionfish,496
+4138,Sweetlips,508
+4138,Frogfish,127
+4138,Snapper,19
+4138,Tigerfish,84
+4138,Octopus,47
+4138,Nudibranch,479
+4138,Brain Coral,130
+4138,Sea Turtle,2
+4138,Mackerel,126
+4138,Table Coral,748
+4138,Staghorn Coral,167
+4138,Cardinalfish,68
+4139,Tuna,526
+4139,Frogfish,127
+4139,Nudibranch,479
+4139,Crab,299
+4139,Shrimp,197
+4139,Brain Coral,130
+4139,Emperors,602
+4139,Mackerel,126
+4139,Soft Coral,14
+4139,Table Coral,748
+4139,Staghorn Coral,167
+4139,Cardinalfish,68
+4140,Snapper,19
+4140,Grouper,1
+4140,Frogfish,127
+4140,Nudibranch,479
+4140,Soft Coral,14
+4140,Barrel Sponge,788
+4140,Mantis Shrimp,114
+4140,Sea Turtle,2
+4140,Mackerel,126
+4141,Nudibranch,479
+4141,Bluering Octopus,793
+4141,Seahorse,243
+4141,Ghost Pipefish,547
+4141,Bobtail Squid,156
+4141,Mimic Octopus,790
+4141,Cuttlefish,16
+4141,Flamboyant Cuttlefish,746
+4142,Frogfish,127
+4142,Grouper,1
+4142,Batfish,57
+4142,Tigerfish,84
+4142,Butterflyfish,73
+4142,Sweetlips,508
+4142,Pelagic Fish,518
+4142,Nudibranch,479
+4142,Octopus,47
+4142,Cuttlefish,16
+4142,Hawkfish,268
+4142,Mantis Shrimp,114
+4142,Anglerfish,89
+4142,Sea Fans,141
+4143,Stonefish,152
+4143,Scorpionfish,20
+4143,Nudibranch,479
+4143,Thresher Shark,40
+4143,Sea Turtle,2
+4144,Stonefish,152
+4144,Lionfish,496
+4144,Nudibranch,479
+4144,Sea Turtle,2
+4145,Scorpionfish,20
+4145,Frogfish,127
+4145,Nudibranch,479
+4145,Crab,299
+4145,Shrimp,197
+4145,Brain Coral,130
+4145,Staghorn Coral,167
+4145,Sea Turtle,2
+4145,Eel,36
+4145,Soft Coral,14
+4145,Sea Fans,141
+4145,Table Coral,748
+4146,Stonefish,152
+4146,Frogfish,127
+4146,Parrotfish,10
+4146,Boxfish Pufferfish,478
+4146,Scorpionfish,20
+4146,Lionfish,496
+4146,Batfish,57
+4146,Shrimp,197
+4146,Nudibranch,479
+4146,Eel,36
+4146,Nudibranch,479
+4146,Soft Coral,14
+4146,Boxer Shrimp,789
+4146,Barrel Sponge,788
+4146,Sea Turtle,2
+4147,Grouper,1
+4147,Rays,481
+4147,Blacktip Reef Shark,501
+4147,Loggerhead Turtle,532
+4147,Hawksbill Turtle,488
+4147,Shrimp,197
+4147,Nudibranch,479
+4147,Reef Fish,513
+4147,Green Turtle,539
+4147,Trevally,608
+4147,Anemones,577
+4147,Bass,572
+4147,Morey Eel,637
+4147,Grey Reef Shark,516
+4148,Pelagic Fish,518
+4148,Blacktip Reef Shark,501
+4148,Rays,481
+4148,Hawksbill Turtle,488
+4148,Loggerhead Turtle,532
+4148,Moray Eel,75
+4148,Garden Eels,528
+4148,Nudibranch,479
+4148,Shrimp,197
+4148,Octopus,47
+4148,Green Turtle,539
+4148,Grey Reef Shark,516
+4149,Leaffish,499
+4149,Blacktip Reef Shark,501
+4149,Rays,481
+4149,Hawksbill Turtle,488
+4149,Loggerhead Turtle,532
+4149,Shrimp,197
+4149,Nudibranch,479
+4149,Reef Fish,513
+4149,Green Turtle,539
+4149,Grey Reef Shark,516
+4149,Trevally,608
+4150,Batfish,57
+4150,Rays,481
+4150,Eel,36
+4150,Shrimp,197
+4150,Reef Fish,513
+4150,Crab,299
+4150,Trevally,608
+4150,King Mackerel,732
+4151,Hawksbill Turtle,488
+4151,Coral,482
+4151,Reef Fish,513
+4152,Snapper,19
+4152,Stonefish,152
+4152,Nudibranch,479
+4152,Crab,299
+4152,Shrimp,197
+4152,Mackerel,126
+4152,Eel,36
+4152,Sea Snake,497
+4152,Damselfish,12
+4152,Hawkfish,268
+4153,Sweetlips,508
+4153,Snapper,19
+4153,Mandarinfish,707
+4153,Giant Cuttlefish,498
+4153,Octopus,47
+4153,Nudibranch,479
+4153,Rabbitfish,159
+4153,Soft Coral,14
+4153,Barrel Sponge,788
+4153,Eel,36
+4153,Bluering Octopus,793
+4153,Cuttlefish,16
+4153,Bluespotted Stingray,586
+4153,Flamboyant Cuttlefish,746
+4154,Scorpionfish,20
+4154,Stonefish,152
+4154,Nudibranch,479
+4154,Sea Turtle,2
+4154,Thresher Shark,40
+4154,Barrel Sponge,788
+4154,Sea Fans,141
+4155,Seahorse,243
+4155,Snapper,19
+4155,Frogfish,127
+4155,Octopus,47
+4155,Nudibranch,479
+4155,Barrel Sponge,788
+4155,Wonderpus,791
+4155,Mimic Octopus,790
+4155,Cuttlefish,16
+4155,Soft Coral,14
+4156,Grouper,1
+4156,Batfish,57
+4156,Sweetlips,508
+4156,Snapper,19
+4156,Octopus,47
+4156,Nudibranch,479
+4156,Soft Coral,14
+4156,Barrel Sponge,788
+4156,Humphead Parrotfish,555
+4156,Sea Turtle,2
+4157,Frogfish,127
+4157,Seahorse,243
+4157,Nudibranch,479
+4157,Sea Snake,497
+4157,Ghost Pipefish,547
+4157,Cuttlefish,16
+4157,Octopus,47
+4158,Grey Sharks,502
+4160,Snapper,19
+4160,Tigerfish,84
+4160,Grouper,1
+4160,Tuna,526
+4160,Scorpionfish,20
+4160,Shrimp,197
+4160,Octopus,47
+4160,Staghorn Coral,167
+4160,Sea Turtle,2
+4160,Pufferfish,18
+4160,Emperors,602
+4160,Bluespotted Stingray,586
+4160,Mackerel,126
+4160,Soft Coral,14
+4160,Barrel Sponge,788
+4160,Sea Fans,141
+4161,Jackfish,17
+4161,Scorpionfish,20
+4161,Sweetlips,508
+4161,Stonefish,152
+4161,Baracuda,5
+4161,Nudibranch,479
+4161,Sea Fans,141
+4161,Sea Turtle,2
+4161,Eel,36
+4161,Sea Snake,497
+4161,Anglerfish,89
+4161,Thresher Shark,40
+4161,Barrel Sponge,788
+4162,Stonefish,152
+4162,Frogfish,127
+4162,Jackfish,17
+4162,Scorpionfish,20
+4162,Lionfish,496
+4162,Sweetlips,508
+4162,Snapper,19
+4162,Nudibranch,479
+4162,Octopus,47
+4162,Soft Coral,14
+4162,Barrel Sponge,788
+4162,Humphead Parrotfish,555
+4162,Eel,36
+4162,Pufferfish,18
+4163,Baracuda,5
+4163,Grouper,1
+4163,Jackfish,17
+4163,Scorpionfish,20
+4163,Batfish,57
+4163,Sweetlips,508
+4163,Thresher Shark,40
+4163,Cardinalfish,68
+4164,Baracuda,5
+4164,Crab,299
+4164,Shrimp,197
+4164,Sea Turtle,2
+4164,Eel,36
+4164,Bluespotted Stingray,586
+4164,Mackerel,126
+4164,Soft Coral,14
+4164,Table Coral,748
+4164,Staghorn Coral,167
+4165,Parrotfish,10
+4165,Scorpionfish,20
+4165,Snapper,19
+4165,Grouper,1
+4165,Shrimp,197
+4165,Nudibranch,479
+4165,Barrel Sponge,788
+4165,Staghorn Coral,167
+4165,Lizardfish,124
+4165,Damselfish,12
+4165,Cuttlefish,16
+4165,Flamboyant Cuttlefish,746
+4165,Soft Coral,14
+4166,Stonefish,152
+4166,Grouper,1
+4166,Surgeonfish,41
+4166,Scorpionfish,20
+4166,Lionfish,496
+4166,Batfish,57
+4166,Sweetlips,508
+4166,Nudibranch,479
+4166,Pufferfish,18
+4166,Eel,36
+4166,Sea Urchin,131
+4166,Mackerel,126
+4166,Eel,36
+4167,Batfish,57
+4167,Jackfish,17
+4167,Scorpionfish,20
+4167,Sweetlips,508
+4167,Octopus,47
+4167,Cardinalfish,68
+4167,Thresher Shark,40
+4170,Baracuda,5
+4170,Grouper,1
+4170,Sea Turtle,2
+4170,Moray Eel,75
+4170,Eagle Ray,6
+4174,Freshwater Fish,521
+4174,Carp,545
+4174,Bass,572
+4174,Batfish,57
+4174,Sunfish,54
+4177,Seahorse,243
+4177,Lionfish,496
+4177,Trumpetfish Pipefish,480
+4178,Mandarinfish,707
+4178,Reef Fish Scorpionfish,507
+4178,Boxfish,11
+4178,Pufferfish,18
+4178,Surgeonfish,41
+4178,Angelfish,9
+4178,Bannerfish,487
+4178,Tigerfish,84
+4178,Parrotfish,10
+4178,Trumpetfish,3
+4178,Pipefish,72
+4178,Cowfish,477
+4178,Sweetlips,508
+4178,Snaper,476
+4178,Grouper,1
+4178,Lionfish Etc,509
+4179,Freshwater Goby,794
+4179,Black Bus,795
+4181,Frogfish,127
+4181,Moray Eel,75
+4181,Lionfish,496
+4182,Pike,69
+4182,Perch,541
+4182,Eel,36
+4182,Carp,545
+4182,Batfish,57
+4182,Crayfish,495
+4184,Perch,541
+4184,Pike,69
+4184,Crayfish,495
+4184,Seagrass,452
+4185,Trumpetfish Pipefish,480
+4185,Parrotfish,10
+4185,Rays,481
+4185,Squid,58
+4186,Seahorse,243
+4186,Trumpetfish Pipefish,480
+4186,Yellowtail,565
+4186,Sponges,34
+4186,Sea Fan,611
+4187,Baracuda,5
+4187,Octopus,47
+4187,Dotto,796
+4187,Grouper,1
+4188,Baracuda,5
+4188,Grouper,1
+4188,Lionfish,496
+4188,Amberjack,558
+4189,Scorpionfish,20
+4189,Nudibranch,479
+4189,Octopus,47
+4189,Gorgonian Fan,530
+4189,Flying Gurnard,230
+4189,Damsel,754
+4189,Wrasse,44
+4189,Various Bream,755
+4189,Seabass,756
+4189,Mullet,96
+4189,Dentex,650
+4189,Sea Fans,141
+4189,Gobies,50
+4189,Eel,36
+4189,Cuttlefish,16
+4190,Reef Fish Scorpionfish,507
+4190,Boxfish,11
+4190,Pufferfish,18
+4190,Surgeonfish,41
+4190,Angelfish,9
+4190,Bannerfish,487
+4190,Tigerfish,84
+4190,Parrotfish,10
+4190,Trumpetfish,3
+4190,Pipefish,72
+4190,Cowfish,477
+4190,Sweetlips,508
+4190,Snaper,476
+4190,Grouper,1
+4190,Lionfish Etc,509
+4193,Baracuda,5
+4193,Grouper,1
+4193,Moray Eel,75
+4193,Octopus,47
+4193,Nudibranch,479
+4194,Grouper,1
+4194,Moray Eel,75
+4194,Octopus,47
+4194,Nudibranch,479
+4194,Salema,712
+4197,Grouper,1
+4199,Baracuda,5
+4199,Grouper,1
+4199,Nudibranch,479
+4199,Salema,712
+4207,Scorpionfish,20
+4207,Seahorse,243
+4207,Dolphins,158
+4207,Lobster,30
+4207,Octopus,47
+4207,Nudibranch,479
+4207,Marble Ray,797
+4207,Wrasse,44
+4207,Cuttlefish,16
+4207,Sea Fans,141
+4207,Cormorant,265
+4207,Flying Gurnard,230
+4207,Spider Crab,33
+4207,Dentex,650
+4207,Gobies,50
+4207,Eel,36
+4210,Frogfish,127
+4210,Scorpionfish,20
+4212,Snapper,19
+4212,Sea Turtle,2
+4212,Nudibranch,479
+4212,Crab,299
+4212,Shrimp,197
+4213,Sea Turtle,2
+4214,Eel,36
+4216,Lobster,30
+4217,Squid,58
+4218,Tuna,526
+4218,Conger Eel,662
+4218,Spider Crab,33
+4218,Dentex,650
+4218,Nudibranch,479
+4218,Sea Pens,251
+4221,Stonefish,152
+4221,Boxfish Pufferfish,478
+4221,Tigerfish,84
+4221,Octopus,47
+4221,Anemone Fish,546
+4221,Moray Eel,75
+4223,Jackfish,17
+4223,Eagle Ray,6
+4223,Stingray,28
+4223,Sea Turtle,2
+4223,Reef Fish Scorpionfish,507
+4223,Boxfish,11
+4223,Pufferfish,18
+4223,Surgeonfish,41
+4223,Angelfish,9
+4223,Bannerfish,487
+4223,Tigerfish,84
+4223,Parrotfish,10
+4223,Trumpetfish,3
+4223,Pipefish,72
+4223,Cowfish,477
+4223,Sweetlips,508
+4223,Snaper,476
+4223,Grouper,1
+4223,Lionfish Etc,509
+4223,Mackerel,126
+4224,Moray Eel,75
+4224,Reef Fish Scorpionfish,507
+4224,Boxfish,11
+4224,Pufferfish,18
+4224,Surgeonfish,41
+4224,Angelfish,9
+4224,Bannerfish,487
+4224,Tigerfish,84
+4224,Parrotfish,10
+4224,Trumpetfish,3
+4224,Pipefish,72
+4224,Cowfish,477
+4224,Sweetlips,508
+4224,Snaper,476
+4224,Grouper,1
+4224,Lionfish Etc,509
+4224,Tarpon,122
+4228,Snapper,19
+4228,Whitetip Reef Shark,490
+4228,Rays,481
+4228,Hawksbill Turtle,488
+4231,Baracuda,5
+4231,Boxfish Pufferfish,478
+4231,Moray Eel,75
+4231,Turtle,506
+4231,Wrasse,44
+4233,Jackfish,17
+4233,Snapper,19
+4233,Baracuda,5
+4233,Sea Turtle,2
+4233,Tilefish,335
+4233,Stingray,28
+4233,Grunts,46
+4233,Reef Fish Scorpionfish,507
+4233,Boxfish,11
+4233,Pufferfish,18
+4233,Surgeonfish,41
+4233,Angelfish,9
+4233,Bannerfish,487
+4233,Tigerfish,84
+4233,Parrotfish,10
+4233,Trumpetfish,3
+4233,Pipefish,72
+4233,Cowfish,477
+4233,Sweetlips,508
+4233,Snaper,476
+4233,Grouper,1
+4233,Lionfish Etc,509
+4249,Boxfish Pufferfish,478
+4249,Tigerfish,84
+4250,Sea Turtle,2
+4251,Baracuda,5
+4251,Moray Eel,75
+4251,Nudibranch,479
+4251,Grouper,1
+4251,Redfish,107
+4252,Pike,69
+4252,Cray Fish,284
+4253,Baracuda,5
+4253,Seahorse,243
+4253,Eagle Ray,6
+4253,Hawksbill Turtle,488
+4253,Loggerhead Turtle,532
+4253,Stingray,28
+4253,Reef Fish Scorpionfish,507
+4253,Boxfish,11
+4253,Pufferfish,18
+4253,Surgeonfish,41
+4253,Angelfish,9
+4253,Bannerfish,487
+4253,Tigerfish,84
+4253,Parrotfish,10
+4253,Trumpetfish,3
+4253,Pipefish,72
+4253,Cowfish,477
+4253,Sweetlips,508
+4253,Snaper,476
+4253,Grouper,1
+4253,Lionfish Etc,509
+4254,Baracuda,5
+4254,Sea Turtle,2
+4254,Moray Eel,75
+4254,Reef Fish Scorpionfish,507
+4254,Boxfish,11
+4254,Pufferfish,18
+4254,Surgeonfish,41
+4254,Angelfish,9
+4254,Bannerfish,487
+4254,Tigerfish,84
+4254,Parrotfish,10
+4254,Trumpetfish,3
+4254,Pipefish,72
+4254,Cowfish,477
+4254,Sweetlips,508
+4254,Snaper,476
+4254,Grouper,1
+4254,Lionfish Etc,509
+4254,Arrow Crab,734
+4254,Sergent Mayor,613
+4254,Cleaner Shrimp,142
+4255,Sea Turtle,2
+4255,Garden Eels,528
+4255,Stingray,28
+4255,Reef Fish Scorpionfish,507
+4255,Boxfish,11
+4255,Pufferfish,18
+4255,Surgeonfish,41
+4255,Angelfish,9
+4255,Bannerfish,487
+4255,Tigerfish,84
+4255,Parrotfish,10
+4255,Trumpetfish,3
+4255,Pipefish,72
+4255,Cowfish,477
+4255,Sweetlips,508
+4255,Snaper,476
+4255,Grouper,1
+4255,Lionfish Etc,509
+4255,Eagle Ray,6
+4256,Garden Eels,528
+4256,Squid,58
+4256,Stingray,28
+4256,Reef Fish Scorpionfish,507
+4256,Boxfish,11
+4256,Pufferfish,18
+4256,Surgeonfish,41
+4256,Angelfish,9
+4256,Bannerfish,487
+4256,Tigerfish,84
+4256,Parrotfish,10
+4256,Trumpetfish,3
+4256,Pipefish,72
+4256,Cowfish,477
+4256,Sweetlips,508
+4256,Snaper,476
+4256,Grouper,1
+4256,Lionfish Etc,509
+4256,Turtle,506
+4257,Parrotfish,10
+4257,Surgeonfish,41
+4257,Snapper,19
+4257,Rays,481
+4257,Eel,36
+4257,Reef Fish Scorpionfish,507
+4257,Boxfish,11
+4257,Pufferfish,18
+4257,Surgeonfish,41
+4257,Angelfish,9
+4257,Bannerfish,487
+4257,Tigerfish,84
+4257,Parrotfish,10
+4257,Trumpetfish,3
+4257,Pipefish,72
+4257,Cowfish,477
+4257,Sweetlips,508
+4257,Snaper,476
+4257,Grouper,1
+4257,Lionfish Etc,509
+4257,Baracuda,5
+4260,Wide Range Of Reef Fish,675
+4261,Scorpionfish,20
+4261,Blenny,196
+4261,Goby,698
+4261,Wrasse,44
+4261,Sardines,616
+4261,Mussles,51
+4261,Rockfish,76
+4261,Peacock Wrasse,798
+4261,Conchs,768
+4261,Crabs,799
+4262,Paddlefish,149
+4262,Freshwater Jellyfish,647
+4262,Batfish,57
+4263,Jackfish,17
+4263,Scorpionfish,20
+4263,Lionfish,496
+4263,Seabream,557
+4263,Rainbow Wrasse,540
+4263,Sea Sponges,104
+4263,Painted Comber,800
+4263,Nudibranch,479
+4263,Salpe,504
+4263,Octopus,47
+4263,Amberjack,558
+4264,Pike,69
+4265,Eagle Ray,6
+4265,Green Sea Turtle,550
+4265,Grey Reef Shark,516
+4265,Blacktip Reef Sharks,563
+4266,Hawksbill Turtle,488
+4266,Reef Fish Scorpionfish,507
+4266,Boxfish,11
+4266,Pufferfish,18
+4266,Surgeonfish,41
+4266,Angelfish,9
+4266,Bannerfish,487
+4266,Tigerfish,84
+4266,Parrotfish,10
+4266,Trumpetfish,3
+4266,Pipefish,72
+4266,Cowfish,477
+4266,Sweetlips,508
+4266,Snaper,476
+4266,Grouper,1
+4266,Lionfish Etc,509
+4267,Boxfish Pufferfish,478
+4267,Nurse Shark,7
+4267,Rays,481
+4267,Sea Turtle,2
+4267,Moray Eel,75
+4267,Lobster,30
+4267,Octopus,47
+4268,Oceanic Blacktip Shark,724
+4268,Lobster,30
+4268,Bass,572
+4270,Stingray,28
+4270,White Tip Sharks,785
+4271,Nurse Shark,7
+4271,Turtle,506
+4272,Seahorse,243
+4272,Sharks White Tip Reef Shark,551
+4272,Nurse Shark,7
+4272,Cat Sharks Etc,552
+4272,Toadfishes,640
+4273,Rays,481
+4273,Nudibranch,479
+4274,Parrotfish,10
+4274,Moorish Idol,419
+4274,Eel,36
+4275,Angelfish,9
+4275,Cowfish,477
+4275,Tigerfish,84
+4275,Turtle,506
+4275,Moray Eel,75
+4275,Nudibranch,479
+4275,Octopus,47
+4277,Blacktip Reef Shark,501
+4277,Silvertip Shark,503
+4277,Reef Fish,513
+4277,Stingray,28
+4277,Grey Reef Shark,516
+4277,Baracuda,5
+4278,Green Sea Turtle,550
+4278,Nudibranch,479
+4279,Sharks,523
+4279,White Sea Bass,598
+4280,Nurse Shark,7
+4280,Rays,481
+4280,Sea Turtle,2
+4280,Lobster,30
+4281,Bluegill,571
+4281,Bass,572
+4281,Crappie,573
+4281,Batfish,57
+4281,Turtle,506
+4281,Jellyfish,489
+4281,Spider Crab,33
+4281,Horse Shoe Crab,621
+4281,Conchs,768
+4281,Hermit Crab,70
+4281,Flounder,45
+4282,Sand Tiger Shark,61
+4282,Crab,299
+4283,Starfish,60
+4283,Crab,299
+4283,Flying Gurnard,230
+4283,Spider Crab,33
+4283,Horse Shoe Crab,621
+4283,Wrasse,44
+4283,Hermit Crab,70
+4283,Tautog,801
+4283,Eel,36
+4287,Boxfish Pufferfish,478
+4287,Eagle Ray,6
+4287,Blacktip Reef Shark,501
+4287,Hawksbill Turtle,488
+4287,Nudibranch,479
+4287,Lobster,30
+4287,Green Sea Turtle,550
+4289,Whitetip Reef Shark,490
+4289,Blacktip Reef Sharks,563
+4289,Nurse Shark,7
+4289,Sea Turtle,2
+4289,Nudibranch,479
+4289,Green Turtle,539
+4289,Manta,574
+4289,Sharks Grey Reefoceanic White Tipsilkyhammerheadwhaletigersandbar Nudibranches,714
+4289,Dolphins,158
+4289,Hump Back Wahles,715
+4289,Octos,716
+4290,Tigerfish,84
+4290,Lionfish,496
+4290,Stonefish,152
+4290,Grouper,1
+4290,Seahorse,243
+4290,Butterflyfish,73
+4290,Manta Ray,475
+4290,Electric Ray,220
+4290,Turtle,506
+4290,Dolphins,158
+4290,Moray Eel,75
+4290,Garden Eels,528
+4290,Brain Coral,130
+4290,Green Sea Turtle,550
+4290,Walleye,618
+4290,Coral Reef,703
+4292,Nurse Shark,7
+4292,Sea Turtle,2
+4292,Lobster,30
+4293,Baracuda,5
+4293,Nurse Shark,7
+4293,Rays,481
+4293,Sea Turtle,2
+4296,Grouper,1
+4296,Baracuda,5
+4296,Common Dolphin,520
+4296,Moray Eel,75
+4296,Octopus,47
+4296,Goby,698
+4296,Tripplefins,802
+4296,Eagle Ray,6
+4296,Lobster,30
+4296,Tooth,803
+4296,Ornate Wrasse,554
+4296,Sea Hare,597
+4296,Red Coral,699
+4296,Sea Raven,804
+4297,Baracuda,5
+4297,Squid,58
+4297,Seabream,557
+4297,Rainbow Wrasse,540
+4297,Lionfish,496
+4297,Painted Comber,800
+4297,Nudibranch,479
+4297,Salpe,504
+4297,Octopus,47
+4300,Blacktip Reef Shark,501
+4300,Sea Turtle,2
+4306,Baracuda,5
+4306,Sharks,523
+4306,Coral,482
+4306,Reef Fish,513
+4307,Eals,43
+4310,Perch,541
+4310,Carp,545
+4310,Trout,517
+4311,Snapper,19
+4311,Jackfish,17
+4311,Parrotfish,10
+4311,Surgeonfish,41
+4311,Angelfish,9
+4311,Grouper,1
+4311,Moray Eel,75
+4311,Lobster,30
+4311,Crab,299
+4311,Shrimp,197
+4311,Coral,482
+4312,Grouper,1
+4312,Sweetlips,508
+4312,Stingray,28
+4312,Nudibranch,479
+4312,Reef Fish,513
+4312,Reef Shark,567
+4313,Snapper,19
+4313,Baracuda,5
+4313,Grouper,1
+4313,Lionfish,496
+4313,Angelfish,9
+4313,Tigerfish,84
+4313,Sand Tiger Shark,61
+4313,Bull Shark,570
+4313,Rays,481
+4313,Nurse Shark,7
+4313,Dolphins,158
+4313,Eel,36
+4313,Sea Urchin,131
+4313,Octopus,47
+4315,Boxfish Pufferfish,478
+4315,Trumpetfish Pipefish,480
+4315,Butterflyfish,73
+4315,Hawksbill Turtle,488
+4315,Serpent Eel,805
+4317,Angelfish,9
+4319,Sealion,525
+4319,Sea Urchin,131
+4319,Sea Cucumber,64
+4319,Jellyfish,489
+4320,Bream,514
+4322,Fish,494
+4323,Sea Cucumber,64
+4323,Nudibranch,479
+4323,Crab,299
+4323,Shrimp,197
+4323,Sea Anemone,65
+4323,Jellyfish,489
+4324,Octopus,47
+4324,Nudibranch,479
+4324,Crab,299
+4324,Sea Anemone,65
+4324,Jellyfish,489
+4325,Baracuda,5
+4325,Parrotfish,10
+4325,Surgeonfish,41
+4325,Trumpetfish Pipefish,480
+4325,Butterflyfish,73
+4325,Moray Eel,75
+4325,Shrimp,197
+4325,Nudibranch,479
+4325,Crab,299
+4325,Lobster,30
+4325,Octopus,47
+4325,Squid,58
+4325,Coral,482
+4326,Baracuda,5
+4326,Coral,482
+4327,Mantis Shrimp,114
+4327,Crocodile Fish,750
+4328,Sea Turtle,2
+4329,Rays,481
+4330,Whitetip Reef Shark,490
+4330,Blacktip Reef Shark,501
+4331,Stingray,28
+4331,Sea Turtle,2
+4335,Crayfish,495
+4335,Octopus,47
+4335,Nudibranch,479
+4335,Crab,299
+4335,Sea Anemone,65
+4335,Jellyfish,489
+4336,Lobster,30
+4336,Octopus,47
+4336,Nudibranch,479
+4336,Crab,299
+4336,Reef Fish,513
+4336,Sea Anemone,65
+4336,Jellyfish,489
+4337,Perch,541
+4337,Pike,69
+4337,Crayfish,495
+4337,Seagrass,452
+4338,Seahorse,243
+4338,Goatfish,15
+4338,Frogfish,127
+4338,Stingray,28
+4338,Electric Ray,220
+4338,Rays,481
+4338,Sealion,525
+4338,Starfish,60
+4338,Sea Urchin,131
+4338,Moray Eel,75
+4338,Giant Cuttlefish,498
+4338,Octopus,47
+4338,Nudibranch,479
+4338,Crab,299
+4338,Shrimp,197
+4338,Squid,58
+4338,Coral,482
+4339,Grouper,1
+4339,Scorpionfish,20
+4339,Goatfish,15
+4339,Rays,481
+4339,Sharks,523
+4339,Stingray,28
+4339,Electric Ray,220
+4339,Starfish,60
+4339,Eel,36
+4339,Sea Urchin,131
+4339,Giant Cuttlefish,498
+4339,Octopus,47
+4339,Squid,58
+4339,Crab,299
+4339,Shrimp,197
+4339,Jellyfish,489
+4339,Coral,482
+4340,Baracuda,5
+4340,Parrotfish,10
+4340,Boxfish Pufferfish,478
+4340,Turtle,506
+4340,Sea Anemone,65
+4343,Surgeonfish,41
+4343,Boxfish Pufferfish,478
+4343,Goatfish,15
+4343,Trumpetfish Pipefish,480
+4343,Angelfish,9
+4343,Grouper,1
+4343,Fish,494
+4343,Snapper,19
+4343,Parrotfish,10
+4343,Parrotfish,10
+4343,Tigerfish,84
+4343,Butterflyfish,73
+4343,Pipefish,72
+4343,Baracuda,5
+4343,Nurse Shark,7
+4343,Sharks,523
+4343,Eagle Ray,6
+4343,Moray Eel,75
+4343,Cowfish,477
+4345,Lionfish,496
+4345,Trumpetfish Pipefish,480
+4345,Parrotfish,10
+4345,Tuna,526
+4345,Stonefish,152
+4345,Grouper,1
+4345,Parrotfish,10
+4345,Eagle Ray,6
+4345,Rays,481
+4345,Sea Turtle,2
+4345,Dolphins,158
+4345,Giant Moray,527
+4345,Moray Eel,75
+4345,Octopus,47
+4345,Nudibranch,479
+4345,Sea Anemone,65
+4345,Reef Fish,513
+4345,Coral,482
+4345,Bluespotted Stingray,586
+4345,Frogfish,127
+4345,Jellyfish,489
+4346,Pike,69
+4346,Bluegill,571
+4346,Walleye,618
+4346,Largemouth Bass,588
+4347,Bream,514
+4348,Baracuda,5
+4348,Parrotfish,10
+4348,Rays,481
+4348,Sea Anemone,65
+4348,Monk Seals,806
+4348,Trumpetfish,3
+4349,Fish,494
+4350,Grouper,1
+4350,Lionfish,496
+4350,Moray Eel,75
+4350,Nudibranch,479
+4350,Lobster,30
+4351,Grouper,1
+4351,Butterflyfish,73
+4351,Snapper,19
+4351,Pork Fish,627
+4351,Pufferfish,18
+4351,Toadfishes,640
+4351,Sheepshead,593
+4351,Goliath Grouper,589
+4351,Angelfish,9
+4351,Baracuda,5
+4351,Snook Fish,639
+4351,Hogfish,207
+4351,Spadefish,629
+4353,Grouper,1
+4355,Crab,299
+4355,Shrimp,197
+4356,Coral,482
+4356,Wrasse,44
+4357,Baracuda,5
+4357,Angelfish,9
+4357,Tigerfish,84
+4358,Baracuda,5
+4358,Grouper,1
+4358,Jackfish,17
+4358,Parrotfish,10
+4358,Pelagic Fish,518
+4358,Rays,481
+4359,Napoleon Fish,500
+4359,Cowfish,477
+4359,Angelfish,9
+4359,Butterflyfish,73
+4359,Sea Turtle,2
+4359,Moray Eel,75
+4359,Snaper,476
+4359,Blue Spotted Ray,807
+4361,Boxfish Pufferfish,478
+4361,Grouper,1
+4361,Trumpetfish Pipefish,480
+4361,Baracuda,5
+4361,Stonefish,152
+4361,Angelfish,9
+4361,Butterflyfish,73
+4361,Parrotfish,10
+4361,Lionfish,496
+4361,Rays,481
+4361,Nurse Shark,7
+4361,Sea Turtle,2
+4361,Sea Cucumber,64
+4361,Starfish,60
+4361,Sea Urchin,131
+4361,Moray Eel,75
+4361,Squid,58
+4361,Lobster,30
+4361,Crab,299
+4361,Brain Coral,130
+4361,Jellyfish,489
+4361,Coral,482
+4362,Boxfish Pufferfish,478
+4362,Lionfish,496
+4362,Baracuda,5
+4362,Stonefish,152
+4362,Grouper,1
+4362,Parrotfish,10
+4362,Nurse Shark,7
+4362,Rays,481
+4362,Sea Urchin,131
+4362,Sea Cucumber,64
+4362,Moray Eel,75
+4362,Starfish,60
+4362,Lobster,30
+4362,Crab,299
+4362,Squid,58
+4362,Brain Coral,130
+4362,Coral,482
+4362,Sea Anemone,65
+4362,Jellyfish,489
+4363,Stonefish,152
+4363,Parrotfish,10
+4363,Trumpetfish Pipefish,480
+4363,Angelfish,9
+4363,Butterflyfish,73
+4363,Lionfish,496
+4363,Grouper,1
+4363,Boxfish Pufferfish,478
+4363,Baracuda,5
+4363,Rays,481
+4363,Sea Cucumber,64
+4363,Sea Urchin,131
+4363,Starfish,60
+4363,Moray Eel,75
+4363,Squid,58
+4363,Crab,299
+4363,Lobster,30
+4363,Reef Fish,513
+4363,Jellyfish,489
+4363,Brain Coral,130
+4363,Coral,482
+4363,Sea Anemone,65
+4364,Baracuda,5
+4365,Grouper,1
+4365,Seahorse,243
+4365,Boxfish Pufferfish,478
+4365,Scorpionfish,20
+4365,Pipefish,72
+4365,Parrotfish,10
+4365,Rays,481
+4365,Moray Eel,75
+4365,Lobster,30
+4365,Crab,299
+4365,Squid,58
+4365,Coral,482
+4365,Reef Fish,513
+4365,Jellyfish,489
+4366,Lobster,30
+4366,Octopus,47
+4366,Nudibranch,479
+4366,Reef Fish,513
+4366,Sea Anemone,65
+4367,Parrotfish,10
+4367,Boxfish Pufferfish,478
+4367,Lionfish,496
+4367,Goatfish,15
+4367,Trumpetfish Pipefish,480
+4367,Angelfish,9
+4367,Butterflyfish,73
+4367,Pipefish,72
+4367,Baracuda,5
+4367,Rays,481
+4368,Baracuda,5
+4368,Jackfish,17
+4368,Trumpetfish Pipefish,480
+4368,Angelfish,9
+4368,Pipefish,72
+4368,Snapper,19
+4368,Parrotfish,10
+4369,Trumpetfish Pipefish,480
+4369,Butterflyfish,73
+4369,Parrotfish,10
+4369,Nurse Shark,7
+4369,Moray Eel,75
+4369,Gorgonian Fan,530
+4370,Baracuda,5
+4370,Stonefish,152
+4370,Grouper,1
+4370,Seahorse,243
+4370,Parrotfish,10
+4370,Goatfish,15
+4370,Trumpetfish Pipefish,480
+4370,Angelfish,9
+4370,Snapper,19
+4370,Parrotfish,10
+4372,Whitetip Reef Shark,490
+4372,Thresher Shark,40
+4372,Tiger Shark,511
+4372,Grey Sharks,502
+4372,Silvertip Shark,503
+4372,Oceanic Manta,606
+4373,Tuna,526
+4373,Baracuda,5
+4373,Napoleon Fish,500
+4373,Cowfish,477
+4373,Grouper,1
+4373,Scorpionfish,20
+4373,Butterflyfish,73
+4373,Pipefish,72
+4373,Pelagic Fish,518
+4374,Grouper,1
+4374,Moray Eel,75
+4374,Coral,482
+4374,Reef Fish,513
+4375,Baracuda,5
+4375,Grey Sharks,502
+4379,Manta Ray,475
+4381,Frogfish,127
+4381,Parrotfish,10
+4381,Scorpionfish,20
+4381,Butterflyfish,73
+4381,Snaper,476
+4381,Wrasse,44
+4389,Cowfish,477
+4389,Surgeonfish,41
+4389,Boxfish Pufferfish,478
+4389,Goatfish,15
+4389,Tigerfish,84
+4389,Butterflyfish,73
+4389,Parrotfish,10
+4389,Sea Urchin,131
+4389,Sea Cucumber,64
+4389,Octopus,47
+4389,Squid,58
+4389,Crab,299
+4394,Sea Urchin,131
+4394,Nudibranch,479

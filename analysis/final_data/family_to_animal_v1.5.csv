@@ -1,0 +1,671 @@
+Family ID,Family Name,Animal Name
+0,Holocentridae,Squirrelfish
+1,Serranidae,Groupers
+2,Cheloniidae,Sea turtles
+3,Aulostomidae,Trumpetfish
+4,Congridae,Congers
+5,Sphyraenidae,Barracudas
+6,Myliobatidae,Eagle rays
+7,Ginglymostomatidae,Nurse sharks
+8,Ephippidae,Saddleback fish
+9,Pomacanthidae,Angelfish
+10,Scaridae,Parrotfish
+11,Ostraciidae,Boxfish
+12,Pomacentridae,Damselfish
+13,Sparidae,Porgies
+14,Alcyoniidae,Soft corals
+15,Mullidae,Goatfish
+16,Sepiidae,Cuttlefish
+17,Carangidae,Jackfish
+18,Tetraodontidae,Pufferfish
+19,Lutjanidae,Snapper
+20,Scorpaenidae,Scorpionfish
+21,Belonidae,Needlefish
+22,Tethydidae,Tethys fish
+23,Phyllidiidae,Sea slugs
+24,Chaetonotidae,Chaetonotids
+25,Limulidae,Horseshoe crabs
+26,Carcharhinidae,Requiem sharks
+27,Bothidae,Flatfish
+28,Dasyatidae,Stingrays
+29,Percidae,Perch family
+30,Nephropidae,Lobster
+31,Gadidae,Cod family
+32,Cancridae,Cancer crabs
+33,Inachidae,Spider crabs
+34,Suberitidae,Sponges
+35,Luidiidae,Luidia
+36,Anguillidae,Eels
+37,Scyliorhinidae,Catsharks
+38,Acipenseridae,Sturgeons
+39,Cichlidae,Cichlids
+40,Diodontidae,Pufferfish
+41,Alopiidae,Thresher sharks
+42,Acanthuridae,Surgeonfish
+43,Elapidae,Elapids
+44,Phocidae,Seals
+45,Labridae,Wrasses
+46,Pleuronectidae,Flounders
+47,Haemulidae,Grunts
+48,Octopodidae,Octopuses
+49,Triglidae,Sculpins
+50,Lithodidae,King crabs
+52,Gobiidae,Gobies
+53,Mytilidae,Mussels
+54,Ulmaridae,Eelpouts
+55,Cyaneidae,Moon jellyfish
+56,Astropectinidae,Sand stars
+57,Cottidae,Sculpins
+58,Centrarchidae,Sunfish
+59,Dreissenidae,Dreissenid mussels
+60,Moronidae,Drums
+61,Megaleledonidae,Megalodon
+62,Ictaluridae,Catfish
+63,Loliginidae,Squid
+64,Orectolobidae,Carpet sharks
+65,Palinuridae,Lobsters
+66,Echinasteridae,Starfish
+67,Odontaspididae,Sand tiger sharks
+68,Soleidae,Soles
+69,Pinnidae,Pinnae
+70,Holothuriidae,Sea cucumbers
+71,Actiniidae,Sea anemones
+72,Trachinidae,Weever fish
+73,Sabellidae,Fanworms
+74,Apogonidae,Cardinalfish
+75,Esocidae,Pike
+76,Paguridae,Hermit crabs
+77,Paralichthyidae,Flounders
+78,Anarhichadidae,Wolf fish
+79,Fistulariidae,Pipefish
+80,Chaetodontidae,Butterflyfish
+81,Cyprinidae,Carps and minnows
+82,Muraenidae,Moray eels
+83,Polyceridae,Sea slugs
+84,Sebastidae,Rockfish
+85,Toxopneustidae,Heart urchins
+86,Munididae,Squat lobsters
+87,Hormathiidae,Sea anemones
+88,Onchidorididae,Sea slugs
+89,Flabellinidae,Sea slugs
+90,Pectinidae,Scallops
+91,Rhincodontidae,Whale sharks
+92,Polyprionidae,Cods
+93,Rajidae,Skates
+94,Setarchidae,Saber-toothed blennies
+95,Balistidae,Triggerfish
+96,Monacanthidae,Leatherjacket fish
+97,Ophichthidae,Eel blennies
+98,Portunidae,Swimming crabs
+99,Calappidae,Box crabs
+100,Batrachoididae,Toadfish
+101,Diogenidae,Hermit crabs
+102,Lophiidae,Anglerfish
+103,Echeneidae,Remoras
+104,Calycidorididae,Calycid fishes
+105,Rhinidae,Rhinid fish
+106,Sphyrnidae,Hammerhead sharks
+107,Alestidae,African tetras
+108,Muraenesocidae,Eel blennies
+109,Epialtidae,Spider crabs
+110,Clionaidae,Clionid sponges
+111,Mugilidae,Mullets
+112,Syngnathidae,Seahorse family
+113,Galatheidae,Squat lobsters
+114,Metridiidae,Metridid fish
+115,Cambaridae,Crawfish
+116,Chromodorididae,Dorid nudibranchs
+117,Heterodontidae,Bullhead sharks
+118,Stenopodidae,Pistol shrimp
+119,Alpheidae,Snapping shrimp
+120,Asteriidae,Starfish
+121,Aplysinidae,Sea sponges
+122,Agelasidae,Sponges
+123,Blenniidae,Blennies
+124,Limidae,Limpets
+125,Geryonidae,Redfishes
+126,Gymnuridae,Butterflyfish
+127,Astrocoeniidae,Star corals
+128,Dendronotidae,Dendronotid nudibranchs
+129,Physaliidae,Portuguese man o' war
+130,Amphinomidae,Fireworms
+131,Microdesmidae,Pencilfish
+132,Opisthoteuthidae,Cockatoo cuttlefish
+133,Odontodactylidae,Mantis shrimp
+134,Milleporidae,Fire corals
+135,Scyllaridae,Lobsters
+136,Hexabranchidae,Sixgill sharks
+137,Ambassidae,Glassfish
+138,Opistognathidae,Jawfish
+139,Pinguipedidae,Sandperch
+140,Petrosiidae,Pencil fish
+141,Platycephalidae,Flatheads
+142,Megalopidae,Tarpons
+143,Gorgoniidae,Gorgonian corals
+144,Synodontidae,Lizardfish
+145,Albulidae,Bonefish
+146,Scombridae,Mackerel
+147,Alloposidae,Frogfishes
+148,Palaemonidae,Prawns
+149,Oweniidae,Oweniid worms
+150,Faviidae,Brain corals
+151,Inachoididae,Spider crabs
+152,Arbaciidae,Sea urchins
+153,Varunidae,Mud crabs
+154,Pelagiidae,Oceanic whitetip sharks
+155,Chimaeridae,Chimeras
+156,Flabellinopsidae,Sea slugs
+157,Merulinidae,Coral trout
+158,Cassidae,Cassididae
+159,Melongenidae,Moon snails
+160,Parechinidae,Pencil fish
+161,Ommastrephidae,Squid
+162,Hexagrammidae,Rockfish
+163,Ophiotrichidae,Brittle stars
+164,Grammatidae,Basslets
+165,Zanclidae,Butterflyfish
+166,Enteroctopodidae,Octopus
+167,Epizoanthidae,Zoanthids
+168,Eunicellidae,Sea fans
+169,Rhynchocinetidae,Cleaner shrimp
+170,Discosomidae,Discosoma corals
+171,Ovulidae,Cowries
+172,Plakobranchidae,Sea slugs
+173,Serpulidae,Serpulid worms
+174,Oreasteridae,Starfish
+175,Eledonidae,Eledonid fish
+176,Hexanchidae,Cow sharks
+177,Echinidae,Sea urchins
+178,Kyphosidae,Surfperches
+179,Polyodontidae,Paddlefish
+180,Majidae,Spider crabs
+181,Chaetopteridae,Parachute fish
+182,Pempheridae,Sweeper fish
+183,Synanceiidae,Stonefish
+184,Irciniidae,Irciniid sponges
+185,Pseudochromidae,Dottybacks
+186,Stichopodidae,Sea cucumbers
+187,Urotrygonidae,Round stingrays
+188,Sepiolidae,Bobtail squid
+189,Urolophidae,Round rays
+190,Delphinidae,Dolphins
+191,Siganidae,Rabbitfish
+192,Aequoreidae,Moon jellyfish
+193,Tubiporidae,Organ-pipe corals
+194,Cardiidae,Cockles
+195,Tripterygiidae,Triplefin blennies
+196,Arhynchobatidae,Skates
+197,Clupeidae,Herring
+198,Antennariidae,Frogfish
+199,Rhinobatidae,Guitarfish
+200,Zosteraceae,Eelgrass family
+201,Pseudocerotidae,Flatworms
+202,Gobiesocidae,Clingfish
+203,Acroporidae,Staghorn corals
+204,Centriscidae,Squirrelfish
+205,Gasterosteidae,Sticklebacks
+206,Narcinidae,Numbfish
+207,Pasiphaeidae,Basket starfish
+208,Ophiodermatidae,Brittle stars
+209,Stichaeidae,Pricklebacks
+210,Chlopsidae,Cusk eels
+211,Paramuriceidae,Antarctic rockcods
+212,Solasteridae,Sunflower stars
+213,Pyroteuthidae,Firefly squids
+214,Facelinidae,Sea slugs
+215,Zoarcidae,Eelpouts
+216,Plesiopidae,Longfin
+217,Sciaenidae,Drums
+218,Etmopteridae,Lanternsharks
+219,Cyclopteridae,Lumpfish
+220,Leucosiidae,Box crabs
+221,Triakidae,Houndsharks
+222,Grapsidae,Mud crabs
+223,Haliotidae,Abalone
+224,Otariidae,Eared seals
+225,Gonactiniidae,Rocklings
+226,Ammodytidae,Sand lances
+228,Cucumariidae,Sea cucumbers
+229,Acanthasteridae,Crown-of-thorns starfish
+230,Leptanthuridae,Pencil fish
+231,Halichondriidae,Sponges
+232,Salmonidae,Salmon family
+233,Keratoisididae,Saber-toothed blennies
+234,Corallimorphidae,Corallimorphs
+235,Ogcocephalidae,Batfish
+236,Pelecanidae,Pelicans
+237,Solenostomidae,Ghost pipefish
+238,Aeolidiidae,Sea slugs
+239,Janolidae,Janolids
+240,Atelecyclidae,Pencil fish
+241,Comatulidae,Feather stars
+242,Callionymidae,Dragonets
+243,Caesionidae,Snapper
+244,Fungiidae,Mushroom corals
+245,Trichechidae,Manatees
+246,Panopeidae,Razor clams
+247,Dromiidae,Dromiid crabs
+248,Chaenopsidae,Blenny
+249,Crangonidae,Shrimps
+250,Diadumenidae,Basket stars
+251,Pandalidae,Pandalid shrimp
+252,Penaeidae,Prawns
+253,Melithaeidae,Coral reef fish
+254,Antipathidae,Black corals
+255,Batillipedidae,Batfish
+256,Buccinidae,Whelks
+257,Emydidae,Emydid turtles
+258,Coryphellidae,Sea slugs
+259,Ophidiasteridae,Ophidiasteridae
+260,Echinarachniidae,Sea spiders
+261,Hemiscylliidae,Bamboo sharks
+262,Enoplosidae,Sculpins
+263,Aulopidae,Lizardfishes
+264,Pholidae,Pricklebacks
+265,Squalidae,Dogfish
+266,Uranoscopidae,Stargazers
+267,Meandrinidae,Coral reef fish
+268,Tremoctopodidae,Blanket octopuses
+269,Tubulariidae,Tube-dwelling anemones
+270,Bathyporeiidae,Deepsea smelts
+271,Discodorididae,Sea slugs
+272,Schizopathidae,Schizopids
+273,Liparidae,Snailfish
+274,Glaucostegidae,Glaucostegid fishes
+275,Mariametridae,Feather stars
+276,Aglajidae,Sea slugs
+277,Pterasteridae,Sea stars
+278,Thyasiridae,Clam shrimp
+279,Lysmatidae,Cleaner shrimp
+280,Scophthalmidae,Flatfish
+281,Dysideidae,Dysideid sponges
+282,Biemnidae,Biemnid fish
+283,Pristidae,Sawfish
+284,Squatinidae,Angel sharks
+285,Gerreidae,Silversides
+286,Torpedinidae,Electric rays
+287,Embiotocidae,Surfperches
+288,Chondrosiidae,Chondrosidae
+289,Porcellanidae,Porcelain crabs
+290,Tripedaliidae,Tripedaliid jellyfish
+291,Atherinopsidae,Silversides
+292,Aristeidae,Penaeid shrimp
+293,Terebellidae,Terebellid worms
+294,Exocoetidae,Flying fish
+295,Poritidae,Stony corals
+296,Golfingiidae,Golfish.
+297,Zeidae,John dory
+298,Dactylopteridae,Flying gurnards
+299,Cassiopeidae,Upside-down jellyfish
+300,Sergestidae,Sergestid shrimp
+301,Cepheidae,Cepheid fish
+302,Coenobitidae,Land hermit crabs
+303,Ostreidae,Oysters
+304,Gonatidae,Squid
+305,Stylasteridae,Stylasteridae
+306,Astacidae,Crawfish
+307,Mitrocomidae,Mitrocomids
+308,Siluridae,Catfish
+309,Carpiliidae,Carpiliid crabs
+310,Dendrophylliidae,Dendrophylliid corals
+311,Lamnidae,Mackerel sharks
+312,Monocentridae,Berycids
+313,Nettastomatidae,Eelpouts
+314,Stichodactylidae,Carpet anemones
+315,Pegasidae,Seahorses
+316,Cionidae,Sea squirts
+317,Lysiosquillidae,Mantis shrimp
+318,Aplysiidae,Sea hares
+319,Molidae,Mola fish
+320,Aegiridae,Aegirids
+321,Caryophylliidae,Cup corals
+322,Leptastreidae,Leptastrea fish
+323,Amphitretidae,Opah
+324,Sagartiidae,Sea pens
+325,Strongylocentrotidae,Sea urchins
+326,Spirastrellidae,Spirastrellid sponges
+327,Crambeidae,Crambe fish
+328,Spongiidae,Sponges
+329,Pyuridae,Sea squirts
+330,Xanthidae,Mud crabs
+331,Cheilodactylidae,Bitterlings
+332,Aracanidae,Sleeper gobies
+333,Plexauridae,Gorgonian corals
+334,Enoploteuthidae,Cockatoo cuttlefish
+335,Cranchiidae,Glass squids
+336,Dendrodorididae,Tree dorids
+337,Gorgonocephalidae,Basket stars
+338,Plagusiidae,Plagusiid crabs
+339,Tropiometridae,Tropical anglerfish
+340,Scyllaeidae,Catsharks
+341,Clinidae,Blennies
+342,Goniodorididae,Sea slugs
+343,Samaridae,Samarid fish
+344,Cadlinidae,Sea slugs
+345,Diploastraeidae,Dwarf sculpins
+346,Lethrinidae,Emperor fish
+347,Plotosidae,Eel-tailed catfish
+348,Phycidae,Cods
+349,Myctophidae,Lanternfish
+350,Pocilloporidae,Stony corals
+351,Laminariaceae,Kelp
+352,Octopoteuthidae,Cockatoo cuttlefish
+353,Axinellidae,Sponges
+354,Phalacrocoracidae,Cormorants
+355,Myrrhinidae,Myrrhine fish
+356,Bolinopsidae,Bolinopsid fishes
+357,Cirrhitidae,Hawkfish
+358,Clariidae,Catfish
+359,Amphiliidae,Catfish
+360,Euphylliidae,Carpet corals
+361,Nereididae,Nereid worms
+362,Pyrosomatidae,Firefish
+363,Tegulidae,Surgeonfishes
+364,Asterinidae,Starfishes
+365,Cypraeidae,Cowries
+366,Gonodactylidae,Mantis shrimp
+367,Squillidae,Squillids
+368,Bubaridae,Bubblers
+369,Corynidae,Corynid fish
+370,Raninidae,Ranafish
+371,Oregoniidae,Rockfish
+372,Bryconidae,Pacu
+373,Abylidae,Abylid fish
+374,Balaenopteridae,Rorquals
+375,Priacanthidae,Bigeyes
+376,Lobophylliidae,Lobophyllia corals
+377,Citharidae,Soleidae
+378,Oculinidae,Cup corals
+379,Agariciidae,Mushroom corals
+380,Euplectellidae,Glass sponges
+381,Synaptidae,Synaptids
+382,Coralliidae,Coral fish
+383,Clathrinidae,Clathrinid eels
+384,Bonelliidae,Bonelliid rays
+385,Characidae,Characins
+386,Pennatulidae,Sea pens
+387,Sarcophytidae,Sarcophagidae
+388,Balanidae,Acorn barnacles
+389,Pangasiidae,Shark catfish
+390,Caprellidae,Skeleton shrimp
+391,Acarnidae,Pencilfish
+392,Polybiidae,Polybiid eels
+393,Ophiuridae,Brittle stars
+394,Pentacerotidae,Bullhead sculpins
+395,Pataecidae,Pataecid fish
+396,Hemitripteridae,Sea robins
+397,Nototheniidae,Antarctic cod
+398,Parthenopidae,Spider crabs
+399,Glyceridae,Glycerid worms
+400,Centropomidae,Snook
+401,Carcinidae,Crabs
+402,Catostomidae,Suckers
+403,Lotidae,Cods
+404,Dugongidae,Dugongs
+405,Primnoidae,Silkfish
+406,Labrisomidae,Blennies
+407,Hyalonematidae,Sea pens
+408,Nautilidae,Nautilus
+409,Ophiolepididae,Basket stars
+410,Zenarchopteridae,Halfbeaks
+411,Istiophoridae,Billfish
+412,Centrophoridae,Dogfish sharks
+413,Sepiadariidae,Cuttlefish
+414,Diastylidae,Amphipods
+415,Fregatidae,Frigatebirds
+416,Engraulidae,Anchovies
+417,Iguanidae,Iguanas
+418,Sulidae,Boobies and gannets
+419,Cycloteuthidae,Cycloteuthid squids
+420,Pilumnidae,Spider crabs
+421,Pandeidae,Pandeid shrimps
+422,Nemichthyidae,Eel blennies
+423,Asteropseidae,Asteropseid fish
+424,Porpitidae,Bluebottle jellyfish
+425,Odacidae,Wrasse
+426,Latridae,Drums
+428,Bythitidae,Cusk eels
+429,Actinostolidae,Sea anemone fish
+430,Rhamphocottidae,Rocketfishes
+431,Ophionereididae,Basket stars
+432,Cerianthidae,Tube-dwelling anemones
+433,Phocoenidae,Porpoises
+434,Syconidae,Syconidae
+435,Dactyloscopidae,Sand stargazers
+436,Codiaceae,Codium
+437,Leucosoleniidae,Glass sponges
+438,Chalinidae,Chalinid sponges
+439,Halcampidae,Pipefish
+440,Mycalidae,Mycalid sponges
+441,Argonautidae,Argonauts
+442,Trapeziidae,Boxer crabs
+443,Stegostomatidae,Zebra sharks
+444,Rhizostomatidae,Mushroom jellyfish
+445,Ianthellidae,Ianthellid sponges
+447,Caulerpaceae,Green algae
+448,Laridae,Gulls
+449,Mastigiidae,Butterflyfish
+451,Ellisellidae,Ellisellid corals
+452,Rhizangiidae,Rhizangiid fishes
+453,Montastraeidae,Brain corals
+454,Triacanthodidae,Thornyheads
+455,Heteractidae,Heteractis anemones
+456,Ocypodidae,Ghost crabs
+457,Monodactylidae,Moonyfish
+458,Latidae,Lates
+459,Oplophoridae,Oplophid shrimp
+461,Malacanthidae,Tilefish
+462,Brissidae,Pencil fish
+463,Tetrarogidae,Scorpionfishes
+464,Ophidiidae,Cusk eels
+466,Veneridae,Venus clams
+467,Achiridae,Flatfishes
+468,Funiculinidae,Funnel-web spiders
+469,Ophiotomidae,Basket stars
+470,Callanthiidae,Callanthias
+471,Darwinellidae,Darwin's fishes
+472,Aiptasiidae,Sea anemones
+473,Merlucciidae,Hakes
+474,Bagridae,Catfish
+475,Polypteridae,Bichir
+476,Solmundaeginidae,Soleidae
+477,Datnioididae,Tigerfish
+478,Unionidae,Freshwater mussels
+479,Dotidae,Dottybacks
+480,Sphenopidae,Icefish
+481,Gracilariaceae,Gracilaria
+482,Tetillidae,Pillow sponges
+484,Aglaopheniidae,Feather duster worms
+485,Atherinidae,Silversides
+486,Cynoglossidae,Tonguefish
+487,Chondrillidae,Chondrichthyes
+488,Batoteuthidae,Batfish
+489,Cestidae,Ribbonfish
+490,Lactariidae,Lactariid fish
+491,Coelocarteriidae,Coelacanths
+492,Spheniscidae,Penguins
+493,Trachichthyidae,Bightfish
+494,Bopyridae,Bopyrid isopods
+496,Chirodropidae,Box jellyfish
+497,Diphyidae,Diphyid fish
+498,Goneplacidae,Goneplacid crabs
+499,Sicyoniidae,Sicyoniid shrimp
+500,Somniosidae,Sleeper sharks
+501,Erythropodiidae,Erythroponid fish
+502,Leucettidae,Glassfish
+503,Thalassianthidae,Sea toadfish
+504,Ophiocomidae,Basket stars
+505,Sinulariidae,Soft corals
+506,Rhopalonematidae,Rhopalonematidae
+507,Hippolytidae,Prawns
+508,Desmacididae,Desmacidids
+509,Valoniaceae,Valonia algae
+510,Callyspongiidae,Sea sponges
+511,Parazoanthidae,Sea pens
+512,Chiroteuthidae,Cockatoo cuttlefish
+513,Enoplometopidae,Boxfishes
+514,Nemipteridae,Banded fusiliers
+515,Sphaeromatidae,Roly-polies
+516,Ardeidae,Herons and bitterns
+517,Fissurellidae,Keyhole limpets
+518,Pseudosquillidae,Mantis shrimp
+519,Ophiomyxidae,Basket stars
+520,Callianassidae,Ghost shrimp
+522,Zoroasteridae,Zoroaster fish
+523,Rachycentridae,Cobia
+524,Plerogyridae,Plerogyrid fishes
+525,Bramidae,Pomfrets
+526,Prochilodontidae,Prochilodontids
+527,Lycoteuthidae,Cockatoo cuttlefish
+528,Serrasalmidae,Piranha
+529,Colossendeidae,Colossendeid amphipods
+530,Pantodontidae,Bonytongues
+531,Hypnidae,Carpenterfish
+532,Hemigaleidae,Requiem sharks
+533,Stichasteridae,Sea stars
+534,Sargassaceae,Sargassum
+535,Dermochelyidae,Leatherback turtles
+536,Synbranchidae,Swamp eels
+537,Trichonotidae,Pencilfish
+538,Euphorbiaceae,Spurge family
+539,Kurtidae,Kurtus fish
+540,Thoridae,Thorids
+541,Peristediidae,Sculpins
+542,Cidaridae,Sea urchins
+543,Hemiramphidae,Halfbeaks
+544,Moringuidae,Eel
+545,Rivulidae,Lampeye fish
+546,Hypoptychidae,Sailfin catfish
+547,Crocodylidae,Crocodiles
+548,Cyttidae,Cyttid fish
+549,Calliostomatidae,Top snails
+550,Psettodidae,Flatfish
+551,Clypeasteridae,Sand dollars
+552,Naticidae,Moon snails
+553,Conidae,Cone snails
+554,Atyidae,Atyid shrimp
+555,Muraenolepididae,Eel blennies
+556,Diadematidae,Sea urchin
+557,Spongicolidae,Spongicolid fish
+558,Neosebastidae,Rockfish
+559,Aulorhynchidae,Snipefish
+560,Osmeridae,Smelts
+561,Xeniidae,Xenia corals
+562,Thorectidae,Sponges
+563,Plesiobatidae,Spoonfishes
+564,Placospongiidae,Placosponges
+565,Eucalanidae,Eucalanid copepods
+566,Lubbockiidae,Lubbock's fish
+567,Oncaeidae,Oncaeid copepods
+568,Geodiidae,Sponges
+569,Aegisthidae,Aegisthid blennies
+570,Ancorinidae,Spiny eels
+571,Rhincalanidae,Sleeper sharks
+572,Farreidae,Sponges
+573,Paranthuridae,Prawn gobies
+574,Bacillariaceae,Diatoms
+575,Sagittidae,Arrow worms
+576,Solenoceridae,Penaeid shrimp
+577,Pheronematidae,Sponges
+578,Agonidae,Poachers
+579,Iotrochotidae,Sea Sponges
+580,Subergorgiidae,Subergorgiidae
+581,Anthogorgiidae,Sea fans
+582,Nephtheidae,Soft corals
+583,Chrysogorgiidae,Gold coral
+584,Plumulariidae,Feather corals
+585,Ariidae,Sea catfish
+586,Antedonidae,Basket stars
+587,Olindiidae,Olindiid fish
+588,Akeridae,Akeridae
+589,Euryleptidae,Flatheads
+590,Echinorhinidae,Spiny sharks
+591,Pseudocarchariidae,False hammerhead sharks
+592,Megachasmidae,Dumbo octopus
+593,Glaucidae,Glaucid fish
+594,Loricariidae,Suckermouth catfish
+595,Eriphiidae,Spider crabs
+596,Campanulariidae,Bell jellyfish
+597,Zancleidae,Moorish idols
+598,Hydractiniidae,Hydractinia
+599,Eudendriidae,Sea pens
+600,Congiopodidae,Pigfish
+602,Styelidae,Stylid fish
+603,Trochidae,Top snails
+604,Calanidae,Calanoid copepods
+605,Euphausiidae,Krill
+606,Scolecitrichidae,Scolecitrichids
+607,Pinnotheridae,Pea crabs
+608,Calliopiidae,Calliopiid snails
+609,Acartiidae,Copepods
+611,Upogebiidae,Ghost shrimps
+612,Idoteidae,Isopods
+613,Pilumnoididae,Pillbox crabs
+614,Anthuridae,Flamingo fish
+615,Beroidae,Beroe jellyfish
+616,Nymphonidae,Sea spiders
+617,Chaetiliidae,Chaetiliid eels
+618,Eunicidae,Eunicid worms
+619,Aphroditidae,Sea mice
+620,Phoronidae,Horseshoe worms
+621,Didemnidae,Sea squirts
+622,Desmacellidae,Desmacellid sponges
+623,Hydrocharitaceae,Waterweed
+624,Haloragaceae,Rattlebox family
+626,Aplodactylidae,Drummer fish
+627,Lymnaeidae,Lung snails
+629,Eubranchidae,Eubranchid eels
+630,Brachaeluridae,Blind catfishes
+631,Pholidichthyidae,Sandfish
+632,Spongillidae,Freshwater sponges
+633,Dichistiidae,African knifefish
+634,Gempylidae,Snake mackerels
+635,Diazonidae,Dartfish
+636,Clavelinidae,Sea squirts
+637,Cyrenidae,Clam
+638,Goniasteridae,Starfish
+639,Gryphaeidae,Oysters
+640,Potamotrygonidae,River stingrays
+641,Poraniidae,Sea stars
+642,Busyconidae,Whelks
+643,Arapaimidae,Arapaima
+644,Sillaginidae,Whiting
+645,Serrivomeridae,Serrated eels
+646,Petalidiumidae,Petalidiid fish
+647,Prayidae,Pricklebacks
+648,Pontellidae,Pontellid copepods
+649,Posidoniaceae,Seagrasses
+650,Ovalipidae,Ovalipids
+651,Anomalopidae,Lanternfish
+652,Dictyotaceae,Brown algae
+653,Heptapteridae,Liver catfishes
+654,Poeciliidae,Livebearers
+655,Mithracidae,Spider crabs
+656,Velutinidae,Velvetfish
+657,Pimelodidae,Catfish
+658,Hippopodiidae,Hippopotamuses
+659,Erythrinidae,Erythrinids
+660,Cobitidae,Loaches
+662,Terapontidae,Grunters
+663,Polyphemidae,Giant silversides
+664,Ascidiidae,Sea squirts
+665,Aplocheilidae,Lampeye fish
+666,Toxotidae,Archerfish
+667,Epigonidae,Deepsea smelts
+670,Ulvaceae,Green algae
+671,Argentinidae,Argentines
+673,Catostylidae,Suckers
+674,Elopidae,Ladyfish
+675,Callichiridae,Pencil catfish
+677,Stromateidae,Pomfrets
+678,Atollidae,Atoll fish
+680,Myriotrochidae,Sea cucumbers
+681,Lemindidae,Lampridids
+683,Gecarcinidae,Land crabs
+684,Balaenidae,Baleen whales
+685,Aploactinidae,Cockatoo fish
+686,Acanthephyridae,Acanthephyrid shrimp
+687,Marginellidae,Marginellids
+688,Phyllodocidae,Sea worms
+689,Pleurobranchaeidae,Pleurobranchs
+690,Iphimediidae,Iphimediid fishes
