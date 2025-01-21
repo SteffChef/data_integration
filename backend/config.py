@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-# print(os.getenv('DATABASE_URI'))  # Check if this prints your supabase URI
+print(os.getenv('DATABASE_URI'))  # Check if this prints your supabase URI
 
 class Config:
 

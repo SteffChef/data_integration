@@ -109,35 +109,8 @@ def add_category_to_dive_site(id):
 
 # Recommendations
 
-# CONTENT BASED RECOMMENDATION
+# CONTENT BASED RECOMMENDATION Routes
 
-# 
-def format_recommendation(recommendations):
-    """ Transform recommendations of content based recommender system from a dataframe into the desired format """
-    formatted_recommendations = []
-    for _, row in recommendations.iterrows():
-        formatted_recommendations.append({
-            'id': row['id'],
-            'title': row['title'],
-            'description': row.get('description', None),  # Use .get to avoid KeyError
-            'categories': [
-                {
-                    'id': category.id,
-                    'name': category.name,
-                    'image_url': category.image_url
-                }
-                for category in DiveSite.query.get(row['id']).categories
-            ],
-            'latitude': row['lat'],
-            'longitude': row['long'],
-            'image_url': row.get('image_url', None), # TODO: Add image_url 
-            'region': row.get('region', None), # TODO: Add region
-        })
-
-    return jsonify(formatted_recommendations)
-
-
-# Route to apply
 # Flask Route to get recommendations for a dive site. Example request: GET /dive-sites/recommendations/2?w_cat=0.4&w_geo=0.3&w_animal=0.3&n=10
 @dive_sites_bp.route('/recommendations/<int:dive_site_id>', methods=['GET'])
 def recommend_for_dive_site(dive_site_id):
@@ -155,8 +128,20 @@ def recommend_for_dive_site(dive_site_id):
     recommendations = current_app.cbf.get_recommendations_for_a_dive_site(
         dive_site_id, w_cat=w_cat, w_geo=w_geo, w_animal=w_animal, n=10
     )
+
+    # Get the dive sites from the database
+    dive_sites = DiveSite.query.filter(DiveSite.id.in_(recommendations)).all()
     
-    return format_recommendation(recommendations)
+    return jsonify([{
+        'id': site.id,
+        'title': site.title,
+        'description': site.description,
+        'categories': [category.to_dict() for category in site.categories],
+        'latitude' : site.lat,
+        'longitude' : site.long,
+        'image_url' : site.image_url,
+        'region' : site.region,
+    } for site in dive_sites])
 
     
 
@@ -178,4 +163,17 @@ def recommend_for_user(user_id):
     recommendations = current_app.cbf.get_recommendations_for_a_user(
         user_id, w_cat=w_cat, w_geo=w_geo, w_animal=w_animal, n=n
     )
-    return format_recommendation(recommendations)
+
+     # Get the dive sites from the database
+    dive_sites = DiveSite.query.filter(DiveSite.id.in_(recommendations)).all()
+
+    return jsonify([{
+        'id': site.id,
+        'title': site.title,
+        'description': site.description,
+        'categories': [category.to_dict() for category in site.categories],
+        'latitude' : site.lat,
+        'longitude' : site.long,
+        'image_url' : site.image_url,
+        'region' : site.region,
+    } for site in dive_sites])

@@ -15,8 +15,7 @@ class ContentBasedFiltering:
         self.dive_sites = self._load_dive_sites()
         self.categories = self._load_categories()
         self.animals = self._load_animals()
-        self.user = self._load_user()    
-        self.user_ratings_data = self._load_user_ratings_data()
+        self.user = self._load_user()
 
         # Initialize converted dive sites
         self.converted_dive_sites = self._init_converted_dive_sites()
@@ -144,12 +143,17 @@ class ContentBasedFiltering:
 
 
         # Query Dive Site: Get Feature Vectors
+        # If a feature vector contains only zeros, we can not calculate the similarity, therefore we set the weight to 0.
         # Category vector
-        query_categories_vector = self.converted_dive_sites.loc[idx, self.categories['name']].to_numpy() 
+        query_categories_vector = self.converted_dive_sites.loc[idx, self.categories['name']].to_numpy()
+        if query_categories_vector.sum() == 0:
+            w_cat = 0
         # Geodata vector
         query_geodata_vector = self.converted_dive_sites.loc[idx, ['lat_scaled', 'long_scaled']].to_numpy()
         # Animal vector
         query_animal_vector = self.converted_dive_sites.loc[idx, self.animals['name']].to_numpy()
+        if query_animal_vector.sum() == 0:
+            w_animal = 0
 
         # Other Dive Sites
         
@@ -160,6 +164,10 @@ class ContentBasedFiltering:
         
         dive_sites_indexes = [d['index'] for d in recommendations]
 
+        # get the list of ids from the dive_sites_indexes
+        dive_sites_ids = self.converted_dive_sites.loc[dive_sites_indexes, 'id'].tolist()
+
+        """
         # return the list of titles and similarities
         recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
         recommendations_df[f'Similarity to dive site {dive_site_id}'] = [d['combined'] for d in recommendations]
@@ -169,10 +177,13 @@ class ContentBasedFiltering:
 
         pd.set_option('display.max_columns', None)
         pd.set_option('display.expand_frame_repr', False)
-        #print(f"Recommendations for dive site with ID {dive_site_id}:", flush=True)
-        #print(recommendations_df, flush=True)
+        print(f"Recommendations for dive site with ID {dive_site_id}:", flush=True)
+        print(recommendations_df, flush=True)
+        """
 
-        return recommendations_df
+        return dive_sites_ids
+
+
 
     ## Recommend dive sites for a given user
     
@@ -206,17 +217,25 @@ class ContentBasedFiltering:
         # split up the user profile into the different feature vectors: category, geodata, animal
         # Category vector
         user_categories_vector = user_profile[self.categories['name']].to_numpy().flatten()
+        if user_categories_vector.sum() == 0:
+            w_cat = 0
         # Geodata vector
         user_geodata_vector = user_profile[['user_lat_scaled', 'user_long_scaled']].to_numpy().flatten()
         # Animal vector
         user_animal_vector = user_profile[self.animals['name']].to_numpy().flatten()
+        if user_animal_vector.sum() == 0:
+            w_animal = 0
 
         # generate recommendations
         recommendations = self.recommend(user_categories_vector, user_geodata_vector, user_animal_vector, w_cat, w_geo, w_animal, n)
         
         dive_sites_indexes = [d['index'] for d in recommendations]
 
-        # return the list of titles and similarities
+        # get the list of ids from the dive_sites_indexes
+        dive_sites_ids = self.converted_dive_sites.loc[dive_sites_indexes, 'id'].tolist()
+
+        """
+        # list of titles and similarities
         recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
         recommendations_df[f'Total Similarity'] = [d['combined'] for d in recommendations]
         recommendations_df[f'Category Similarity'] = [d['category'] for d in recommendations]
@@ -225,10 +244,11 @@ class ContentBasedFiltering:
 
         pd.set_option('display.max_columns', None)
         pd.set_option('display.expand_frame_repr', False)
-        #print(f"Recommendations for the user with the ID {user_id}:", flush=True)
-        #print(recommendations_df, flush=True)
+        print(f"Recommendations for the user with the ID {user_id}:", flush=True)
+        print(recommendations_df, flush=True)"""
+       
 
-        return recommendations_df
+        return dive_sites_ids
 
 
     ### Content Based Recommendation Algorithm ###
@@ -331,10 +351,11 @@ class ContentBasedFiltering:
         """
         This function returns a list of item profiles and a list of ratings for the given user_id.
         """
-        user_ratings = self.user_ratings_data[self.user_ratings_data['user_id'] == user_id]
+        # make a supabase query to get the user ratings
+        user_ratings = DiveSiteRating.query.filter_by(user_id=user_id).all()
 
-        #print(f"User with ID {user_id} has rated {len(user_ratings)} dive sites.")
-        #print(user_ratings)
+        # convert the user ratings to a pandas DataFrame
+        user_ratings = pd.DataFrame([rating.to_dict() for rating in user_ratings])
 
         item_profiles = []
         ratings = []
