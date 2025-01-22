@@ -36,6 +36,43 @@ def get_random_dive_sites():
 @dive_sites_bp.route('/search', methods=['GET'])
 def search_dive_sites():
     query = request.args.get('q','')
+    animal = request.args.get('animal', None)
+    category = request.args.get('category', None)
+    # region = request.args.get('region', None)
+
+    # If there is an animal, return all dive sites where the animal has been seen
+    if animal:
+        dive_sites = DiveSite.query.join(Occurrence, Occurrence.dive_site_id == DiveSite.id).join(
+            Animal, Animal.id == Occurrence.animal_id
+        ).filter(Animal.name.ilike(f"%{animal}%")).limit(50).all()
+
+        return jsonify([{
+            'id': site.id,
+            'title': site.title,
+            'description': site.description,
+            'categories': [category.to_dict() for category in site.categories],
+            'latitude' : site.lat,
+            'longitude' : site.long,
+            'image_url' : site.image_url,
+            'region' : site.region,
+        } for site in dive_sites])
+    
+    # If there is a category, return all dive sites with that category
+    if category:
+        dive_sites = DiveSite.query.join(DiveSite.categories).filter(DiveSiteCategory.name == category).limit(50).all()
+
+        return jsonify([{
+            'id': site.id,
+            'title': site.title,
+            'description': site.description,
+            'categories': [category.to_dict() for category in site.categories],
+            'latitude' : site.lat,
+            'longitude' : site.long,
+            'image_url' : site.image_url,
+            'region' : site.region,
+        } for site in dive_sites])
+
+
     search_term = f"%{query}%"  # The query for fuzzy matching
 
     # Alias for the animal occurrences to ensure proper join

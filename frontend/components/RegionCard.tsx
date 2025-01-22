@@ -14,7 +14,7 @@ const RegionCard: React.FC<RegionCardProps> = ({ data }) => {
   return (
     <Card className="relative hover:scale-105 transition overflow-hidden hover:border-white hover:border-2 border-opacity-0 hover:border-opacity-100 shadow-xl duration-300 aspect-[2/3] select-none">
       <Link
-        href={`/sites/${data.first_image_url}`}
+        href={`/search?region=${data.region}`}
         className="transition flex flex-col justify-between h-full"
       >
         <Image

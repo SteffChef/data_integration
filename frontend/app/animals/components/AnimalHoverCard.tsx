@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -5,6 +7,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const AnimalHoverCard = ({
   name,
@@ -15,6 +18,8 @@ const AnimalHoverCard = ({
   imageUrl: string;
   children: React.ReactNode;
 }) => {
+  const router = useRouter();
+
   return (
     <Popover>
       <PopoverTrigger asChild>{children}</PopoverTrigger>
@@ -27,7 +32,9 @@ const AnimalHoverCard = ({
           alt={"Fish"}
           className="rounded-md"
         />
-        <Button>Find {name}!</Button>
+        <Button onClick={() => router.push(`/search?animal=${name}`)}>
+          Find {name}!
+        </Button>
       </PopoverContent>
     </Popover>
   );
