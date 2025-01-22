@@ -14,7 +14,7 @@ const CategoryDiveSiteCard: React.FC<CategoryDiveSiteCardProps> = ({
   return (
     <Card className="relative hover:scale-105 transition overflow-hidden hover:border-white hover:border-2 border-opacity-0 hover:border-opacity-100 shadow-xl duration-300 aspect-square select-none rounded-3xl">
       <Link
-        href={`/sites/${data.id}`}
+        href={`/search?category=${data.name}`}
         className="transition flex flex-col justify-between h-full"
       >
         <Image
