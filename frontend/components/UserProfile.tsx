@@ -2,7 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-import { LogOut, Settings, User as UserIcon } from "lucide-react";
+import { LogOut } from "lucide-react";
+// import {Settings, User as UserIcon} from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { useRouter } from "next/navigation";
 import {
@@ -54,7 +55,7 @@ const UserProfile = () => {
           <p className="text-xs text-secondary-foreground">{user?.email}</p>
         </div>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => {}} disabled>
+        {/* <DropdownMenuItem onClick={() => {}} disabled>
           <UserIcon className="mr-2 h-4 w-4" />
           Profile
         </DropdownMenuItem>
@@ -62,7 +63,7 @@ const UserProfile = () => {
           <Settings className="mr-2 h-4 w-4" />
           Settings
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
         <DropdownMenuItem onClick={signOut}>
           <LogOut className="mr-2 h-4 w-4" />
           Logout
