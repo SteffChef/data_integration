@@ -1,4 +1,4 @@
-import { DiveSite } from "@/types";
+import { Region } from "@/types";
 import {
   Carousel,
   CarouselContent,
@@ -6,18 +6,18 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
-import TallDiveSiteCard from "./TallDiveSiteCard";
+import RegionCard from "./RegionCard";
 
-interface TallCardSectionProps {
+interface RegionCardSectionProps {
   title: string;
   apiUrl: string;
 }
 
-const TallCardSection: React.FC<TallCardSectionProps> = async ({
+const RegionCardSection: React.FC<RegionCardSectionProps> = async ({
   title,
   apiUrl,
 }) => {
-  const data: DiveSite[] = await fetch(apiUrl).then((res) => res.json());
+  const data: Region[] = await fetch(apiUrl).then((res) => res.json());
 
   return (
     <div className="flex flex-col gap-2">
@@ -27,13 +27,10 @@ const TallCardSection: React.FC<TallCardSectionProps> = async ({
           {data.slice(0, 9).map((item, index) => (
             <CarouselItem
               key={index}
-              className="pl-4 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/4"
+              className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/6"
             >
               <div className="p-1 flex items-center">
-                <p className="drop-shadow-[0_1.2px_1.8px_rgba(255,255,255,0.8)] text-black text-[200px] font-bold select-none">
-                  {index + 1}
-                </p>
-                <TallDiveSiteCard data={item} />
+                <RegionCard data={item} />
               </div>
             </CarouselItem>
           ))}
@@ -45,4 +42,4 @@ const TallCardSection: React.FC<TallCardSectionProps> = async ({
   );
 };
 
-export default TallCardSection;
+export default RegionCardSection;
