@@ -12,7 +12,6 @@ class ContentBasedFiltering:
         self.db_engine = db_engine  # Set this first
 
         # Load data from the database
-        self.dive_sites = self._load_dive_sites()
         self.categories = self._load_categories()
         self.animals = self._load_animals()
 
@@ -60,7 +59,7 @@ class ContentBasedFiltering:
         animal_map = occurrences.groupby('dive_site_id')['animal_id'].apply(list).to_dict()
 
         # Create the base DataFrame
-        converted_dive_sites = self.dive_sites.copy()
+        converted_dive_sites = self._load_dive_sites()
 
         # Prepare category columns
         category_columns = {
@@ -88,20 +87,6 @@ class ContentBasedFiltering:
         scaler = MinMaxScaler()
         converted_dive_sites[['lat_scaled', 'long_scaled']] = scaler.fit_transform(
             converted_dive_sites[['lat', 'long']]
-        )
-
-        # Add `occurences` column (vectorized)
-        converted_dive_sites['occurences'] = converted_dive_sites['id'].map(
-            lambda x: ', '.join(
-                self.animals[self.animals['id'].isin(animal_map.get(x, []))]['name'].tolist()
-            )
-        )
-
-        # Add `categories` column (vectorized)
-        converted_dive_sites['categories'] = converted_dive_sites['id'].map(
-            lambda x: ', '.join(
-                self.categories[self.categories['id'].isin(category_map.get(x, []))]['name'].tolist()
-            )
         )
 
         # Sort by ID and reset index
@@ -155,7 +140,7 @@ class ContentBasedFiltering:
 
         """
         # return the list of titles and similarities
-        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
+        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long']]
         recommendations_df[f'Similarity to dive site {dive_site_id}'] = [d['combined'] for d in recommendations]
         recommendations_df[f'Category Similarity to dive site {dive_site_id}'] = [d['category'] for d in recommendations]
         recommendations_df[f'Geodata Similarity to dive site {dive_site_id}'] = [d['geodata'] for d in recommendations] 
@@ -222,7 +207,7 @@ class ContentBasedFiltering:
 
         """
         # list of titles and similarities
-        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
+        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long']]
         recommendations_df[f'Total Similarity'] = [d['combined'] for d in recommendations]
         recommendations_df[f'Category Similarity'] = [d['category'] for d in recommendations]
         recommendations_df[f'Geodata Similarity'] = [d['geodata'] for d in recommendations] 

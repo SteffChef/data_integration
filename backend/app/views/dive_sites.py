@@ -183,3 +183,7 @@ def recommend_for_user(user_id):
         'image_url' : site.image_url,
         'region' : site.region,
     } for site in dive_sites])
+
+
+# Flask Route to init converted dive sites in supabase
+# TODO
