@@ -1,6 +1,8 @@
+import AnimalCardSection from "@/components/AnimalCardSection";
 import CardSection from "@/components/CardSection";
 import CategoryCardSection from "@/components/CategoryCardSection";
-import TallCardSection from "@/components/TallCardSection";
+import TallCardSection from "@/components/RegionCardSection";
+import TopTenSection from "@/components/TopTenSection";
 import { createClient } from "@/supabase/server";
 
 const Home = async () => {
@@ -23,12 +25,24 @@ const Home = async () => {
             />
           )}
           {user && (
+            <TallCardSection
+              title="Recommended Regions"
+              apiUrl={`${apiUrl}/recommendations/recommend_dive_regions/${user.id}`}
+            />
+          )}
+          {user && (
             <CardSection
               title="Users like you also liked"
               apiUrl={`${apiUrl}/recommendations/recommend_dive_spots/${user.id}`}
             />
           )}
-          <TallCardSection
+          {user && (
+            <AnimalCardSection
+              title="Users like you also liked"
+              apiUrl={`${apiUrl}/recommendations/recommend_animals/${user.id}`}
+            />
+          )}
+          <TopTenSection
             title="Popular Dive Spots"
             apiUrl={`${apiUrl}/recommendations/recommend_top10`}
           />

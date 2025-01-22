@@ -39,7 +39,7 @@ export default function RootLayout({
           <AppSidebar />
           <div className="flex flex-col w-full h-full">
             <Header />
-            <main className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 animate-gradient-x flex-1 flex flex-col items-center">
+            <main className="bg-gradient-to-r from-slate-900 via-cyan-700 to-slate-900 animate-gradient-x flex-1 flex flex-col items-center">
               {children}
             </main>
           </div>

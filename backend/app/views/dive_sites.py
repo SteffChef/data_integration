@@ -64,6 +64,7 @@ def search_dive_sites():
 @dive_sites_bp.route('/<int:id>', methods=['GET'])
 def get_dive_site(id):
     site = DiveSite.query.get_or_404(id)
+    animals = sorted([occurrence.animal.to_dict() for occurrence in site.occurrences], key=lambda x: x['name'])
     return jsonify({
         'id': site.id,
         'title': site.title,
@@ -71,7 +72,7 @@ def get_dive_site(id):
         'latitude' : site.lat,
         'longitude' : site.long,
         'categories': [category.to_dict() for category in site.categories],
-        'animals': [occurrence.animal.to_dict() for occurrence in site.occurrences],
+        'animals': animals,
         'image_url' : site.image_url,
         'region' : site.region,
     })

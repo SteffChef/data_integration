@@ -30,3 +30,17 @@ export type Animal = {
     name: string;
     image_url: string;
 }
+
+export type AnimalRecommendation = {
+    animal_id: number;
+    animal_image_url: string;
+    animal_name: string;
+    dive_sites: DiveSite[];
+    mean_predicted_rating: number;
+}
+
+export type Region = {
+    first_image_url: string;
+    region: string;
+    region_score: number;
+}
