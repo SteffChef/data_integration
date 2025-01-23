@@ -96,7 +96,7 @@ class ItemVector(db.Model):
     vector = db.Column(ARRAY(db.Float), nullable=False)  # Use ARRAY(db.Float) for PostgreSQL
     bias = db.Column(db.Float, nullable=False)
 
-
+"""
 # Generated code by converted_dive_sites_generator.py
 class ConvertedDiveSite(db.Model):
     __tablename__ = 'converted_dive_sites'
@@ -635,5 +635,5 @@ class ConvertedDiveSite(db.Model):
     long_scaled = db.Column(db.Float, nullable=True)
 
     def to_dict(self):
-        """Converts the model instance to a dictionary."""
-        return {column.name: getattr(self, column.name) for column in self.__table__.columns}
+        # Converts the model instance to a dictionary.
+        return {column.name: getattr(self, column.name) for column in self.__table__.columns}"""
