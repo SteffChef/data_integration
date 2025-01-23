@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import copy  # Import copy module for deepcopy
 from sklearn.preprocessing import MinMaxScaler
-from app.models import DiveSite, DiveSiteCategory, Animal, Occurrence, User, DiveSiteRating
+from app.models import DiveSiteCategory, Animal, User, DiveSiteRating, ConvertedDiveSite
 
 class ContentBasedFiltering:
 
@@ -12,118 +12,46 @@ class ContentBasedFiltering:
         self.db_engine = db_engine  # Set this first
 
         # Load data from the database
-        self.dive_sites = self._load_dive_sites()
-        self.categories = self._load_categories()
-        self.animals = self._load_animals()
-        self.user = self._load_user()
+        self.categories_names = self._load_categories_names()
+        self.animal_names = self._load_animal_names()
 
         # Initialize converted dive sites
-        self.converted_dive_sites = self._init_converted_dive_sites()
+        self.converted_dive_sites = self._load_converted_dive_sites()
 
         # Define constants for feature extraction
         self.feature_columns = (
-            self.categories['name'].tolist() 
-            + self.animals['name'].tolist()
+            self.categories_names 
+            + self.animal_names
         )
 
-        #TODO: DELETE LATER
-        # Add random location data for user
-        self.user['user_lat'] = np.random.uniform(-90, 90, len(self.user))
-        self.user['user_long'] = np.random.uniform(-180, 180, len(self.user))
+        # print(f"Loaded {len(self.converted_dive_sites)} rows into converted_dive_sites", flush=True)
+        # print(self.converted_dive_sites.shape)
+        # export the converted dive sites to a csv file
+        # self.converted_dive_sites.to_csv('converted_dive_sites.csv', index=False)
+        # mem_in_mb = self.converted_dive_sites.memory_usage(deep=True).sum() / (1024 ** 2)
+        # print(f"Memory usage: {mem_in_mb:.2f} MB", flush=True)
 
-        #print(f"Loaded {len(self.converted_dive_sites)} rows into converted_dive_sites", flush=True)
+   
+    def _load_categories_names(self):
+        categories = DiveSiteCategory.query.all()
+        categories = pd.DataFrame([category.to_dict() for category in categories])
+        categories = categories['name'].tolist()
+        # Make feature lowercase and Replace ' ' and '-' with '_' in feature columns
+        categories = [col.lower().replace(' ', '_').replace('-', '_') for col in categories]
+        return categories
 
-    def _load_occurrences(self):
-        query = "SELECT * FROM occurrence"  # Replace with the actual table name
-        return pd.read_sql(query, con=self.db_engine)
-     
-    def _load_categories_per_dive_site(self):
-        query = "SELECT * FROM categories_per_dive_site"
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _load_dive_sites(self):
-        query = "SELECT * FROM dive_site"
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _load_categories(self):
-        query = "SELECT * FROM dive_site_category"
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _load_animals(self):
-        query = "SELECT * FROM animal"
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _load_user(self):
-        query = 'SELECT * FROM "user"'
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _load_user_ratings_data(self):
-        query = "SELECT * FROM dive_site_rating"
-        return pd.read_sql(query, con=self.db_engine)
-
-    def _init_converted_dive_sites(self):
-        '''
-        Initializes the converted dive sites DataFrame with feature vectors for each dive site.
-        '''
-        # Load data from the database
-        occurrences = self._load_occurrences()
-        categories_per_dive_site = self._load_categories_per_dive_site()
-
-        # Precompute category and animal mappings
-        category_map = categories_per_dive_site.groupby('dive_site_id')['dive_site_category_id'].apply(list).to_dict()
-        animal_map = occurrences.groupby('dive_site_id')['animal_id'].apply(list).to_dict()
-
-        # Create the base DataFrame
-        converted_dive_sites = self.dive_sites.copy()
-
-        # Prepare category columns
-        category_columns = {
-            cat_name: converted_dive_sites['id'].map(
-                lambda x: 1 if cat_id in category_map.get(x, []) else 0
-            )
-            for cat_id, cat_name in zip(self.categories['id'], self.categories['name'])
-        }
-
-        # Prepare animal columns
-        animal_columns = {
-            animal_name: converted_dive_sites['id'].map(
-                lambda x: 1 if animal_id in animal_map.get(x, []) else 0
-            )
-            for animal_id, animal_name in zip(self.animals['id'], self.animals['name'])
-        }
-
-        # Add category and animal columns in one operation
-        converted_dive_sites = pd.concat(
-            [converted_dive_sites, pd.DataFrame(category_columns), pd.DataFrame(animal_columns)],
-            axis=1
-        )
-
-        # Scale latitude and longitude
-        scaler = MinMaxScaler()
-        converted_dive_sites[['lat_scaled', 'long_scaled']] = scaler.fit_transform(
-            converted_dive_sites[['lat', 'long']]
-        )
-
-        # Add `occurences` column (vectorized)
-        converted_dive_sites['occurences'] = converted_dive_sites['id'].map(
-            lambda x: ', '.join(
-                self.animals[self.animals['id'].isin(animal_map.get(x, []))]['name'].tolist()
-            )
-        )
-
-        # Add `categories` column (vectorized)
-        converted_dive_sites['categories'] = converted_dive_sites['id'].map(
-            lambda x: ', '.join(
-                self.categories[self.categories['id'].isin(category_map.get(x, []))]['name'].tolist()
-            )
-        )
-
-        # Sort by ID and reset index
-        converted_dive_sites = converted_dive_sites.sort_values(by='id').reset_index(drop=True)
-
+    def _load_animal_names(self):
+        animals = Animal.query.all()
+        animals = pd.DataFrame([animal.to_dict() for animal in animals])
+        animals = animals['name'].tolist()
+        # Make feature lowercase and Replace ' ' and '-' with '_' in feature columns
+        animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
+        return animals
+    
+    def _load_converted_dive_sites(self):
+        converted_dive_sites = ConvertedDiveSite.query.all()
+        converted_dive_sites = pd.DataFrame([converted_dive_site.to_dict() for converted_dive_site in converted_dive_sites])
         return converted_dive_sites
-
-
 
 
     ### Main recommendation functions ###
@@ -145,13 +73,13 @@ class ContentBasedFiltering:
         # Query Dive Site: Get Feature Vectors
         # If a feature vector contains only zeros, we can not calculate the similarity, therefore we set the weight to 0.
         # Category vector
-        query_categories_vector = self.converted_dive_sites.loc[idx, self.categories['name']].to_numpy()
+        query_categories_vector = self.converted_dive_sites.loc[idx, self.categories_names].to_numpy()
         if query_categories_vector.sum() == 0:
             w_cat = 0
         # Geodata vector
         query_geodata_vector = self.converted_dive_sites.loc[idx, ['lat_scaled', 'long_scaled']].to_numpy()
         # Animal vector
-        query_animal_vector = self.converted_dive_sites.loc[idx, self.animals['name']].to_numpy()
+        query_animal_vector = self.converted_dive_sites.loc[idx, self.animal_names].to_numpy()
         if query_animal_vector.sum() == 0:
             w_animal = 0
 
@@ -169,7 +97,7 @@ class ContentBasedFiltering:
 
         """
         # return the list of titles and similarities
-        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
+        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long']]
         recommendations_df[f'Similarity to dive site {dive_site_id}'] = [d['combined'] for d in recommendations]
         recommendations_df[f'Category Similarity to dive site {dive_site_id}'] = [d['category'] for d in recommendations]
         recommendations_df[f'Geodata Similarity to dive site {dive_site_id}'] = [d['geodata'] for d in recommendations] 
@@ -216,13 +144,13 @@ class ContentBasedFiltering:
 
         # split up the user profile into the different feature vectors: category, geodata, animal
         # Category vector
-        user_categories_vector = user_profile[self.categories['name']].to_numpy().flatten()
+        user_categories_vector = user_profile[self.categories_names].to_numpy().flatten()
         if user_categories_vector.sum() == 0:
             w_cat = 0
         # Geodata vector
         user_geodata_vector = user_profile[['user_lat_scaled', 'user_long_scaled']].to_numpy().flatten()
         # Animal vector
-        user_animal_vector = user_profile[self.animals['name']].to_numpy().flatten()
+        user_animal_vector = user_profile[self.animal_names].to_numpy().flatten()
         if user_animal_vector.sum() == 0:
             w_animal = 0
 
@@ -236,7 +164,7 @@ class ContentBasedFiltering:
 
         """
         # list of titles and similarities
-        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long', 'occurences', 'categories']]
+        recommendations_df = self.converted_dive_sites.loc[dive_sites_indexes, ['id', 'title', 'lat', 'long']]
         recommendations_df[f'Total Similarity'] = [d['combined'] for d in recommendations]
         recommendations_df[f'Category Similarity'] = [d['category'] for d in recommendations]
         recommendations_df[f'Geodata Similarity'] = [d['geodata'] for d in recommendations] 
@@ -263,9 +191,9 @@ class ContentBasedFiltering:
 
         # Precompute dive site vectors
         # they are not ordered by dive_site_id
-        dive_site_categories = self.converted_dive_sites[self.categories['name']].to_numpy() 
+        dive_site_categories = self.converted_dive_sites[self.categories_names].to_numpy() 
         dive_site_geodata = self.converted_dive_sites[['lat_scaled', 'long_scaled']].to_numpy()
-        dive_site_animals = self.converted_dive_sites[self.animals['name']].to_numpy()
+        dive_site_animals = self.converted_dive_sites[self.animal_names].to_numpy()
 
 
         # compute cosine similarities between the user feature vectors and all
@@ -436,9 +364,10 @@ class ContentBasedFiltering:
         """
         This function adds the user's geodata to the user profile.
         """
+        user = User.query.get_or_404(user_id)
 
-        user_lat = self.user.loc[self.user['id'] == user_id, 'user_lat'].values
-        user_long = self.user.loc[self.user['id'] == user_id, 'user_long'].values
+        user_lat = user.latitude
+        user_long = user.longitude
 
         # Scale the user's geodata between 0 and 1
         lat_min = -90

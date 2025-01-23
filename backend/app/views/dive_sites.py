@@ -152,6 +152,7 @@ def add_category_to_dive_site(id):
 # Flask Route to get recommendations for a dive site. Example request: GET /dive-sites/recommendations/2?w_cat=0.4&w_geo=0.3&w_animal=0.3&n=10
 @dive_sites_bp.route('/recommendations/<int:dive_site_id>', methods=['GET'])
 def recommend_for_dive_site(dive_site_id):
+    print("Content Based Filtering executed")
     w_cat = float(request.args.get('w_cat', 1/3))
     w_geo = float(request.args.get('w_geo', 1/3))
     w_animal = float(request.args.get('w_animal', 1/3))
@@ -164,12 +165,15 @@ def recommend_for_dive_site(dive_site_id):
         return jsonify({'error': 'The sum of weights must be 1'}), 400
 
     recommendations = current_app.cbf.get_recommendations_for_a_dive_site(
-        dive_site_id, w_cat=w_cat, w_geo=w_geo, w_animal=w_animal, n=10
+        dive_site_id, w_cat=w_cat, w_geo=w_geo, w_animal=w_animal, n=n
     )
 
     # Get the dive sites from the database
     dive_sites = DiveSite.query.filter(DiveSite.id.in_(recommendations)).all()
     
+    # Sort the dive sites by the order of the recommendations
+    dive_sites.sort(key=lambda site: recommendations.index(site.id))
+
     return jsonify([{
         'id': site.id,
         'title': site.title,
@@ -186,6 +190,7 @@ def recommend_for_dive_site(dive_site_id):
 # Flask Route to get recommendations for a user
 @dive_sites_bp.route('/recommendations/users/<string:user_id>', methods=['GET'])
 def recommend_for_user(user_id):
+    print("Content Based Filtering executed")
     user_id = uuid.UUID(user_id)
     w_cat = float(request.args.get('w_cat', 1/3))
     w_geo = float(request.args.get('w_geo', 1/3))
@@ -205,6 +210,9 @@ def recommend_for_user(user_id):
      # Get the dive sites from the database
     dive_sites = DiveSite.query.filter(DiveSite.id.in_(recommendations)).all()
 
+    # Sort the dive sites by the order of the recommendations
+    dive_sites.sort(key=lambda site: recommendations.index(site.id))
+
     return jsonify([{
         'id': site.id,
         'title': site.title,
@@ -215,3 +223,7 @@ def recommend_for_user(user_id):
         'image_url' : site.image_url,
         'region' : site.region,
     } for site in dive_sites])
+
+
+# Flask Route to init converted dive sites in supabase
+# TODO
