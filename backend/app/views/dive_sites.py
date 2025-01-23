@@ -115,6 +115,7 @@ def add_category_to_dive_site(id):
 # Flask Route to get recommendations for a dive site. Example request: GET /dive-sites/recommendations/2?w_cat=0.4&w_geo=0.3&w_animal=0.3&n=10
 @dive_sites_bp.route('/recommendations/<int:dive_site_id>', methods=['GET'])
 def recommend_for_dive_site(dive_site_id):
+    print("Content Based Filtering executed")
     w_cat = float(request.args.get('w_cat', 1/3))
     w_geo = float(request.args.get('w_geo', 1/3))
     w_animal = float(request.args.get('w_animal', 1/3))
@@ -152,6 +153,7 @@ def recommend_for_dive_site(dive_site_id):
 # Flask Route to get recommendations for a user
 @dive_sites_bp.route('/recommendations/users/<string:user_id>', methods=['GET'])
 def recommend_for_user(user_id):
+    print("Content Based Filtering executed")
     user_id = uuid.UUID(user_id)
     w_cat = float(request.args.get('w_cat', 1/3))
     w_geo = float(request.args.get('w_geo', 1/3))
