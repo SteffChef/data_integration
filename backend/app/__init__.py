@@ -4,7 +4,6 @@ from .extensions import db
 from .views import register_blueprints
 from flask_cors import CORS
 from flask_migrate import Migrate
-import sys
 from app.services.content_based_filtering import ContentBasedFiltering  # Import ContentBasedFiltering
 
 def create_app():
