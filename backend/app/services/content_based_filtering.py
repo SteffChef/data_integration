@@ -15,6 +15,10 @@ class ContentBasedFiltering:
         self.categories_names = self._load_categories_names()
         self.animal_names = self._load_animal_names()
 
+        # Load data from the database
+        self.categories = self._load_categories()
+        self.animals = self._load_animals()
+
         # Initialize converted dive sites
         self.converted_dive_sites = self._init_converted_dive_sites()
 
@@ -47,6 +51,14 @@ class ContentBasedFiltering:
         # Make feature lowercase and Replace ' ' and '-' with '_' in feature columns
         animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
         return animals
+    
+    def _load_categories(self):
+        query = "SELECT * FROM dive_site_category"
+        return pd.read_sql(query, con=self.db_engine)
+
+    def _load_animals(self):
+        query = "SELECT * FROM animal"
+        return pd.read_sql(query, con=self.db_engine)
     
     """def _load_converted_dive_sites(self):
         converted_dive_sites = ConvertedDiveSite.query.all()
