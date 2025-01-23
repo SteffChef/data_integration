@@ -19,10 +19,11 @@ def create_app():
     migrate = Migrate(app, db)  # Add this line
 
     # Initialize content-based filtering with app context
+    """
     with app.app_context():
         cbf = ContentBasedFiltering(db.engine)
         app.cbf = cbf  # Store it in the app
-
+"""
     # Register blueprints
     register_blueprints(app)
 
