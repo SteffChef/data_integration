@@ -41,7 +41,7 @@ class ContentBasedFiltering:
         categories = pd.DataFrame([category.to_dict() for category in categories])
         categories = categories['name'].tolist()
         # Make feature lowercase and Replace ' ' and '-' with '_' in feature columns
-        categories = [col.lower().replace(' ', '_').replace('-', '_') for col in categories]
+        # categories = [col.lower().replace(' ', '_').replace('-', '_') for col in categories]
         return categories
 
     def _load_animal_names(self):
@@ -49,7 +49,7 @@ class ContentBasedFiltering:
         animals = pd.DataFrame([animal.to_dict() for animal in animals])
         animals = animals['name'].tolist()
         # Make feature lowercase and Replace ' ' and '-' with '_' in feature columns
-        animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
+        # animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
         return animals
     
     def _load_occurrences(self):
