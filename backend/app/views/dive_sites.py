@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request, current_app #current_app includes the app context, e.g. ContentBasedFiltering
+from flask import Blueprint, jsonify, request #, current_app #current_app includes the app context, e.g. ContentBasedFiltering
 from ..models import DiveSite, DiveSiteCategory, Animal, Occurrence
 from ..extensions import db
 from sqlalchemy import func, or_
@@ -148,7 +148,7 @@ def add_category_to_dive_site(id):
 # Recommendations
 
 # CONTENT BASED RECOMMENDATION Routes
-
+"""
 # Flask Route to get recommendations for a dive site. Example request: GET /dive-sites/recommendations/2?w_cat=0.4&w_geo=0.3&w_animal=0.3&n=10
 @dive_sites_bp.route('/recommendations/<int:dive_site_id>', methods=['GET'])
 def recommend_for_dive_site(dive_site_id):
@@ -223,5 +223,4 @@ def recommend_for_user(user_id):
     } for site in dive_sites])
 
 
-# Flask Route to init converted dive sites in supabase
-# TODO
+"""
