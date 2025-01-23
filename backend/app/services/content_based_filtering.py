@@ -52,6 +52,10 @@ class ContentBasedFiltering:
         animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
         return animals
     
+    def _load_occurrences(self):
+        query = "SELECT * FROM occurrence"  # Replace with the actual table name
+        return pd.read_sql(query, con=self.db_engine)
+
     def _load_categories(self):
         query = "SELECT * FROM dive_site_category"
         return pd.read_sql(query, con=self.db_engine)
