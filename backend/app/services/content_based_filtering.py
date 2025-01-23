@@ -16,7 +16,7 @@ class ContentBasedFiltering:
         self.animal_names = self._load_animal_names()
 
         # Initialize converted dive sites
-        self.converted_dive_sites = self._load_converted_dive_sites()
+        self.converted_dive_sites = self._init_converted_dive_sites()
 
         # Define constants for feature extraction
         self.feature_columns = (
@@ -48,11 +48,58 @@ class ContentBasedFiltering:
         animals = [col.lower().replace(' ', '_').replace('-', '_') for col in animals]
         return animals
     
-    def _load_converted_dive_sites(self):
+    """def _load_converted_dive_sites(self):
         converted_dive_sites = ConvertedDiveSite.query.all()
         converted_dive_sites = pd.DataFrame([converted_dive_site.to_dict() for converted_dive_site in converted_dive_sites])
-        return converted_dive_sites
+        return converted_dive_sites"""
 
+    def _init_converted_dive_sites(self):
+        '''
+        Initializes the converted dive sites DataFrame with feature vectors for each dive site.
+        '''
+        # Load data from the database
+        occurrences = self._load_occurrences()
+        categories_per_dive_site = self._load_categories_per_dive_site()
+
+        # Precompute category and animal mappings
+        category_map = categories_per_dive_site.groupby('dive_site_id')['dive_site_category_id'].apply(list).to_dict()
+        animal_map = occurrences.groupby('dive_site_id')['animal_id'].apply(list).to_dict()
+
+        # Create the base DataFrame
+        converted_dive_sites = self._load_dive_sites()
+
+        # Prepare category columns
+        category_columns = {
+            cat_name: converted_dive_sites['id'].map(
+                lambda x: 1 if cat_id in category_map.get(x, []) else 0
+            )
+            for cat_id, cat_name in zip(self.categories['id'], self.categories['name'])
+        }
+
+        # Prepare animal columns
+        animal_columns = {
+            animal_name: converted_dive_sites['id'].map(
+                lambda x: 1 if animal_id in animal_map.get(x, []) else 0
+            )
+            for animal_id, animal_name in zip(self.animals['id'], self.animals['name'])
+        }
+
+        # Add category and animal columns in one operation
+        converted_dive_sites = pd.concat(
+            [converted_dive_sites, pd.DataFrame(category_columns), pd.DataFrame(animal_columns)],
+            axis=1
+        )
+
+        # Scale latitude and longitude
+        scaler = MinMaxScaler()
+        converted_dive_sites[['lat_scaled', 'long_scaled']] = scaler.fit_transform(
+            converted_dive_sites[['lat', 'long']]
+        )
+
+        # Sort by ID and reset index
+        converted_dive_sites = converted_dive_sites.sort_values(by='id').reset_index(drop=True)
+
+        return converted_dive_sites
 
     ### Main recommendation functions ###
 
