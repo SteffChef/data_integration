@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import copy  # Import copy module for deepcopy
 from sklearn.preprocessing import MinMaxScaler
-from app.models import DiveSiteCategory, Animal, User, DiveSiteRating, ConvertedDiveSite
+from app.models import DiveSiteCategory, Animal, User, DiveSiteRating #, ConvertedDiveSite
 
 class ContentBasedFiltering:
 
