@@ -97,7 +97,7 @@ def recommend_dive_sites(user_id, region):
         if response.data:
             return jsonify(response.data), 200
         else:
-            return jsonify({"message": "No dive sites found for the specified region"}), 404
+            return jsonify([]), 200
 
     except Exception as e:
         # Handle any errors

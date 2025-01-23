@@ -185,8 +185,6 @@ def recommend_for_dive_site(dive_site_id):
         'region' : site.region,
     } for site in dive_sites])
 
-    
-
 # Flask Route to get recommendations for a user
 @dive_sites_bp.route('/recommendations/users/<string:user_id>', methods=['GET'])
 def recommend_for_user(user_id):
