@@ -63,6 +63,11 @@ class ContentBasedFiltering:
     def _load_animals(self):
         query = "SELECT * FROM animal"
         return pd.read_sql(query, con=self.db_engine)
+      
+    def _load_categories_per_dive_site(self):
+        query = "SELECT * FROM categories_per_dive_site"
+        return pd.read_sql(query, con=self.db_engine)
+
     
     """def _load_converted_dive_sites(self):
         converted_dive_sites = ConvertedDiveSite.query.all()
