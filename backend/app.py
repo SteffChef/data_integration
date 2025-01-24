@@ -8,7 +8,7 @@ from app.models import DiveSiteRating
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": ["http://localhost:3000","https://data-integration-ten.vercel.app"]}})
+CORS(app, resources={r"/*": {"origins": ["*"]}})
 
 @app.route('/sites', methods=['GET'])
 def get_dive_sites():
