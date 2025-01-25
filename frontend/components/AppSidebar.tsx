@@ -14,8 +14,16 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { IoFish } from "react-icons/io5";
 import UserProfile from "./UserProfile";
+import { createClient } from "@/supabase/server";
+import Link from "next/link";
 
-const AppSidebar = () => {
+const AppSidebar = async () => {
+  const supabase = await createClient();
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   const headerLinks = [
     {
       name: "Home",
@@ -65,7 +73,18 @@ const AppSidebar = () => {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <UserProfile />
+        {user ? (
+          <UserProfile />
+        ) : (
+          <>
+            <Link href="/login" className="text-white hover:opacity-75">
+              Login
+            </Link>
+            <Link href="/sign-up" className="text-white hover:opacity-75">
+              Sign Up
+            </Link>
+          </>
+        )}
       </SidebarFooter>
     </Sidebar>
   );

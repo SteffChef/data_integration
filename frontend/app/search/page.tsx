@@ -47,12 +47,12 @@ const SearchPage: NextPage<SearchProps> = async ({ searchParams }) => {
 
   return (
     <>
-      <form className="flex items-center mb-10 gap-4" action={handleSubmit}>
+      <form className="flex items-center mb-10 gap-2" action={handleSubmit}>
         <Input
           type="search"
           name="search"
           placeholder="Search for dive sites, animals, regions or categories..."
-          className="rounded-full text-5xl p-10"
+          className="rounded-full text-base md:text-xl p-6 xl:p-10"
           defaultValue={q}
           required
         />
@@ -60,10 +60,10 @@ const SearchPage: NextPage<SearchProps> = async ({ searchParams }) => {
           className="bg-black h-full aspect-square rounded-full flex items-center justify-center border hover:opacity-75 transition"
           type="submit"
         >
-          <FaSearch size={40} />
+          <FaSearch size={30} />
         </button>
       </form>
-      <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {filteredSites.length === 0 && q && (
           <p className="col-span-full text-center text-lg">
             {`No results found for ${q}`}

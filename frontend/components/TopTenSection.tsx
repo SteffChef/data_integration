@@ -27,10 +27,10 @@ const TopTenSection: React.FC<TopTenSectionProps> = async ({
           {data.slice(0, 9).map((item, index) => (
             <CarouselItem
               key={index}
-              className="pl-4 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/4"
+              className="pl-4 basis-full sm:basis-1/2 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/4"
             >
               <div className="p-1 flex items-center">
-                <p className="drop-shadow-[0_1.2px_1.8px_rgba(255,255,255,0.8)] text-black text-[200px] font-bold select-none">
+                <p className="drop-shadow-[0_1.2px_1.8px_rgba(255,255,255,0.8)]  text-black text-[150px] sm:text-[130px] md:text-[150px] xl:text-[200px] font-bold select-none">
                   {index + 1}
                 </p>
                 <TallDiveSiteCard data={item} />
