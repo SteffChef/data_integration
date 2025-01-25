@@ -32,8 +32,8 @@ const CardSection: React.FC<CardSectionProps> = async ({ title, apiUrl }) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
         <CarouselNext />
+        <CarouselPrevious />
       </Carousel>
     </div>
   );

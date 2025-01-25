@@ -26,13 +26,15 @@ const CategoryDiveSiteCard: React.FC<CategoryDiveSiteCardProps> = ({
           priority
         />
         <CardHeader
-          className="bg-zinc-800 absolute bottom-0 left-0 right-0 h-1/3 flex justify-center items-center"
+          className="bg-zinc-800 absolute bottom-0 left-0 right-0 h-2/3 flex justify-end items-center"
           style={{
             background:
               "linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 100%)",
           }}
         >
-          <CardTitle className="text-3xl">{data.name}</CardTitle>
+          <CardTitle className="text-sm sm:text-lg md:text-xl xl:text-3xl">
+            {data.name}
+          </CardTitle>
           {/* <CardDescription>Description</CardDescription> */}
         </CardHeader>
         {/* <CardContent></CardContent> */}
