@@ -42,6 +42,12 @@ const Home = async () => {
               apiUrl={`${apiUrl}/recommendations/recommend_animals/${user.id}`}
             />
           )}
+          {user && (
+            <CardSection
+              title="Close to your Location"
+              apiUrl={`${apiUrl}/dive-sites/recommendations/users/${user.id}?w_cat=0.0&w_geo=1.0&w_animal=0.0`}
+            />
+          )}
           <TopTenSection
             title="Popular Dive Spots"
             apiUrl={`${apiUrl}/recommendations/recommend_top10`}
