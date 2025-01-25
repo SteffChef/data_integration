@@ -9,3 +9,5 @@
 
 # Python cache
 __pycache__/
+
+letsencrypt/acme.json
