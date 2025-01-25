@@ -1,0 +1,41 @@
+services:
+  backend:
+    build:
+      context: ./ # Adjust this path if your Dockerfile is in a subdirectory
+      dockerfile: Dockerfile
+    container_name: dive_finder_backend
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.rule=Host(`${IP_ADDRESS}`)" # Replace this with your domain
+      - "traefik.http.routers.backend.entrypoints=websecure"
+      - "traefik.http.routers.backend.tls.certresolver=mytlschallenge"
+    networks:
+      - web
+    environment:
+      - PORT=5000 # Example: set this if your backend listens on a specific port
+    expose:
+      - "5000" # Replace this with the port your backend is listening on
+
+  traefik:
+    image: traefik:v2.10
+    container_name: traefik
+    command:
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--providers.docker=true"
+      - "--certificatesresolvers.mytlschallenge.acme.tlschallenge=true"
+      - "--certificatesresolvers.mytlschallenge.acme.email=steffen.kirchhoff@uni-muenster.de"
+      - "--certificatesresolvers.mytlschallenge.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./letsencrypt:/letsencrypt"
+    networks:
+      - web
+    restart: unless-stopped
+
+networks:
+  web:
+    driver: bridge
