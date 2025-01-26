@@ -49,7 +49,10 @@ def recommend_dive_spots(user_id):
         response = supabaseClient.rpc("recommend_dive_sites", params={"puser_id": str(user_id_uuid)}).execute()
 
         # Return the recommendations as JSON
-        return jsonify(response.data), 200 
+        if response.data:
+            return jsonify(response.data), 200
+        else:
+            return jsonify([]), 200
 
     except Exception as e: 
         # If any error occurs, return the error message
@@ -70,7 +73,10 @@ def recommend_dive_regions(user_id):
         response = supabaseClient.rpc("recommend_dive_regions", params={"puser_id": str(user_id_uuid)}).execute()
 
         # Return the recommendations as JSON
-        return jsonify(response.data), 200 
+        if response.data:
+            return jsonify(response.data), 200
+        else:
+            return jsonify([]), 200
 
     except Exception as e: 
         # If any error occurs, return the error message
@@ -118,7 +124,10 @@ def recommend_dive_animals(user_id):
         response = supabaseClient.rpc("get_favorite_animals_w_dive_sites", params={"puser_id": str(user_id_uuid)}).execute()
 
         # Return the recommendations as JSON
-        return jsonify(response.data), 200 
+        if response.data:
+            return jsonify(response.data), 200
+        else:
+            return jsonify([]), 200
 
     except Exception as e: 
         # If any error occurs, return the error message
