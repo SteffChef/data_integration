@@ -1,64 +1,30 @@
-# data_integration for scuba diving
+# Dive Finder
 
-## Frontend Structure
+Dive Finder is a **recommendation system** designed to help scuba divers discover new dive sites tailored to their preferences. By analyzing various factors such as dive site categories, geographical data, and animal sightings, Dive Finder provides personalized suggestions to enhance your diving experiences.
 
-## Backend Structure
+For recommendations the app utilizes **content based filtering** and the **latent factor model**.
 
-### Content Based Filtering
+![divefinder homepage](models/Homepage.png)
 
-This implements a **Content-Based Filtering** recommendation system for dive sites. It consists of several components structured within different folders.
+![divefinder map](models/Map.png)
 
-#### **1. Service Layer** (Business Logic)
-Located in `service/content-based-filtering.py`, this file contains the **core recommendation algorithm**.
+## Project Structure
 
-##### **Purpose:**
-- Loads and preprocesses data from the database.
-- Converts dive site data into feature vectors.
-- Computes similarity between dive sites and user preferences.
-- Provides recommendation functions for both **dive sites** and **users**.
+The project is organized as follows:
 
-##### **Functions:**
-- `_init_converted_dive_sites()`: Initializes a feature matrix for all dive sites.
-- `get_recommendations_for_a_dive_site()`: Finds similar dive sites based on categories, geodata, and animal sightings.
-- `get_recommendations_for_a_user()`: Creates a user profile and recommends dive sites based on their past ratings.
-- `recommend()`: Core similarity computation function.
-- `get_cosine_similarity()`: Computes cosine similarity for categorical and animal feature vectors.
-- `get_haversine_similarity()`: Computes geolocation similarity based on Haversine distance.
+- **analysis**: Includes source data, scripts and notebooks for data analysis and preprocessing.
+- **backend**: Contains the server-side code, including the recommendation algorithms and database interactions.
+- **models**: Contains data models and database schemas.
+- **frontend**: Contains the client-side application build with Next.js
 
-##### **Tables:**
-- `dive_site`: Contains general dive site information.
-- `dive_site_category`: Holds predefined dive site categories.
-- `categories_per_dive_site`: Maps dive sites to their respective categories.
-- `animal`: Stores marine animal species data.
-- `occurrence`: Links animals to dive sites.
-- `dive_site_rating`: Stores user ratings for dive sites.
+## IT Infrastructure
 
----
+![divefinder infrastructure](models/ITInfrastructue.png)
 
-### **2. API Layer** (Endpoints & Routing)
-Located in `views/dive-sites.py`, this file defines **Flask endpoints** for accessing recommendations.
+In order to run the frontend and backend of the application, environment variables for supabase in both the frontend and backend folder need to be in place:
 
-#### **Endpoints:**
-- **`GET /dive-sites/recommendations/<dive_site_id>`**
-  - Returns recommended dive sites based on a given dive site.
-  - Supports query parameters: `w_cat`, `w_geo`, `w_animal` (weights), and `n` (number of results).
-  
-- **`GET /dive-sites/recommendations/users/<user_id>`**
-  - Returns recommended dive sites for a given user based on past ratings.
-  - Supports the same query parameters as the previous endpoint.
-  
----
-
-### **3. Application Initialization**
-Located in `__init__.py`, this file initializes the Flask app and loads the **Content-Based Filtering** system. The `ContentBasedFiltering` class loads all data at startup to optimize query speed.
-
-#### **Relevant Code:**
-```python
-# Initialize content-based filtering with app context
-with app.app_context():
-    cbf = ContentBasedFiltering(db.engine)
-    app.cbf = cbf  # Store it in the app context
+```toml
+NEXT_PUBLIC_SUPABASE_URL=https://...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+DATABASE_URI=postgresql://postgres...#only necessary in the backend folder
 ```
-#### **Purpose:**
-- Ensures `ContentBasedFiltering` is available globally in the app.
-- Loads necessary data from the database at startup.
