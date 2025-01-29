@@ -35,9 +35,9 @@ In this section we provide detailled insight on the structure and usage of our b
 
 5. run the backend locally
    ```bash
-   python3 app.py
+   python3 run.py
    # or when on windows:
-   python app.py
+   python run.py
    ```
 
 
