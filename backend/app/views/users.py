@@ -17,7 +17,10 @@ def get_user(id):
 @users_bp.route('/', methods=['POST'])
 def create_user():
     data = request.get_json()
-    new_user = User(name=data['name'], email=data['email'])
+    # Standard Location: Germany
+    latitude = data.get('latitude', 51.961563)
+    longitude = data.get('longitude', 7.628202)
+    new_user = User(name=data['name'], email=data['email'], latitude=latitude, longitude=longitude)
     db.session.add(new_user)
     db.session.commit()
     return jsonify({'message': 'User created'}), 201

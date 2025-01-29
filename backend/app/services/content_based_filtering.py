@@ -397,10 +397,15 @@ class ContentBasedFiltering:
         """
         This function adds the user's geodata to the user profile.
         """
-        user = User.query.get_or_404(user_id)
+        print(f"Adding geodata to user profile for user with ID {user_id}...")
+        user = User.query.get(user_id)
 
-        user_lat = user.latitude
-        user_long = user.longitude
+        if user:
+            user_lat = user.latitude
+            user_long = user.longitude
+        else:
+            user_lat = 51.961563
+            user_long = 7.628202
 
         user_profile['user_lat'] = user_lat
         user_profile['user_long'] = user_long
