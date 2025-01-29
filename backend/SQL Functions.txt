@@ -1,0 +1,371 @@
+SQL Functions:
+
+get_dive_sites_for_region:
+
+DECLARE
+    dive_site_recommendations JSON;
+BEGIN
+    -- Get dive sites for the specified region
+    WITH global_avg AS (
+        SELECT AVG(rating) AS global_mean
+        FROM dive_site_rating
+    ),
+    unrated_dive_sites AS (
+        SELECT ds.id, ds.region
+        FROM dive_site ds
+        LEFT JOIN dive_site_rating r ON ds.id = r.dive_site_id AND r.user_id::uuid = puser_id
+        WHERE r.dive_site_id IS NULL AND ds.region = pregion
+    ),
+    predictions AS (
+        SELECT
+            uds.id AS dive_site_id,
+            uds.region,
+            ds.title,
+            ds.image_url,
+            ds.description,
+            ga.global_mean
+            + uv.bias
+            + iv.bias
+            + (
+                SELECT SUM(u.val * i.val)
+                FROM UNNEST(uv.vector) WITH ORDINALITY AS u(val, ord)
+                JOIN UNNEST(iv.vector) WITH ORDINALITY AS i(val, ord) ON u.ord = i.ord
+            ) AS predicted_rating
+        FROM unrated_dive_sites uds
+        CROSS JOIN global_avg ga
+        JOIN user_vectors uv ON uv.user_id::uuid = puser_id
+        JOIN item_vectors iv ON iv.item_id = uds.id::TEXT
+        JOIN dive_site ds ON ds.id = uds.id
+    ),
+    categorized_sites AS (
+        SELECT
+            p.dive_site_id,
+            p.title,
+            p.image_url,
+            p.description,
+            p.region,
+            p.predicted_rating,
+            (
+                SELECT json_agg(json_build_object(
+                    'id', dsc.id,
+                    'name', dsc.name,
+                    'image_url', dsc.image_url
+                ))
+                FROM categories_per_dive_site cps
+                JOIN dive_site_category dsc ON cps.dive_site_category_id = dsc.id
+                WHERE cps.dive_site_id = p.dive_site_id
+            ) AS categories
+        FROM predictions p
+        ORDER BY p.predicted_rating DESC
+        LIMIT 100
+    )
+    SELECT json_agg(json_build_object(
+        'id', dive_site_id,
+        'title', title,
+        'image_url', image_url,
+        'description', description,
+        'predicted_rating', predicted_rating,
+        'region', region,  -- Added region field here
+        'categories', categories
+    )) INTO dive_site_recommendations
+    FROM categorized_sites;
+
+    RETURN dive_site_recommendations;
+END;
+
+get_favorite_animals:
+
+
+BEGIN
+    RETURN QUERY
+    WITH animal_ratings AS (
+        SELECT
+            o.animal_id AS animal_id,
+            a.name::TEXT AS animal_name,  -- Cast to TEXT
+            a.image_url::TEXT AS animal_image_url,  -- Cast to TEXT
+            AVG(dr.rating)::numeric AS mean_predicted_rating
+        FROM
+            dive_site_rating dr
+        JOIN
+            occurrence o ON dr.dive_site_id = o.dive_site_id
+        JOIN
+            animal a ON o.animal_id = a.id
+        WHERE
+            dr.user_id::UUID = puser_id::UUID
+        GROUP BY
+            o.animal_id, a.name, a.image_url
+    )
+    SELECT
+        animal_ratings.animal_id,
+        animal_ratings.animal_name,
+        animal_ratings.animal_image_url,
+        animal_ratings.mean_predicted_rating
+    FROM
+        animal_ratings
+    ORDER BY
+        mean_predicted_rating DESC
+    LIMIT 15;
+END;
+
+get_favorite_animals_w_dive_sites:
+
+BEGIN
+    RETURN QUERY
+    WITH animal_ratings AS (
+        SELECT
+            o.animal_id AS animal_id,
+            a.name::TEXT AS animal_name,
+            a.image_url::TEXT AS animal_image_url,
+            AVG(dr.rating)::NUMERIC AS mean_predicted_rating
+        FROM
+            dive_site_rating dr
+        JOIN
+            occurrence o ON dr.dive_site_id = o.dive_site_id
+        JOIN
+            animal a ON o.animal_id = a.id
+        WHERE
+            dr.user_id::UUID = puser_id::UUID
+        GROUP BY
+            o.animal_id, a.name, a.image_url
+    ),
+    dive_sites_with_categories AS (
+        SELECT
+            ds.id AS dive_site_id,
+            ds.title,
+            ds.lat,
+            ds.long,
+            ds.image_url,
+            o.animal_id AS animal_id,
+            ARRAY_AGG(dsc.name) AS categories,
+            AVG(dsr.rating) AS avg_rating
+        FROM
+            dive_site ds
+        JOIN
+            dive_site_rating dsr ON ds.id = dsr.dive_site_id
+        JOIN
+            occurrence o ON ds.id = o.dive_site_id
+        LEFT JOIN
+            categories_per_dive_site cps ON ds.id = cps.dive_site_id
+        LEFT JOIN
+            dive_site_category dsc ON cps.dive_site_category_id = dsc.id
+        WHERE
+            dsr.user_id::UUID = puser_id::UUID
+        GROUP BY
+            ds.id, ds.title, ds.lat, ds.long, ds.image_url, o.animal_id
+    ),
+    top_dive_sites AS (
+        SELECT
+            ranked_dive_sites.animal_id,
+            JSONB_AGG(
+                JSONB_BUILD_OBJECT(
+                    'dive_site_id', ranked_dive_sites.dive_site_id,
+                    'title', ranked_dive_sites.title,
+                    'lat', ranked_dive_sites.lat,
+                    'long', ranked_dive_sites.long,
+                    'image_url', ranked_dive_sites.image_url,
+                    'categories', ranked_dive_sites.categories,
+                    'avg_rating', ranked_dive_sites.avg_rating
+                )
+            ) AS dive_sites
+        FROM (
+            SELECT
+                dswc.animal_id AS animal_id,
+                dswc.dive_site_id,
+                dswc.title,
+                dswc.lat,
+                dswc.long,
+                dswc.image_url,
+                dswc.categories,
+                dswc.avg_rating,
+                ROW_NUMBER() OVER (PARTITION BY dswc.animal_id ORDER BY dswc.avg_rating DESC) AS rank
+            FROM
+                dive_sites_with_categories dswc
+        ) ranked_dive_sites
+        WHERE ranked_dive_sites.rank <= 3
+        GROUP BY ranked_dive_sites.animal_id
+    )
+    SELECT
+        ar.animal_id,
+        ar.animal_name,
+        ar.animal_image_url,
+        ar.mean_predicted_rating,
+        COALESCE(td.dive_sites, '[]'::JSONB) AS dive_sites
+    FROM
+        animal_ratings ar
+    LEFT JOIN
+        top_dive_sites td ON ar.animal_id = td.animal_id
+    ORDER BY
+        ar.mean_predicted_rating DESC
+    LIMIT 15;
+END;
+
+get_number_of_ratings:
+
+DECLARE
+    rating_count INTEGER;
+BEGIN
+    -- Zähle die Bewertungen für die angegebene Benutzer-ID
+    SELECT COUNT(*)
+    INTO rating_count
+    FROM dive_site_rating
+    WHERE user_id::uuid = puser_id::uuid;
+    
+    -- Rückgabe der Anzahl der Bewertungen
+    RETURN rating_count;
+END;
+
+get_top_10_best_rated_dive_sites:
+
+BEGIN
+    RETURN QUERY
+    WITH dive_site_ratings AS (
+        -- Calculate the average rating for each dive site
+        SELECT
+            ds.id AS dive_site_id,
+            AVG(dr.rating) AS average_rating
+        FROM dive_site ds
+        JOIN dive_site_rating dr ON ds.id = dr.dive_site_id
+        GROUP BY ds.id
+    )
+    SELECT 
+        ds.id::int,
+        ds.title::text,
+        ds.image_url::text,
+        ds.description::text,
+        ds.region::text, -- Include region
+        dsr.average_rating::float,
+        (
+            -- Aggregate the categories for each dive site as a JSON array
+            SELECT json_agg(json_build_object(
+                'id', dsc.id,
+                'name', dsc.name,
+                'image_url', dsc.image_url
+            ))
+            FROM categories_per_dive_site cps
+            JOIN dive_site_category dsc ON cps.dive_site_category_id = dsc.id
+            WHERE cps.dive_site_id = ds.id
+        ) AS categories
+    FROM dive_site ds
+    JOIN dive_site_ratings dsr ON ds.id = dsr.dive_site_id
+    ORDER BY dsr.average_rating DESC
+    LIMIT 10;
+END;
+
+recommend_dive_regions:
+
+DECLARE
+    region_recommendations JSON;
+BEGIN
+    -- Calculate the top regions based on predicted ratings
+    WITH global_avg AS (
+        SELECT AVG(rating) AS global_mean
+        FROM dive_site_rating
+    ),
+    unrated_dive_sites AS (
+        SELECT ds.id, ds.region
+        FROM dive_site ds
+        LEFT JOIN dive_site_rating r ON ds.id = r.dive_site_id AND r.user_id::uuid = puser_id
+        WHERE r.dive_site_id IS NULL
+    ),
+    predictions AS (
+        SELECT
+            uds.id AS dive_site_id,
+            uds.region,
+            ga.global_mean
+            + uv.bias
+            + iv.bias
+            + (
+                SELECT SUM(u.val * i.val)
+                FROM UNNEST(uv.vector) WITH ORDINALITY AS u(val, ord)
+                JOIN UNNEST(iv.vector) WITH ORDINALITY AS i(val, ord) ON u.ord = i.ord
+            ) AS predicted_rating
+        FROM unrated_dive_sites uds
+        CROSS JOIN global_avg ga
+        JOIN user_vectors uv ON uv.user_id::uuid = puser_id
+        JOIN item_vectors iv ON iv.item_id = uds.id::TEXT
+    ),
+    top_dive_sites AS (
+        SELECT
+            p.dive_site_id,
+            p.region,
+            ds.image_url,
+            p.predicted_rating
+        FROM predictions p
+        JOIN dive_site ds ON ds.id = p.dive_site_id
+    ),
+    region_scores AS (
+        SELECT
+            region,
+            AVG(predicted_rating) AS region_score,
+            MIN(image_url) AS first_image_url -- Arbitrary first image URL
+        FROM top_dive_sites
+        GROUP BY region
+        ORDER BY region_score DESC
+        LIMIT 10
+    )
+    SELECT json_agg(json_build_object(
+        'region', region,
+        'region_score', region_score,
+        'first_image_url', first_image_url
+    )) INTO region_recommendations
+    FROM region_scores;
+
+    RETURN region_recommendations;
+END;
+
+recommend_dive_sites:
+BEGIN
+    RETURN QUERY
+    WITH global_avg AS (
+        -- Calculate the global average rating
+        SELECT AVG(rating) AS global_mean
+        FROM dive_site_rating
+    ),
+    unrated_dive_sites AS (
+        -- Get dive sites that the user has not rated
+        SELECT ds.id, ds.region  -- Include region in the unrated dive sites
+        FROM dive_site ds
+        LEFT JOIN dive_site_rating r ON ds.id = r.dive_site_id AND r.user_id::uuid = puser_id::uuid
+        WHERE r.dive_site_id IS NULL
+    ),
+    predictions AS (
+        -- Predict ratings for unrated dive sites
+        SELECT
+            uds.id AS dive_site_id,
+            uds.region,
+            ga.global_mean
+            + uv.bias
+            + iv.bias
+            + (
+                SELECT SUM(u.val * i.val)
+                FROM UNNEST(uv.vector) WITH ORDINALITY AS u(val, ord)
+                JOIN UNNEST(iv.vector) WITH ORDINALITY AS i(val, ord) ON u.ord = i.ord
+            ) AS predicted_rating
+        FROM unrated_dive_sites uds
+        CROSS JOIN global_avg ga
+        JOIN user_vectors uv ON uv.user_id::uuid = puser_id::uuid
+        JOIN item_vectors iv ON iv.item_id = uds.id::TEXT
+    )
+    SELECT 
+        ds.id::int,
+        ds.title::text,
+        ds.image_url::text,
+        ds.description::text,
+        p.predicted_rating::float,
+        (
+            -- Aggregate categories for the dive site as a JSON array
+            SELECT json_agg(json_build_object(
+                'id', dsc.id,
+                'name', dsc.name,
+                'image_url', dsc.image_url
+            ))
+            FROM categories_per_dive_site cps
+            JOIN dive_site_category dsc ON cps.dive_site_category_id = dsc.id
+            WHERE cps.dive_site_id = ds.id
+        ) AS categories,
+        ds.region::text  -- Include region in the final output
+    FROM predictions p
+    JOIN dive_site ds ON ds.id = p.dive_site_id
+    ORDER BY p.predicted_rating DESC
+    LIMIT 15;
+END;
