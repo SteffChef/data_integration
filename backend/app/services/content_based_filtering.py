@@ -1,9 +1,7 @@
 
 import numpy as np
 import pandas as pd
-import copy  # Import copy module for deepcopy
-from sklearn.preprocessing import MinMaxScaler
-from app.models import DiveSite, DiveSiteCategory, Animal, Occurrence, User, DiveSiteRating
+from app.models import User, DiveSiteRating
 
 class ContentBasedFiltering:
 
