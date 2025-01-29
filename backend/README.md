@@ -64,7 +64,7 @@ Located in `service/content-based-filtering.py`, this file contains the **core r
 - `get_cosine_similarity()`: Computes cosine similarity for categorical and animal feature vectors.
 - `get_haversine_similarity()`: Computes geolocation similarity based on Haversine distance.
 
-##### ** Tables: **
+##### **Tables:**
 - `dive_site`: Contains general dive site information.
 - `dive_site_category`: Holds predefined dive site categories.
 - `categories_per_dive_site`: Maps dive sites to their respective categories.
