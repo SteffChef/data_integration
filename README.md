@@ -1,6 +1,8 @@
 # data_integration for scuba diving
 
-## Structure
+## Frontend Structure
+
+## Backend Structure
 
 ### Content Based Filtering
 
