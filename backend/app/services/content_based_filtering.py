@@ -400,10 +400,11 @@ class ContentBasedFiltering:
         print(f"Adding geodata to user profile for user with ID {user_id}...")
         user = User.query.get(user_id)
 
-        if user:
+        if user.latitude is not None and user.longitude is not None:
             user_lat = user.latitude
             user_long = user.longitude
-        else:
+        # TODO: Every user should have geodata
+        else:   # If the user has no geodata, we use the standard location: Germany
             user_lat = 51.961563
             user_long = 7.628202
 
