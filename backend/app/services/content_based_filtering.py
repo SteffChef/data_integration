@@ -83,12 +83,6 @@ class ContentBasedFiltering:
             axis=1
         )
 
-        # Scale latitude and longitude
-        scaler = MinMaxScaler()
-        converted_dive_sites[['lat_scaled', 'long_scaled']] = scaler.fit_transform(
-            converted_dive_sites[['lat', 'long']]
-        )
-
         # Sort by ID and reset index
         converted_dive_sites = converted_dive_sites.sort_values(by='id').reset_index(drop=True)
 
@@ -104,7 +98,7 @@ class ContentBasedFiltering:
         This function generates a recommendation based on the category & geodata of the input dive site.
 
         w_cat: weight for the category vector
-        w_geo: weight for the geodata (lat_scaled, long_scaled) vector 
+        w_geo: weight for the geodata (lat, long) vector 
         """
         #print(f"Generating recommendations for dive site with ID {dive_site_id}...", flush=True)
 
@@ -118,7 +112,7 @@ class ContentBasedFiltering:
         if query_categories_vector.sum() == 0:
             w_cat = 0
         # Geodata vector
-        query_geodata_vector = self.converted_dive_sites.loc[idx, ['lat_scaled', 'long_scaled']].to_numpy()
+        query_geodata_vector = self.converted_dive_sites.loc[idx, ['lat', 'long']].to_numpy()
         # Animal vector
         query_animal_vector = self.converted_dive_sites.loc[idx, self.animals['name']].to_numpy()
         if query_animal_vector.sum() == 0:
@@ -165,7 +159,7 @@ class ContentBasedFiltering:
         Using this feature vector (which includes category, geodata, animal data) it computes the distance to the dive sites given in the dataset.
 
         w_cat: weight for the category vector
-        w_geo: weight for the geodata (lat_scaled, long_scaled) vector
+        w_geo: weight for the geodata (lat, long) vector
         w_animal: weight for the animal vector 
         n: number of recommendations to return
 
@@ -189,7 +183,7 @@ class ContentBasedFiltering:
         if user_categories_vector.sum() == 0:
             w_cat = 0
         # Geodata vector
-        user_geodata_vector = user_profile[['user_lat_scaled', 'user_long_scaled']].to_numpy().flatten()
+        user_geodata_vector = user_profile[['user_lat', 'user_long']].to_numpy().flatten()
         # Animal vector
         user_animal_vector = user_profile[self.animals['name']].to_numpy().flatten()
         if user_animal_vector.sum() == 0:
@@ -233,7 +227,7 @@ class ContentBasedFiltering:
         # Precompute dive site vectors
         # they are not ordered by dive_site_id
         dive_site_categories = self.converted_dive_sites[self.categories['name']].to_numpy() 
-        dive_site_geodata = self.converted_dive_sites[['lat_scaled', 'long_scaled']].to_numpy()
+        dive_site_geodata = self.converted_dive_sites[['lat', 'long']].to_numpy()
         dive_site_animals = self.converted_dive_sites[self.animals['name']].to_numpy()
 
 
@@ -277,7 +271,7 @@ class ContentBasedFiltering:
             if w_geo != 0:
                 other_geodata_vector = dive_site_geodata[i]
                 if np.count_nonzero(other_geodata_vector) > 0:
-                    sim_geo = self.get_euclidean_similarity(input_geodata_vector, other_geodata_vector)
+                    sim_geo = self.get_harversine_similarity(input_geodata_vector, other_geodata_vector)
                     similiarity_dict['geodata'] = sim_geo
                     combined_similarity += w_geo * sim_geo
                     total_weight += w_geo
@@ -378,8 +372,8 @@ class ContentBasedFiltering:
 
     def normalize_user_profile(self, user_profile):
         """
-        Normalize the user profile so that the highest values become 1,
-        the lowest become 0, and neutral (0) values remain 0.
+        Normalize the category and animal features in the user profile so that the highest values become 1,
+        the lowest become 0. Because both feature matrices are sparse, this is necessary so preferences are recognized.
         """
         user_profile_array = user_profile.to_numpy().flatten()
         
@@ -410,19 +404,8 @@ class ContentBasedFiltering:
         user_lat = user.latitude
         user_long = user.longitude
 
-        # Scale the user's geodata between 0 and 1
-        lat_min = -90
-        lat_max = 90
-
-        long_min = -180
-        long_max = 180
-
-        user_lat_scaled = (user_lat - lat_min) / (lat_max - lat_min)
-        user_long_scaled = (user_long - long_min) / (long_max - long_min)
-
-        # Add the scaled geodata to the user profile 
-        user_profile['user_lat_scaled'] = user_lat_scaled
-        user_profile['user_long_scaled'] = user_long_scaled
+        user_profile['user_lat'] = user_lat
+        user_profile['user_long'] = user_long
 
         return user_profile
 
@@ -431,18 +414,36 @@ class ContentBasedFiltering:
 
     ### Similarity Functions ###
 
-    # EUCLIDEAN SIMILARITY (for geodata)
-    # Cosine similarity is not suitable for geocoordinates. We can use Euclidean similarity instead.
-    def get_euclidean_similarity(self, v1, v2, max_distance=1):
+
+    def get_harversine_similarity(self, v1, v2):
         """
-        Compute similarity between scaled geocoordinates using Euclidean distance.
+        Compute similarity between geocoordinates using the Harversine distance.
+
+        max_distance=20037: Longest possible distance between two spots on earth.
+
+
+        Similarity:
+        - 1 if the points are identical
+        - 0 if the points are on opposite sides of the Earth (antipodal points)
         """
         lat1, lon1 = v1
         lat2, lon2 = v2
-        distance = np.sqrt((lat1 - lat2)**2 + (lon1 - lon2)**2)
-        similarity = max(0, 1 - distance / max_distance)
-        return similarity
+        R = 6378  # Radius of the Earth in km
+        max_distance = 20037 #np.pi * R = Maximum possible distance (~20,037 km)
 
+        # Convert lat/lon differences to radians
+        dlat = np.radians(lat2 - lat1)
+        dlon = np.radians(lon2 - lon1)
+
+        # Compute Haversine formula
+        a = np.sin(dlat / 2) ** 2 + np.cos(np.radians(lat1)) * np.cos(np.radians(lat2)) * np.sin(dlon / 2) ** 2
+        c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a))
+        distance = R * c  # Distance between points in km
+
+        # Normalize similarity (1 if identical, 0 if max_distance)
+        similarity = max(0, 1 - distance / max_distance)
+
+        return similarity
 
 
     # Cosine Similarity
