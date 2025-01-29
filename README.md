@@ -4,6 +4,8 @@ Dive Finder is a **recommendation system** designed to help scuba divers discove
 
 For recommendations the app utilizes **content based filtering** and the **latent factor model**.
 
+[https://divefinder.tech](https://divefinder.tech)
+
 ![divefinder homepage](models/Homepage.png)
 
 ![divefinder map](models/Map.png)
