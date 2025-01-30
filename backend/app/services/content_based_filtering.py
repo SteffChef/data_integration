@@ -1,7 +1,7 @@
 
 import numpy as np
 import pandas as pd
-from app.models import User, DiveSiteRating
+from app.models import User, DiveSiteRating, db
 
 class ContentBasedFiltering:
 
@@ -316,6 +316,10 @@ class ContentBasedFiltering:
         user_ratings = DiveSiteRating.query.filter_by(user_id=user_id).all()
 
         # convert the user ratings to a pandas DataFrame
+        if not user_ratings:  # If user has no ratings
+            return np.array([]), pd.DataFrame(columns=self.feature_columns)
+
+        # convert the user ratings to a pandas DataFrame
         user_ratings = pd.DataFrame([rating.to_dict() for rating in user_ratings])
 
         item_profiles = []
@@ -341,6 +345,10 @@ class ContentBasedFiltering:
         """
         This function generates a user profile based on the given ratings and item profiles.
         """
+
+        if item_profiles.empty:  # If user has no ratings, return zero-vector profile
+            return pd.DataFrame(np.zeros((1, len(self.feature_columns))), columns=self.feature_columns)
+
         user_profile = None
 
         item_profiles = item_profiles.to_numpy()
@@ -400,16 +408,24 @@ class ContentBasedFiltering:
         print(f"Adding geodata to user profile for user with ID {user_id}...")
         user = User.query.get(user_id)
 
-        if user.latitude is not None and user.longitude is not None:
-            user_lat = user.latitude
-            user_long = user.longitude
-        # TODO: Every user should have geodata
-        else:   # If the user has no geodata, we use the standard location: Germany
-            user_lat = 51.961563
-            user_long = 7.628202
+        if user is None:
+            default_name = f"User_{user_id}"  # or any other placeholder
+            default_email = f"user_{user_id}@example.com"
+            # Create the new user in the database
+            user = User(id=user_id, name=default_name, email=default_email, latitude=51.961563, longitude=7.628202)
+            db.session.add(user)
+            db.session.commit()
 
-        user_profile['user_lat'] = user_lat
-        user_profile['user_long'] = user_long
+        elif user.latitude is None or user.longitude is None:
+            user.latitude = 51.961563
+            user.longitude = 7.628202
+        else:
+            pass
+        
+        # TODO: Set geodata when creating a profile
+        
+        user_profile['user_lat'] = user.latitude
+        user_profile['user_long'] = user.longitude
 
         return user_profile
 
