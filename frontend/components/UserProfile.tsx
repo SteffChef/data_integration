@@ -45,13 +45,13 @@ const UserProfile = () => {
         <Button variant="outline" size="icon" className="rounded-full">
           <Avatar className="hover:opacity-75 transition cursor-pointer">
             <AvatarImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatiCBz67xlO9FWdp4fEvHBOCdlPxoNEjPvA&s" />
-            <AvatarFallback>QZ</AvatarFallback>
+            <AvatarFallback>TU</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <div className="px-2 py-1">
-          <p className="font-semibold">Steffen</p>
+          <p className="font-semibold">Test User</p>
           <p className="text-xs text-secondary-foreground">{user?.email}</p>
         </div>
         <DropdownMenuSeparator />
